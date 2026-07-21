@@ -1,0 +1,1501 @@
+case_id,case_type,disputed_amount,court_level,taxpayer_category,legal_grounds,case_duration_days,prior_compliance_score,representation,num_prior_disputes,taxpayer_risk_score,outcome
+KRA-CASE-00001,Withholding Tax,11177540.26,High Court,Individual,Statute of Limitations,1538,13,Legal Counsel,2,75,0
+KRA-CASE-00002,Excise Duty,3226678.81,Tax Appeals Tribunal,Individual,Procedural Error,1179,25,Legal Counsel,13,28,0
+KRA-CASE-00003,Excise Duty,58947105.1,High Court,Individual,Statute of Limitations,1459,54,Legal Counsel,4,27,1
+KRA-CASE-00004,Customs Duty,10265917.14,Tax Appeals Tribunal,SME,Exemption Claim,1266,33,Tax Consultant,14,68,1
+KRA-CASE-00005,VAT,97312920.61,Tax Appeals Tribunal,SME,Exemption Claim,1212,24,Legal Counsel,1,84,0
+KRA-CASE-00006,Income Tax,77318180.66,Court of Appeal,Multinational,Incorrect Assessment,808,35,Legal Counsel,11,20,1
+KRA-CASE-00007,Customs Duty,35559306.49,High Court,Large Corporation,Incorrect Assessment,1277,81,Self-Represented,7,20,1
+KRA-CASE-00008,Excise Duty,37976571.4,Court of Appeal,Large Corporation,Double Taxation,1432,41,Tax Consultant,1,29,1
+KRA-CASE-00009,VAT,80514327.79,Tax Appeals Tribunal,Individual,Exemption Claim,465,83,Legal Counsel,14,18,1
+KRA-CASE-00010,Customs Duty,14006050.44,High Court,SME,Valuation Dispute,1225,51,Legal Counsel,4,65,1
+KRA-CASE-00011,Excise Duty,9136395.75,Tax Appeals Tribunal,Individual,Statute of Limitations,1652,87,Legal Counsel,2,49,1
+KRA-CASE-00012,Excise Duty,59609048.41,Tax Appeals Tribunal,SME,Procedural Error,1423,92,Self-Represented,8,98,0
+KRA-CASE-00013,Withholding Tax,34050538.53,Tax Appeals Tribunal,Individual,Procedural Error,1508,92,Legal Counsel,5,64,1
+KRA-CASE-00014,VAT,87058331.06,Tax Appeals Tribunal,Large Corporation,Double Taxation,343,47,Tax Consultant,0,76,0
+KRA-CASE-00015,Customs Duty,48886140.52,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,520,7,Legal Counsel,2,10,1
+KRA-CASE-00016,Withholding Tax,48624746.81,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,292,84,Legal Counsel,5,33,1
+KRA-CASE-00017,PAYE,87249682.46,Tax Appeals Tribunal,Individual,Double Taxation,1490,39,Legal Counsel,11,56,1
+KRA-CASE-00018,PAYE,45176039.83,Tax Appeals Tribunal,Individual,Procedural Error,1234,70,Legal Counsel,7,0,1
+KRA-CASE-00019,VAT,70798702.61,Tax Appeals Tribunal,Individual,Procedural Error,1790,42,Self-Represented,7,35,1
+KRA-CASE-00020,Withholding Tax,48567179.19,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,527,100,Legal Counsel,13,24,1
+KRA-CASE-00021,VAT,9738234.88,Tax Appeals Tribunal,SME,Input Tax Credit,1799,93,Self-Represented,3,7,0
+KRA-CASE-00022,Excise Duty,72834948.16,High Court,Individual,Double Taxation,419,68,Legal Counsel,13,23,1
+KRA-CASE-00023,Customs Duty,46289675.44,High Court,Individual,Incorrect Assessment,133,83,Tax Consultant,0,11,1
+KRA-CASE-00024,Income Tax,16672795.5,Tax Appeals Tribunal,Individual,Valuation Dispute,150,21,Legal Counsel,12,33,0
+KRA-CASE-00025,Excise Duty,28560660.43,High Court,Large Corporation,Input Tax Credit,347,24,Legal Counsel,1,74,1
+KRA-CASE-00026,Withholding Tax,54242410.38,High Court,Individual,Input Tax Credit,1059,67,Self-Represented,2,23,0
+KRA-CASE-00027,VAT,59523758.89,High Court,Individual,Incorrect Assessment,1196,31,Legal Counsel,1,79,1
+KRA-CASE-00028,VAT,41951530.29,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,448,85,Legal Counsel,7,33,1
+KRA-CASE-00029,Excise Duty,13131284.3,High Court,SME,Incorrect Assessment,49,58,Legal Counsel,3,9,1
+KRA-CASE-00030,PAYE,21354773.51,Tax Appeals Tribunal,Multinational,Incorrect Assessment,530,47,Legal Counsel,14,69,1
+KRA-CASE-00031,Withholding Tax,30286588.44,Court of Appeal,Large Corporation,Procedural Error,1397,70,Legal Counsel,3,17,1
+KRA-CASE-00032,Customs Duty,11587095.61,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,607,77,Legal Counsel,10,26,1
+KRA-CASE-00033,Withholding Tax,63442083.99,Tax Appeals Tribunal,SME,Procedural Error,219,81,Legal Counsel,8,5,1
+KRA-CASE-00034,VAT,33388976.03,Tax Appeals Tribunal,Multinational,Statute of Limitations,1548,56,Legal Counsel,13,71,0
+KRA-CASE-00035,VAT,11231794.36,Court of Appeal,Large Corporation,Statute of Limitations,1147,4,Tax Consultant,4,55,0
+KRA-CASE-00036,Income Tax,4230794.37,Tax Appeals Tribunal,Multinational,Procedural Error,762,26,Legal Counsel,3,45,1
+KRA-CASE-00037,PAYE,88419263.41,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,514,20,Tax Consultant,5,52,0
+KRA-CASE-00038,VAT,17977098.31,Court of Appeal,Large Corporation,Valuation Dispute,1672,85,Tax Consultant,7,34,1
+KRA-CASE-00039,Income Tax,78748082.19,Tax Appeals Tribunal,Multinational,Input Tax Credit,485,25,Tax Consultant,14,44,0
+KRA-CASE-00040,Customs Duty,82062611.28,High Court,Individual,Double Taxation,846,42,Legal Counsel,2,98,1
+KRA-CASE-00041,Customs Duty,35147055.6,Tax Appeals Tribunal,Large Corporation,Exemption Claim,86,14,Tax Consultant,8,22,0
+KRA-CASE-00042,PAYE,96255304.86,Tax Appeals Tribunal,Individual,Valuation Dispute,737,93,Tax Consultant,13,77,1
+KRA-CASE-00043,PAYE,11608796.11,High Court,Individual,Procedural Error,1481,55,Self-Represented,6,46,1
+KRA-CASE-00044,Excise Duty,7043882.42,High Court,SME,Exemption Claim,1388,15,Legal Counsel,9,64,0
+KRA-CASE-00045,Customs Duty,66705945.77,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,422,53,Legal Counsel,12,86,1
+KRA-CASE-00046,Withholding Tax,90285414.3,High Court,SME,Procedural Error,652,36,Legal Counsel,10,59,1
+KRA-CASE-00047,Excise Duty,44243871.94,Tax Appeals Tribunal,SME,Statute of Limitations,1379,10,Legal Counsel,10,11,1
+KRA-CASE-00048,Income Tax,67295927.27,Tax Appeals Tribunal,Individual,Procedural Error,124,31,Tax Consultant,2,58,1
+KRA-CASE-00049,Excise Duty,88619384.06,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1042,51,Legal Counsel,0,96,1
+KRA-CASE-00050,VAT,77853119.66,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,132,71,Legal Counsel,3,58,1
+KRA-CASE-00051,Income Tax,80151589.34,High Court,Multinational,Exemption Claim,1576,56,Legal Counsel,13,70,0
+KRA-CASE-00052,Excise Duty,89725949.92,High Court,SME,Transfer Pricing Dispute,1569,31,Tax Consultant,8,98,1
+KRA-CASE-00053,PAYE,48485471.86,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,510,34,Legal Counsel,2,17,0
+KRA-CASE-00054,Income Tax,23164584.9,High Court,Large Corporation,Incorrect Assessment,879,52,Legal Counsel,14,53,1
+KRA-CASE-00055,VAT,20723097.23,Tax Appeals Tribunal,Multinational,Procedural Error,1784,97,Legal Counsel,15,0,1
+KRA-CASE-00056,Customs Duty,29896334.6,Tax Appeals Tribunal,Multinational,Valuation Dispute,1132,95,Legal Counsel,7,62,1
+KRA-CASE-00057,Income Tax,27329884.41,Tax Appeals Tribunal,SME,Valuation Dispute,1513,21,Tax Consultant,4,79,0
+KRA-CASE-00058,PAYE,2745296.87,Tax Appeals Tribunal,SME,Procedural Error,201,82,Legal Counsel,14,23,1
+KRA-CASE-00059,VAT,26052623.58,Tax Appeals Tribunal,SME,Exemption Claim,1588,48,Legal Counsel,13,32,1
+KRA-CASE-00060,VAT,47057168.28,High Court,Individual,Exemption Claim,489,83,Self-Represented,1,96,0
+KRA-CASE-00061,VAT,94963692.68,Tax Appeals Tribunal,Individual,Statute of Limitations,518,16,Legal Counsel,3,72,0
+KRA-CASE-00062,Income Tax,46530146.64,Tax Appeals Tribunal,SME,Incorrect Assessment,1622,20,Tax Consultant,3,74,0
+KRA-CASE-00063,VAT,92892272.48,Tax Appeals Tribunal,Multinational,Valuation Dispute,842,91,Self-Represented,7,13,1
+KRA-CASE-00064,Withholding Tax,77259464.45,High Court,Large Corporation,Incorrect Assessment,1660,72,Tax Consultant,11,68,1
+KRA-CASE-00065,Excise Duty,66169058.0,Tax Appeals Tribunal,Large Corporation,Procedural Error,1769,53,Tax Consultant,3,55,1
+KRA-CASE-00066,Customs Duty,63576731.35,High Court,Large Corporation,Valuation Dispute,390,93,Legal Counsel,8,78,1
+KRA-CASE-00067,PAYE,77475412.96,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,690,31,Tax Consultant,2,35,1
+KRA-CASE-00068,Excise Duty,24424150.75,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,718,3,Legal Counsel,10,23,0
+KRA-CASE-00069,Excise Duty,21251379.03,High Court,SME,Transfer Pricing Dispute,1168,1,Legal Counsel,6,10,1
+KRA-CASE-00070,Income Tax,72021462.68,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1352,91,Legal Counsel,0,11,0
+KRA-CASE-00071,Customs Duty,22198560.23,High Court,SME,Exemption Claim,999,70,Legal Counsel,13,95,1
+KRA-CASE-00072,PAYE,33112590.15,High Court,SME,Transfer Pricing Dispute,502,15,Legal Counsel,10,15,1
+KRA-CASE-00073,Withholding Tax,53609603.34,High Court,Individual,Double Taxation,1542,61,Legal Counsel,9,12,1
+KRA-CASE-00074,Income Tax,29659834.0,Tax Appeals Tribunal,SME,Statute of Limitations,591,5,Tax Consultant,9,89,1
+KRA-CASE-00075,Income Tax,63805072.03,High Court,Individual,Procedural Error,1205,36,Legal Counsel,14,43,1
+KRA-CASE-00076,Income Tax,96551489.43,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1713,8,Legal Counsel,2,73,1
+KRA-CASE-00077,Withholding Tax,68660779.27,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,204,31,Self-Represented,13,77,1
+KRA-CASE-00078,PAYE,79084545.94,Tax Appeals Tribunal,SME,Input Tax Credit,936,38,Tax Consultant,13,39,1
+KRA-CASE-00079,PAYE,62121680.74,High Court,Large Corporation,Double Taxation,1311,27,Legal Counsel,2,20,1
+KRA-CASE-00080,Income Tax,17422664.16,Tax Appeals Tribunal,Individual,Input Tax Credit,1441,76,Legal Counsel,1,29,1
+KRA-CASE-00081,Customs Duty,70710235.2,High Court,SME,Double Taxation,571,100,Tax Consultant,6,54,1
+KRA-CASE-00082,VAT,54479009.75,High Court,Multinational,Statute of Limitations,176,7,Self-Represented,9,76,1
+KRA-CASE-00083,Withholding Tax,82432818.12,Court of Appeal,SME,Input Tax Credit,1440,38,Legal Counsel,8,64,1
+KRA-CASE-00084,PAYE,49404832.17,Tax Appeals Tribunal,Individual,Valuation Dispute,1534,41,Legal Counsel,0,11,1
+KRA-CASE-00085,Income Tax,96193014.66,High Court,SME,Procedural Error,1596,86,Tax Consultant,1,97,1
+KRA-CASE-00086,Income Tax,47076557.28,High Court,Multinational,Statute of Limitations,1228,55,Legal Counsel,15,11,1
+KRA-CASE-00087,Excise Duty,34828707.58,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,705,52,Legal Counsel,9,84,1
+KRA-CASE-00088,Excise Duty,81365925.17,Tax Appeals Tribunal,SME,Exemption Claim,546,41,Self-Represented,12,65,0
+KRA-CASE-00089,VAT,65783155.63,Tax Appeals Tribunal,SME,Double Taxation,1091,46,Legal Counsel,15,80,0
+KRA-CASE-00090,Excise Duty,76011054.08,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,927,89,Legal Counsel,0,80,1
+KRA-CASE-00091,PAYE,79941407.64,High Court,SME,Procedural Error,1161,52,Self-Represented,3,59,1
+KRA-CASE-00092,VAT,64788583.39,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,1072,90,Legal Counsel,15,60,1
+KRA-CASE-00093,Income Tax,45705807.95,Tax Appeals Tribunal,Individual,Statute of Limitations,1799,8,Legal Counsel,13,43,0
+KRA-CASE-00094,PAYE,26753907.67,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1802,19,Legal Counsel,15,44,1
+KRA-CASE-00095,Customs Duty,55214145.84,Tax Appeals Tribunal,SME,Exemption Claim,1810,24,Tax Consultant,7,73,1
+KRA-CASE-00096,Excise Duty,23394566.48,High Court,Individual,Input Tax Credit,1474,48,Legal Counsel,4,63,1
+KRA-CASE-00097,VAT,12668314.67,Court of Appeal,SME,Incorrect Assessment,1820,56,Self-Represented,14,1,1
+KRA-CASE-00098,Withholding Tax,14458333.83,High Court,Multinational,Incorrect Assessment,991,100,Tax Consultant,10,79,1
+KRA-CASE-00099,Withholding Tax,39778458.22,Tax Appeals Tribunal,SME,Valuation Dispute,678,80,Legal Counsel,15,69,1
+KRA-CASE-00100,VAT,61765073.19,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,495,95,Self-Represented,3,97,1
+KRA-CASE-00101,Withholding Tax,70403888.39,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,89,5,Legal Counsel,1,37,1
+KRA-CASE-00102,Customs Duty,37515366.92,Tax Appeals Tribunal,SME,Statute of Limitations,378,22,Self-Represented,12,79,0
+KRA-CASE-00103,Withholding Tax,24120937.7,Court of Appeal,Individual,Input Tax Credit,1336,32,Legal Counsel,0,59,1
+KRA-CASE-00104,Customs Duty,67777208.03,Tax Appeals Tribunal,SME,Exemption Claim,1233,38,Legal Counsel,13,88,1
+KRA-CASE-00105,Customs Duty,45710739.48,Tax Appeals Tribunal,Multinational,Input Tax Credit,248,30,Legal Counsel,11,73,0
+KRA-CASE-00106,Customs Duty,99269569.76,Tax Appeals Tribunal,Multinational,Valuation Dispute,592,1,Legal Counsel,1,77,1
+KRA-CASE-00107,Withholding Tax,49697892.29,Court of Appeal,SME,Double Taxation,1273,45,Legal Counsel,6,79,1
+KRA-CASE-00108,Customs Duty,67792557.64,High Court,Large Corporation,Statute of Limitations,1316,12,Tax Consultant,1,39,0
+KRA-CASE-00109,Excise Duty,3384784.9,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,699,95,Legal Counsel,6,16,1
+KRA-CASE-00110,PAYE,87652236.64,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1730,21,Legal Counsel,15,37,1
+KRA-CASE-00111,Withholding Tax,87046176.08,High Court,SME,Incorrect Assessment,318,96,Tax Consultant,12,71,1
+KRA-CASE-00112,Customs Duty,9075772.41,Tax Appeals Tribunal,SME,Incorrect Assessment,961,47,Legal Counsel,8,74,1
+KRA-CASE-00113,Excise Duty,82250609.26,Court of Appeal,Individual,Double Taxation,995,3,Legal Counsel,10,78,0
+KRA-CASE-00114,Income Tax,64782855.44,High Court,SME,Transfer Pricing Dispute,1359,52,Self-Represented,1,4,1
+KRA-CASE-00115,Customs Duty,99592941.11,Tax Appeals Tribunal,Individual,Statute of Limitations,825,58,Legal Counsel,13,75,1
+KRA-CASE-00116,Withholding Tax,72673585.1,High Court,Large Corporation,Input Tax Credit,1290,52,Tax Consultant,8,4,1
+KRA-CASE-00117,Withholding Tax,37084469.38,Tax Appeals Tribunal,Multinational,Exemption Claim,233,87,Legal Counsel,11,7,1
+KRA-CASE-00118,Excise Duty,27624350.01,Court of Appeal,Multinational,Input Tax Credit,217,84,Legal Counsel,0,6,1
+KRA-CASE-00119,Customs Duty,24394711.27,Tax Appeals Tribunal,SME,Incorrect Assessment,1729,97,Legal Counsel,6,29,1
+KRA-CASE-00120,Customs Duty,77448139.35,High Court,SME,Transfer Pricing Dispute,1788,18,Tax Consultant,8,22,1
+KRA-CASE-00121,VAT,66122711.38,Tax Appeals Tribunal,Individual,Double Taxation,1235,41,Self-Represented,8,6,1
+KRA-CASE-00122,Income Tax,74184719.79,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,948,99,Legal Counsel,3,57,1
+KRA-CASE-00123,PAYE,22193898.15,High Court,Large Corporation,Transfer Pricing Dispute,968,82,Tax Consultant,1,61,1
+KRA-CASE-00124,Excise Duty,42656048.25,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,180,10,Legal Counsel,4,8,1
+KRA-CASE-00125,Income Tax,27537849.16,High Court,SME,Exemption Claim,810,76,Legal Counsel,14,64,1
+KRA-CASE-00126,PAYE,43048422.62,High Court,Individual,Double Taxation,910,57,Tax Consultant,13,43,1
+KRA-CASE-00127,Excise Duty,39903081.92,High Court,SME,Exemption Claim,1392,32,Legal Counsel,4,87,0
+KRA-CASE-00128,Excise Duty,6759974.15,High Court,Individual,Incorrect Assessment,1554,94,Legal Counsel,4,71,0
+KRA-CASE-00129,VAT,58667185.02,Tax Appeals Tribunal,SME,Incorrect Assessment,871,45,Tax Consultant,13,92,1
+KRA-CASE-00130,VAT,96841442.6,High Court,SME,Double Taxation,346,84,Legal Counsel,3,44,1
+KRA-CASE-00131,PAYE,36787727.01,High Court,SME,Valuation Dispute,1760,71,Tax Consultant,0,77,1
+KRA-CASE-00132,Withholding Tax,82954605.96,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,725,44,Self-Represented,4,72,0
+KRA-CASE-00133,Withholding Tax,40108395.18,Tax Appeals Tribunal,Large Corporation,Procedural Error,217,95,Legal Counsel,12,53,1
+KRA-CASE-00134,Excise Duty,34122553.38,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,137,19,Self-Represented,1,86,0
+KRA-CASE-00135,VAT,27246679.21,High Court,SME,Input Tax Credit,878,34,Legal Counsel,3,44,0
+KRA-CASE-00136,Excise Duty,11133432.73,High Court,SME,Transfer Pricing Dispute,123,28,Legal Counsel,1,0,1
+KRA-CASE-00137,Income Tax,30176865.23,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,622,41,Self-Represented,15,95,0
+KRA-CASE-00138,Excise Duty,17610695.45,Tax Appeals Tribunal,Large Corporation,Exemption Claim,177,50,Tax Consultant,1,55,1
+KRA-CASE-00139,VAT,46002437.32,Tax Appeals Tribunal,SME,Valuation Dispute,1204,51,Legal Counsel,13,37,1
+KRA-CASE-00140,VAT,40532979.09,Court of Appeal,Individual,Input Tax Credit,1733,88,Tax Consultant,2,55,0
+KRA-CASE-00141,VAT,24369481.66,Tax Appeals Tribunal,SME,Valuation Dispute,1812,39,Legal Counsel,7,42,0
+KRA-CASE-00142,Income Tax,7684118.78,High Court,SME,Double Taxation,1619,44,Legal Counsel,4,30,1
+KRA-CASE-00143,VAT,14687099.62,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,392,98,Legal Counsel,14,96,1
+KRA-CASE-00144,PAYE,75999721.1,Tax Appeals Tribunal,Multinational,Exemption Claim,1799,80,Legal Counsel,14,8,1
+KRA-CASE-00145,Excise Duty,44248695.98,Tax Appeals Tribunal,SME,Procedural Error,750,64,Self-Represented,14,57,1
+KRA-CASE-00146,VAT,5736160.58,High Court,Individual,Incorrect Assessment,1289,76,Legal Counsel,14,74,1
+KRA-CASE-00147,PAYE,95425436.1,High Court,Individual,Double Taxation,688,77,Legal Counsel,4,7,1
+KRA-CASE-00148,Excise Duty,10395012.63,High Court,SME,Incorrect Assessment,1063,82,Self-Represented,7,90,1
+KRA-CASE-00149,Excise Duty,99099052.96,Tax Appeals Tribunal,Large Corporation,Exemption Claim,793,36,Legal Counsel,10,86,1
+KRA-CASE-00150,PAYE,5283933.48,High Court,SME,Exemption Claim,223,71,Legal Counsel,9,32,1
+KRA-CASE-00151,Withholding Tax,85164047.69,Court of Appeal,Large Corporation,Statute of Limitations,712,10,Legal Counsel,4,44,0
+KRA-CASE-00152,Customs Duty,96771265.94,High Court,SME,Incorrect Assessment,664,71,Legal Counsel,10,16,1
+KRA-CASE-00153,Withholding Tax,70297945.67,Court of Appeal,Multinational,Incorrect Assessment,1353,85,Legal Counsel,11,2,1
+KRA-CASE-00154,Customs Duty,30921163.7,Court of Appeal,SME,Input Tax Credit,423,28,Tax Consultant,4,9,1
+KRA-CASE-00155,Customs Duty,84450617.45,Tax Appeals Tribunal,Large Corporation,Procedural Error,1385,43,Tax Consultant,4,76,0
+KRA-CASE-00156,Excise Duty,15467563.49,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1506,56,Self-Represented,11,86,0
+KRA-CASE-00157,Withholding Tax,23791143.63,Tax Appeals Tribunal,SME,Input Tax Credit,509,68,Legal Counsel,15,24,1
+KRA-CASE-00158,Customs Duty,67846767.17,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1623,48,Legal Counsel,13,20,1
+KRA-CASE-00159,Income Tax,80135859.45,Tax Appeals Tribunal,SME,Input Tax Credit,1820,47,Legal Counsel,3,91,1
+KRA-CASE-00160,PAYE,85124046.51,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,950,65,Self-Represented,13,11,1
+KRA-CASE-00161,Income Tax,81679490.42,High Court,Multinational,Valuation Dispute,139,50,Legal Counsel,7,49,1
+KRA-CASE-00162,VAT,37522521.71,Tax Appeals Tribunal,Multinational,Exemption Claim,1650,18,Self-Represented,9,60,1
+KRA-CASE-00163,Withholding Tax,83119493.07,High Court,SME,Procedural Error,192,2,Legal Counsel,4,70,1
+KRA-CASE-00164,Withholding Tax,60907565.91,Tax Appeals Tribunal,Large Corporation,Double Taxation,646,15,Self-Represented,13,81,0
+KRA-CASE-00165,PAYE,45738505.98,Tax Appeals Tribunal,Multinational,Procedural Error,1324,65,Legal Counsel,4,37,1
+KRA-CASE-00166,Excise Duty,206355.38,Tax Appeals Tribunal,SME,Statute of Limitations,1390,85,Self-Represented,11,8,0
+KRA-CASE-00167,PAYE,54430991.89,High Court,SME,Procedural Error,829,60,Self-Represented,12,47,1
+KRA-CASE-00168,Customs Duty,74744293.33,Tax Appeals Tribunal,Individual,Double Taxation,1531,84,Legal Counsel,10,17,1
+KRA-CASE-00169,VAT,35262289.66,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1454,61,Legal Counsel,4,8,1
+KRA-CASE-00170,Withholding Tax,77630230.45,Tax Appeals Tribunal,SME,Procedural Error,1650,25,Tax Consultant,10,39,1
+KRA-CASE-00171,PAYE,39852494.37,High Court,SME,Procedural Error,1572,82,Self-Represented,11,99,1
+KRA-CASE-00172,VAT,86586537.79,Tax Appeals Tribunal,Individual,Exemption Claim,924,51,Legal Counsel,12,43,1
+KRA-CASE-00173,Income Tax,49645512.49,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,1670,10,Legal Counsel,2,55,1
+KRA-CASE-00174,PAYE,99510061.58,Tax Appeals Tribunal,SME,Incorrect Assessment,193,41,Legal Counsel,9,57,1
+KRA-CASE-00175,PAYE,71780407.99,Tax Appeals Tribunal,SME,Input Tax Credit,116,93,Tax Consultant,11,78,1
+KRA-CASE-00176,Excise Duty,27491808.24,Court of Appeal,Multinational,Incorrect Assessment,1404,81,Legal Counsel,5,3,1
+KRA-CASE-00177,Income Tax,84874497.53,High Court,SME,Statute of Limitations,167,30,Tax Consultant,11,46,1
+KRA-CASE-00178,Excise Duty,94949237.83,Tax Appeals Tribunal,Individual,Input Tax Credit,789,47,Legal Counsel,2,73,1
+KRA-CASE-00179,Income Tax,52969515.16,Tax Appeals Tribunal,Large Corporation,Double Taxation,262,3,Legal Counsel,15,66,0
+KRA-CASE-00180,Excise Duty,91358573.46,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,469,78,Legal Counsel,15,25,1
+KRA-CASE-00181,VAT,13616055.35,Tax Appeals Tribunal,Individual,Input Tax Credit,209,87,Tax Consultant,10,85,0
+KRA-CASE-00182,Customs Duty,70968571.66,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1773,20,Legal Counsel,5,46,1
+KRA-CASE-00183,PAYE,22462949.44,Court of Appeal,Large Corporation,Double Taxation,1648,63,Self-Represented,11,59,0
+KRA-CASE-00184,PAYE,13020634.41,High Court,Individual,Valuation Dispute,1498,92,Legal Counsel,13,98,0
+KRA-CASE-00185,Excise Duty,82342772.98,Tax Appeals Tribunal,Multinational,Incorrect Assessment,951,59,Legal Counsel,11,16,1
+KRA-CASE-00186,PAYE,63997403.24,Tax Appeals Tribunal,Multinational,Valuation Dispute,1059,7,Tax Consultant,4,38,1
+KRA-CASE-00187,Income Tax,16238597.61,Court of Appeal,Individual,Transfer Pricing Dispute,1762,10,Legal Counsel,8,16,1
+KRA-CASE-00188,Withholding Tax,30317319.38,Tax Appeals Tribunal,SME,Statute of Limitations,1242,74,Self-Represented,10,72,0
+KRA-CASE-00189,VAT,82532364.92,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1363,26,Tax Consultant,13,79,1
+KRA-CASE-00190,Withholding Tax,3077075.56,High Court,SME,Transfer Pricing Dispute,1019,31,Tax Consultant,12,38,1
+KRA-CASE-00191,Excise Duty,7343653.9,Tax Appeals Tribunal,SME,Input Tax Credit,981,26,Legal Counsel,4,40,1
+KRA-CASE-00192,Withholding Tax,31965673.45,Court of Appeal,SME,Valuation Dispute,297,97,Legal Counsel,3,40,1
+KRA-CASE-00193,Income Tax,46673933.08,Tax Appeals Tribunal,Individual,Incorrect Assessment,133,37,Tax Consultant,13,31,0
+KRA-CASE-00194,Income Tax,81357110.75,Court of Appeal,Large Corporation,Double Taxation,1592,20,Legal Counsel,14,63,1
+KRA-CASE-00195,Customs Duty,49762158.79,Tax Appeals Tribunal,SME,Input Tax Credit,523,27,Legal Counsel,1,6,1
+KRA-CASE-00196,Customs Duty,49514675.64,High Court,Large Corporation,Input Tax Credit,615,68,Self-Represented,3,55,1
+KRA-CASE-00197,Income Tax,88251450.31,High Court,Large Corporation,Exemption Claim,122,51,Self-Represented,6,46,0
+KRA-CASE-00198,PAYE,28895739.62,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1720,79,Legal Counsel,3,16,1
+KRA-CASE-00199,VAT,39420676.09,High Court,SME,Exemption Claim,1576,18,Self-Represented,12,64,1
+KRA-CASE-00200,VAT,4578070.08,Tax Appeals Tribunal,SME,Input Tax Credit,1093,58,Self-Represented,4,41,1
+KRA-CASE-00201,PAYE,31887076.67,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1245,43,Legal Counsel,15,90,1
+KRA-CASE-00202,PAYE,30014066.95,High Court,SME,Incorrect Assessment,883,74,Legal Counsel,0,76,1
+KRA-CASE-00203,Excise Duty,26589767.18,High Court,Multinational,Double Taxation,1507,6,Legal Counsel,5,67,1
+KRA-CASE-00204,Withholding Tax,72132224.38,High Court,SME,Double Taxation,94,73,Tax Consultant,3,24,0
+KRA-CASE-00205,VAT,44131804.69,Tax Appeals Tribunal,SME,Double Taxation,870,64,Tax Consultant,15,94,0
+KRA-CASE-00206,Withholding Tax,6275014.54,Tax Appeals Tribunal,Individual,Exemption Claim,1386,61,Legal Counsel,10,22,1
+KRA-CASE-00207,Excise Duty,91216809.88,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1279,61,Self-Represented,7,35,1
+KRA-CASE-00208,PAYE,29884991.16,Court of Appeal,Multinational,Transfer Pricing Dispute,1473,26,Legal Counsel,15,40,1
+KRA-CASE-00209,Excise Duty,34912877.26,Court of Appeal,Large Corporation,Transfer Pricing Dispute,619,15,Legal Counsel,12,50,1
+KRA-CASE-00210,Customs Duty,95463155.9,High Court,SME,Transfer Pricing Dispute,1492,10,Legal Counsel,14,83,1
+KRA-CASE-00211,Customs Duty,74746483.05,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1181,89,Legal Counsel,3,78,1
+KRA-CASE-00212,Withholding Tax,58703708.33,Tax Appeals Tribunal,Large Corporation,Double Taxation,1336,29,Self-Represented,13,42,1
+KRA-CASE-00213,Withholding Tax,47266770.51,High Court,Individual,Statute of Limitations,863,83,Tax Consultant,15,61,1
+KRA-CASE-00214,Withholding Tax,19985624.67,Court of Appeal,SME,Procedural Error,1604,11,Legal Counsel,7,68,1
+KRA-CASE-00215,Withholding Tax,72325611.94,Court of Appeal,Multinational,Statute of Limitations,885,22,Tax Consultant,1,50,1
+KRA-CASE-00216,Excise Duty,18671847.61,High Court,Multinational,Transfer Pricing Dispute,1825,4,Self-Represented,3,42,1
+KRA-CASE-00217,Customs Duty,45462190.36,High Court,SME,Statute of Limitations,1772,64,Legal Counsel,6,14,1
+KRA-CASE-00218,Customs Duty,16291301.54,Tax Appeals Tribunal,SME,Statute of Limitations,58,94,Legal Counsel,9,72,0
+KRA-CASE-00219,Withholding Tax,75740410.89,Tax Appeals Tribunal,Multinational,Valuation Dispute,1723,54,Legal Counsel,2,51,1
+KRA-CASE-00220,Withholding Tax,9583741.32,Court of Appeal,SME,Double Taxation,43,33,Legal Counsel,14,96,0
+KRA-CASE-00221,Customs Duty,95405780.52,Tax Appeals Tribunal,Large Corporation,Procedural Error,565,83,Legal Counsel,7,7,1
+KRA-CASE-00222,Withholding Tax,11866573.54,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1443,15,Legal Counsel,9,47,1
+KRA-CASE-00223,PAYE,22123881.53,Court of Appeal,SME,Input Tax Credit,1561,77,Legal Counsel,15,96,1
+KRA-CASE-00224,PAYE,80209399.43,High Court,Large Corporation,Incorrect Assessment,1106,57,Legal Counsel,11,9,1
+KRA-CASE-00225,PAYE,11265268.71,High Court,Multinational,Double Taxation,1202,68,Self-Represented,10,66,1
+KRA-CASE-00226,Excise Duty,11668190.22,Tax Appeals Tribunal,SME,Incorrect Assessment,1075,57,Tax Consultant,14,16,1
+KRA-CASE-00227,PAYE,41571686.16,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1511,2,Legal Counsel,0,95,0
+KRA-CASE-00228,Income Tax,57852210.94,Tax Appeals Tribunal,SME,Incorrect Assessment,1138,7,Tax Consultant,2,60,1
+KRA-CASE-00229,VAT,28744716.15,Tax Appeals Tribunal,Individual,Valuation Dispute,796,48,Legal Counsel,12,48,0
+KRA-CASE-00230,VAT,68288898.89,High Court,SME,Exemption Claim,272,22,Tax Consultant,12,67,0
+KRA-CASE-00231,Income Tax,72799421.18,Tax Appeals Tribunal,Individual,Procedural Error,641,59,Legal Counsel,13,68,1
+KRA-CASE-00232,Excise Duty,82344875.72,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,416,92,Tax Consultant,1,84,1
+KRA-CASE-00233,Excise Duty,61511574.56,Court of Appeal,Multinational,Double Taxation,452,8,Self-Represented,1,57,1
+KRA-CASE-00234,PAYE,67218762.51,High Court,Individual,Procedural Error,853,56,Legal Counsel,6,96,1
+KRA-CASE-00235,VAT,14056550.73,Court of Appeal,Individual,Exemption Claim,1212,76,Tax Consultant,10,30,1
+KRA-CASE-00236,Customs Duty,87632019.3,Court of Appeal,SME,Valuation Dispute,645,35,Self-Represented,5,80,1
+KRA-CASE-00237,Withholding Tax,42748698.2,Tax Appeals Tribunal,Multinational,Valuation Dispute,1639,67,Legal Counsel,13,52,1
+KRA-CASE-00238,Income Tax,30023855.02,Tax Appeals Tribunal,SME,Double Taxation,1769,28,Legal Counsel,4,59,1
+KRA-CASE-00239,VAT,56260475.66,Court of Appeal,SME,Statute of Limitations,825,31,Legal Counsel,10,82,1
+KRA-CASE-00240,VAT,92226499.15,High Court,Individual,Double Taxation,135,34,Legal Counsel,1,9,1
+KRA-CASE-00241,Income Tax,80474829.25,Tax Appeals Tribunal,Large Corporation,Double Taxation,1011,26,Tax Consultant,10,38,0
+KRA-CASE-00242,VAT,21220186.82,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,526,89,Legal Counsel,6,50,0
+KRA-CASE-00243,Income Tax,55230325.29,High Court,SME,Exemption Claim,661,33,Legal Counsel,15,59,0
+KRA-CASE-00244,VAT,80291521.35,High Court,Large Corporation,Exemption Claim,446,47,Legal Counsel,1,72,1
+KRA-CASE-00245,Income Tax,74138175.25,Tax Appeals Tribunal,SME,Valuation Dispute,634,19,Self-Represented,7,48,0
+KRA-CASE-00246,PAYE,83344603.39,Tax Appeals Tribunal,Large Corporation,Exemption Claim,557,97,Tax Consultant,15,58,0
+KRA-CASE-00247,Income Tax,73290585.09,Tax Appeals Tribunal,Individual,Input Tax Credit,406,69,Tax Consultant,1,67,0
+KRA-CASE-00248,VAT,83914895.93,Tax Appeals Tribunal,Large Corporation,Procedural Error,1595,0,Legal Counsel,7,8,0
+KRA-CASE-00249,Withholding Tax,15145413.16,Tax Appeals Tribunal,SME,Procedural Error,1295,81,Legal Counsel,15,84,0
+KRA-CASE-00250,Excise Duty,1622390.1,Tax Appeals Tribunal,SME,Procedural Error,1114,92,Legal Counsel,9,2,1
+KRA-CASE-00251,PAYE,81325064.23,High Court,Large Corporation,Statute of Limitations,249,12,Legal Counsel,7,24,1
+KRA-CASE-00252,PAYE,52669275.74,High Court,SME,Valuation Dispute,191,47,Tax Consultant,14,72,1
+KRA-CASE-00253,Income Tax,99023791.51,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1368,83,Tax Consultant,2,51,1
+KRA-CASE-00254,Excise Duty,37748098.37,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,199,63,Tax Consultant,10,72,1
+KRA-CASE-00255,VAT,89484381.65,Court of Appeal,Individual,Input Tax Credit,585,5,Tax Consultant,8,69,1
+KRA-CASE-00256,PAYE,65828018.59,Tax Appeals Tribunal,Multinational,Procedural Error,454,75,Self-Represented,12,9,1
+KRA-CASE-00257,Customs Duty,16286902.56,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1416,69,Legal Counsel,4,88,0
+KRA-CASE-00258,Withholding Tax,7888847.72,High Court,SME,Incorrect Assessment,925,29,Tax Consultant,10,77,0
+KRA-CASE-00259,PAYE,95488096.77,Tax Appeals Tribunal,Large Corporation,Procedural Error,1328,34,Tax Consultant,14,62,1
+KRA-CASE-00260,Income Tax,35613329.21,Court of Appeal,SME,Valuation Dispute,205,98,Legal Counsel,7,91,1
+KRA-CASE-00261,VAT,8249699.07,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1544,49,Legal Counsel,3,11,1
+KRA-CASE-00262,VAT,94298874.72,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,301,11,Self-Represented,14,71,1
+KRA-CASE-00263,PAYE,51268462.8,Tax Appeals Tribunal,Individual,Incorrect Assessment,1252,76,Tax Consultant,12,1,1
+KRA-CASE-00264,Customs Duty,41410316.47,High Court,Large Corporation,Double Taxation,1201,66,Self-Represented,12,21,1
+KRA-CASE-00265,Income Tax,26928450.4,Tax Appeals Tribunal,Individual,Statute of Limitations,920,35,Legal Counsel,15,100,0
+KRA-CASE-00266,VAT,36144434.98,Court of Appeal,Large Corporation,Input Tax Credit,1246,78,Self-Represented,3,17,1
+KRA-CASE-00267,Customs Duty,726398.57,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1676,42,Legal Counsel,13,83,0
+KRA-CASE-00268,PAYE,13655640.93,Tax Appeals Tribunal,Multinational,Double Taxation,1011,40,Self-Represented,12,40,0
+KRA-CASE-00269,Customs Duty,73500692.83,High Court,Multinational,Double Taxation,697,48,Legal Counsel,12,46,1
+KRA-CASE-00270,VAT,93210111.9,Tax Appeals Tribunal,Multinational,Statute of Limitations,1426,98,Legal Counsel,14,90,1
+KRA-CASE-00271,Income Tax,43873572.68,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1408,63,Self-Represented,9,30,0
+KRA-CASE-00272,Customs Duty,65883363.7,High Court,Large Corporation,Incorrect Assessment,949,76,Legal Counsel,12,68,1
+KRA-CASE-00273,PAYE,92353400.61,High Court,SME,Procedural Error,1649,46,Legal Counsel,2,13,1
+KRA-CASE-00274,Income Tax,65777284.38,Tax Appeals Tribunal,Large Corporation,Procedural Error,1183,82,Legal Counsel,12,96,1
+KRA-CASE-00275,Customs Duty,96573391.93,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,484,65,Legal Counsel,7,57,1
+KRA-CASE-00276,Customs Duty,39143860.16,High Court,SME,Statute of Limitations,736,3,Legal Counsel,9,53,1
+KRA-CASE-00277,VAT,11651130.33,Court of Appeal,Individual,Transfer Pricing Dispute,732,58,Tax Consultant,15,44,1
+KRA-CASE-00278,Excise Duty,9807421.96,High Court,SME,Incorrect Assessment,644,5,Tax Consultant,3,2,0
+KRA-CASE-00279,Customs Duty,64814593.23,High Court,Individual,Double Taxation,1086,22,Legal Counsel,10,71,0
+KRA-CASE-00280,Excise Duty,95848339.04,Tax Appeals Tribunal,SME,Statute of Limitations,411,81,Legal Counsel,12,3,1
+KRA-CASE-00281,Withholding Tax,61429988.39,Tax Appeals Tribunal,SME,Valuation Dispute,39,90,Legal Counsel,8,96,0
+KRA-CASE-00282,Withholding Tax,80882542.37,Tax Appeals Tribunal,Individual,Statute of Limitations,779,41,Self-Represented,3,33,0
+KRA-CASE-00283,Withholding Tax,86270522.92,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1281,50,Legal Counsel,11,45,1
+KRA-CASE-00284,Excise Duty,61755399.8,High Court,Large Corporation,Transfer Pricing Dispute,1288,75,Self-Represented,4,40,1
+KRA-CASE-00285,VAT,23895344.01,Tax Appeals Tribunal,SME,Statute of Limitations,1076,49,Legal Counsel,4,73,1
+KRA-CASE-00286,Excise Duty,42332726.27,Tax Appeals Tribunal,SME,Statute of Limitations,1166,21,Legal Counsel,4,23,1
+KRA-CASE-00287,Customs Duty,84206422.15,High Court,Multinational,Procedural Error,1022,17,Self-Represented,12,71,1
+KRA-CASE-00288,PAYE,65324322.57,Tax Appeals Tribunal,SME,Input Tax Credit,1030,21,Self-Represented,0,97,0
+KRA-CASE-00289,Income Tax,29244386.46,Tax Appeals Tribunal,SME,Statute of Limitations,1628,58,Legal Counsel,15,70,1
+KRA-CASE-00290,PAYE,11365438.98,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1140,96,Self-Represented,14,69,0
+KRA-CASE-00291,Income Tax,98978084.0,Tax Appeals Tribunal,Large Corporation,Double Taxation,639,4,Legal Counsel,11,11,1
+KRA-CASE-00292,Excise Duty,86535782.51,Tax Appeals Tribunal,Large Corporation,Double Taxation,1690,94,Legal Counsel,11,90,1
+KRA-CASE-00293,PAYE,63295424.56,Tax Appeals Tribunal,Individual,Double Taxation,1696,26,Tax Consultant,11,68,0
+KRA-CASE-00294,Customs Duty,59705925.7,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,622,73,Legal Counsel,3,17,1
+KRA-CASE-00295,Excise Duty,91880932.75,Court of Appeal,Multinational,Statute of Limitations,1466,16,Legal Counsel,10,31,1
+KRA-CASE-00296,Withholding Tax,39300439.99,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,798,57,Self-Represented,2,51,1
+KRA-CASE-00297,PAYE,74992748.17,High Court,Multinational,Input Tax Credit,1029,41,Legal Counsel,2,93,1
+KRA-CASE-00298,Excise Duty,63502312.53,High Court,Multinational,Valuation Dispute,476,54,Tax Consultant,15,34,1
+KRA-CASE-00299,Customs Duty,82842944.52,Tax Appeals Tribunal,SME,Input Tax Credit,1644,43,Tax Consultant,1,5,1
+KRA-CASE-00300,VAT,62636643.24,High Court,Individual,Statute of Limitations,933,58,Self-Represented,13,25,1
+KRA-CASE-00301,Withholding Tax,90945251.07,High Court,SME,Transfer Pricing Dispute,221,83,Legal Counsel,2,47,1
+KRA-CASE-00302,Withholding Tax,90384836.87,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1516,89,Tax Consultant,13,83,1
+KRA-CASE-00303,VAT,70384619.07,Tax Appeals Tribunal,SME,Statute of Limitations,1245,28,Legal Counsel,14,1,1
+KRA-CASE-00304,VAT,69574930.87,High Court,Multinational,Valuation Dispute,1451,16,Legal Counsel,7,49,1
+KRA-CASE-00305,VAT,73089800.01,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,310,48,Tax Consultant,4,82,1
+KRA-CASE-00306,Withholding Tax,14328164.03,Tax Appeals Tribunal,Individual,Statute of Limitations,931,44,Legal Counsel,4,52,0
+KRA-CASE-00307,PAYE,68672288.68,High Court,Individual,Incorrect Assessment,316,96,Self-Represented,12,44,1
+KRA-CASE-00308,Excise Duty,31484641.63,Tax Appeals Tribunal,SME,Incorrect Assessment,538,70,Legal Counsel,9,99,1
+KRA-CASE-00309,Withholding Tax,2731099.39,High Court,Multinational,Double Taxation,1090,77,Legal Counsel,12,37,1
+KRA-CASE-00310,Withholding Tax,5504184.64,High Court,Multinational,Input Tax Credit,820,14,Legal Counsel,2,67,1
+KRA-CASE-00311,VAT,98688909.16,Court of Appeal,Individual,Valuation Dispute,778,69,Legal Counsel,15,98,1
+KRA-CASE-00312,VAT,1718105.71,Tax Appeals Tribunal,SME,Procedural Error,153,50,Legal Counsel,13,54,1
+KRA-CASE-00313,Withholding Tax,40257627.19,High Court,SME,Statute of Limitations,598,10,Legal Counsel,6,19,1
+KRA-CASE-00314,PAYE,32708692.11,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,665,89,Legal Counsel,7,7,0
+KRA-CASE-00315,Income Tax,8666969.2,Tax Appeals Tribunal,SME,Procedural Error,663,85,Legal Counsel,5,15,1
+KRA-CASE-00316,VAT,70804665.68,High Court,Individual,Exemption Claim,1101,66,Tax Consultant,8,21,1
+KRA-CASE-00317,Customs Duty,12736714.22,High Court,SME,Incorrect Assessment,1609,3,Legal Counsel,13,34,1
+KRA-CASE-00318,PAYE,6434005.31,High Court,SME,Incorrect Assessment,1046,58,Legal Counsel,1,63,1
+KRA-CASE-00319,PAYE,16729795.2,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,497,94,Legal Counsel,1,1,1
+KRA-CASE-00320,Income Tax,4645853.91,Tax Appeals Tribunal,Multinational,Statute of Limitations,1786,4,Legal Counsel,13,28,1
+KRA-CASE-00321,Customs Duty,24863905.18,Court of Appeal,SME,Incorrect Assessment,1200,47,Self-Represented,1,22,1
+KRA-CASE-00322,Income Tax,80443585.04,Court of Appeal,Multinational,Incorrect Assessment,982,36,Tax Consultant,9,41,1
+KRA-CASE-00323,VAT,55331484.96,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1544,79,Legal Counsel,11,75,1
+KRA-CASE-00324,Excise Duty,99778822.27,High Court,Large Corporation,Double Taxation,338,0,Tax Consultant,0,29,1
+KRA-CASE-00325,PAYE,34675048.59,High Court,Multinational,Exemption Claim,32,97,Legal Counsel,9,13,0
+KRA-CASE-00326,Income Tax,53004958.18,Tax Appeals Tribunal,SME,Procedural Error,321,91,Legal Counsel,1,29,1
+KRA-CASE-00327,PAYE,41335027.51,High Court,SME,Incorrect Assessment,1219,12,Legal Counsel,12,9,1
+KRA-CASE-00328,PAYE,56803681.79,Tax Appeals Tribunal,Multinational,Double Taxation,627,33,Tax Consultant,12,89,0
+KRA-CASE-00329,Withholding Tax,32658844.3,Tax Appeals Tribunal,Individual,Double Taxation,308,99,Tax Consultant,3,19,1
+KRA-CASE-00330,VAT,16479279.32,Tax Appeals Tribunal,SME,Exemption Claim,1607,26,Legal Counsel,14,33,1
+KRA-CASE-00331,VAT,9087567.76,High Court,SME,Procedural Error,470,41,Self-Represented,7,45,1
+KRA-CASE-00332,Excise Duty,51370294.55,High Court,SME,Statute of Limitations,93,51,Tax Consultant,7,12,1
+KRA-CASE-00333,Excise Duty,10235639.5,High Court,Individual,Procedural Error,1730,99,Tax Consultant,4,25,1
+KRA-CASE-00334,Excise Duty,37255362.39,High Court,Large Corporation,Transfer Pricing Dispute,1694,9,Self-Represented,2,25,1
+KRA-CASE-00335,Withholding Tax,44370960.82,Tax Appeals Tribunal,Multinational,Exemption Claim,280,5,Tax Consultant,1,21,0
+KRA-CASE-00336,PAYE,43343979.91,High Court,SME,Valuation Dispute,1429,54,Self-Represented,6,23,1
+KRA-CASE-00337,Customs Duty,28021462.7,High Court,Individual,Double Taxation,1355,37,Legal Counsel,15,7,1
+KRA-CASE-00338,VAT,28013609.94,Tax Appeals Tribunal,Individual,Double Taxation,1321,69,Tax Consultant,12,100,0
+KRA-CASE-00339,Withholding Tax,35943255.38,Tax Appeals Tribunal,SME,Exemption Claim,825,34,Self-Represented,10,76,0
+KRA-CASE-00340,Income Tax,2978880.88,High Court,SME,Input Tax Credit,1114,45,Tax Consultant,7,20,1
+KRA-CASE-00341,VAT,24823312.55,Tax Appeals Tribunal,SME,Procedural Error,1594,28,Legal Counsel,12,45,1
+KRA-CASE-00342,Income Tax,17651231.74,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1241,3,Legal Counsel,11,72,0
+KRA-CASE-00343,PAYE,14253123.93,Court of Appeal,Large Corporation,Input Tax Credit,1140,39,Self-Represented,1,11,1
+KRA-CASE-00344,VAT,23300704.64,Tax Appeals Tribunal,SME,Procedural Error,709,78,Legal Counsel,4,43,1
+KRA-CASE-00345,Withholding Tax,17787114.27,High Court,Multinational,Procedural Error,74,18,Legal Counsel,4,99,1
+KRA-CASE-00346,VAT,84655764.71,High Court,Multinational,Exemption Claim,1472,84,Legal Counsel,3,43,1
+KRA-CASE-00347,Customs Duty,32294190.28,Court of Appeal,Large Corporation,Valuation Dispute,1651,81,Tax Consultant,10,22,1
+KRA-CASE-00348,Withholding Tax,96875852.49,High Court,Multinational,Exemption Claim,487,85,Legal Counsel,5,48,1
+KRA-CASE-00349,Customs Duty,73412797.59,Tax Appeals Tribunal,Individual,Procedural Error,1467,73,Legal Counsel,1,23,1
+KRA-CASE-00350,PAYE,31855780.34,High Court,Large Corporation,Incorrect Assessment,1046,18,Legal Counsel,2,30,1
+KRA-CASE-00351,Customs Duty,98238846.51,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1712,90,Legal Counsel,10,57,1
+KRA-CASE-00352,VAT,26557983.43,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1641,13,Legal Counsel,1,49,0
+KRA-CASE-00353,Excise Duty,73271820.23,Court of Appeal,Multinational,Input Tax Credit,805,44,Legal Counsel,3,61,1
+KRA-CASE-00354,PAYE,65114407.83,High Court,Individual,Incorrect Assessment,1666,4,Legal Counsel,10,33,1
+KRA-CASE-00355,VAT,7466330.16,Tax Appeals Tribunal,SME,Incorrect Assessment,1150,11,Legal Counsel,15,90,1
+KRA-CASE-00356,VAT,43160767.25,High Court,Large Corporation,Valuation Dispute,351,6,Self-Represented,6,24,0
+KRA-CASE-00357,Excise Duty,69734810.55,High Court,Large Corporation,Transfer Pricing Dispute,1382,36,Legal Counsel,3,6,1
+KRA-CASE-00358,Excise Duty,57198392.3,High Court,Individual,Exemption Claim,37,54,Self-Represented,15,25,0
+KRA-CASE-00359,VAT,2622282.49,Tax Appeals Tribunal,SME,Incorrect Assessment,999,14,Legal Counsel,12,60,0
+KRA-CASE-00360,Excise Duty,89493004.47,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,408,47,Tax Consultant,11,23,1
+KRA-CASE-00361,Excise Duty,4509461.62,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1185,7,Self-Represented,3,10,0
+KRA-CASE-00362,Withholding Tax,34411949.09,Tax Appeals Tribunal,Multinational,Double Taxation,1163,7,Tax Consultant,13,68,1
+KRA-CASE-00363,Withholding Tax,86696056.67,Tax Appeals Tribunal,Multinational,Input Tax Credit,642,10,Legal Counsel,1,64,1
+KRA-CASE-00364,PAYE,90050483.39,High Court,Large Corporation,Statute of Limitations,276,96,Legal Counsel,5,27,1
+KRA-CASE-00365,Income Tax,12662290.56,Tax Appeals Tribunal,Multinational,Valuation Dispute,443,80,Self-Represented,8,40,1
+KRA-CASE-00366,Withholding Tax,91421684.99,Tax Appeals Tribunal,SME,Valuation Dispute,1160,41,Tax Consultant,14,1,1
+KRA-CASE-00367,Withholding Tax,62324639.96,Tax Appeals Tribunal,SME,Valuation Dispute,336,18,Legal Counsel,3,13,0
+KRA-CASE-00368,PAYE,77965492.46,High Court,Multinational,Exemption Claim,871,33,Legal Counsel,15,73,1
+KRA-CASE-00369,PAYE,47331009.27,Tax Appeals Tribunal,SME,Valuation Dispute,109,50,Tax Consultant,10,88,0
+KRA-CASE-00370,Income Tax,4976633.0,Tax Appeals Tribunal,SME,Exemption Claim,71,43,Tax Consultant,9,39,0
+KRA-CASE-00371,Customs Duty,84292514.53,High Court,Large Corporation,Double Taxation,305,38,Tax Consultant,14,99,1
+KRA-CASE-00372,Customs Duty,26978527.1,Tax Appeals Tribunal,Large Corporation,Double Taxation,934,27,Tax Consultant,13,94,1
+KRA-CASE-00373,Excise Duty,75961354.86,High Court,Large Corporation,Statute of Limitations,164,39,Legal Counsel,12,17,1
+KRA-CASE-00374,PAYE,87939292.51,Tax Appeals Tribunal,Individual,Double Taxation,1744,7,Legal Counsel,14,6,1
+KRA-CASE-00375,Customs Duty,70478162.82,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1331,15,Legal Counsel,7,47,1
+KRA-CASE-00376,Excise Duty,59424657.17,Tax Appeals Tribunal,Multinational,Exemption Claim,735,20,Tax Consultant,8,95,1
+KRA-CASE-00377,Withholding Tax,9084672.52,Tax Appeals Tribunal,Individual,Double Taxation,1785,28,Legal Counsel,6,34,0
+KRA-CASE-00378,Withholding Tax,40980244.29,Tax Appeals Tribunal,Large Corporation,Procedural Error,1000,16,Legal Counsel,0,28,1
+KRA-CASE-00379,Customs Duty,60853971.1,Court of Appeal,Large Corporation,Transfer Pricing Dispute,897,48,Tax Consultant,14,32,1
+KRA-CASE-00380,Income Tax,46696466.65,High Court,Large Corporation,Valuation Dispute,1227,13,Self-Represented,11,71,0
+KRA-CASE-00381,Withholding Tax,59397565.63,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,160,43,Tax Consultant,10,35,1
+KRA-CASE-00382,Customs Duty,65629154.54,Court of Appeal,Large Corporation,Double Taxation,337,66,Tax Consultant,1,76,1
+KRA-CASE-00383,Excise Duty,66070005.85,High Court,Large Corporation,Input Tax Credit,635,33,Tax Consultant,12,49,1
+KRA-CASE-00384,Withholding Tax,3580134.53,High Court,SME,Double Taxation,732,92,Legal Counsel,15,85,0
+KRA-CASE-00385,Customs Duty,50756119.82,High Court,Large Corporation,Statute of Limitations,631,12,Legal Counsel,8,92,0
+KRA-CASE-00386,PAYE,76303675.92,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1370,11,Legal Counsel,7,95,0
+KRA-CASE-00387,Customs Duty,42076233.19,High Court,SME,Transfer Pricing Dispute,979,15,Legal Counsel,2,60,1
+KRA-CASE-00388,Income Tax,50072713.58,High Court,SME,Transfer Pricing Dispute,876,6,Tax Consultant,4,17,1
+KRA-CASE-00389,Income Tax,34299855.0,Court of Appeal,Multinational,Input Tax Credit,323,40,Tax Consultant,5,99,0
+KRA-CASE-00390,VAT,48783705.53,High Court,Individual,Procedural Error,39,57,Legal Counsel,5,73,0
+KRA-CASE-00391,Income Tax,48983230.21,High Court,Individual,Valuation Dispute,1327,54,Legal Counsel,15,49,0
+KRA-CASE-00392,VAT,3820645.58,Tax Appeals Tribunal,SME,Procedural Error,689,96,Tax Consultant,6,2,1
+KRA-CASE-00393,Withholding Tax,462177.21,High Court,Individual,Exemption Claim,669,16,Self-Represented,9,21,0
+KRA-CASE-00394,VAT,82393190.78,Tax Appeals Tribunal,SME,Exemption Claim,918,87,Tax Consultant,10,62,1
+KRA-CASE-00395,Customs Duty,75024052.45,Tax Appeals Tribunal,Multinational,Valuation Dispute,69,29,Legal Counsel,4,27,1
+KRA-CASE-00396,Withholding Tax,2240231.54,Tax Appeals Tribunal,Individual,Procedural Error,798,81,Legal Counsel,1,76,0
+KRA-CASE-00397,VAT,66213893.09,High Court,Individual,Incorrect Assessment,883,56,Legal Counsel,8,60,1
+KRA-CASE-00398,Withholding Tax,15355053.46,High Court,Large Corporation,Transfer Pricing Dispute,891,84,Self-Represented,8,79,1
+KRA-CASE-00399,PAYE,70087598.3,Tax Appeals Tribunal,Multinational,Incorrect Assessment,608,14,Tax Consultant,15,25,0
+KRA-CASE-00400,PAYE,20014951.15,Tax Appeals Tribunal,SME,Double Taxation,763,90,Legal Counsel,5,5,1
+KRA-CASE-00401,PAYE,49660653.6,Tax Appeals Tribunal,Multinational,Exemption Claim,510,0,Self-Represented,2,14,0
+KRA-CASE-00402,PAYE,66918741.95,Tax Appeals Tribunal,Individual,Incorrect Assessment,1511,92,Self-Represented,8,82,0
+KRA-CASE-00403,Income Tax,45702285.91,Court of Appeal,SME,Procedural Error,234,22,Tax Consultant,9,46,1
+KRA-CASE-00404,Withholding Tax,31305075.34,High Court,Individual,Procedural Error,49,17,Legal Counsel,5,42,0
+KRA-CASE-00405,Customs Duty,89458035.36,Court of Appeal,SME,Incorrect Assessment,793,43,Self-Represented,12,51,1
+KRA-CASE-00406,Excise Duty,27219717.42,Tax Appeals Tribunal,Multinational,Valuation Dispute,1358,21,Self-Represented,1,20,1
+KRA-CASE-00407,VAT,41631970.28,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,401,78,Legal Counsel,11,78,1
+KRA-CASE-00408,VAT,86264448.66,High Court,Large Corporation,Statute of Limitations,1019,62,Self-Represented,13,56,1
+KRA-CASE-00409,VAT,6380437.85,High Court,Individual,Double Taxation,1401,43,Legal Counsel,3,55,0
+KRA-CASE-00410,Withholding Tax,72678864.24,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,334,71,Tax Consultant,1,1,1
+KRA-CASE-00411,Withholding Tax,93440423.47,Tax Appeals Tribunal,SME,Input Tax Credit,1810,21,Self-Represented,15,41,0
+KRA-CASE-00412,Income Tax,33122939.51,Tax Appeals Tribunal,SME,Valuation Dispute,855,30,Self-Represented,14,73,1
+KRA-CASE-00413,Excise Duty,8847585.18,Tax Appeals Tribunal,SME,Input Tax Credit,1556,83,Self-Represented,12,52,0
+KRA-CASE-00414,VAT,55735244.59,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1071,71,Legal Counsel,14,43,1
+KRA-CASE-00415,Customs Duty,82539833.51,High Court,Large Corporation,Exemption Claim,1177,98,Legal Counsel,15,91,1
+KRA-CASE-00416,Withholding Tax,36361289.99,Tax Appeals Tribunal,Individual,Double Taxation,34,43,Legal Counsel,9,70,1
+KRA-CASE-00417,PAYE,37420341.53,Tax Appeals Tribunal,Multinational,Input Tax Credit,317,91,Legal Counsel,13,13,1
+KRA-CASE-00418,Customs Duty,61104634.03,Tax Appeals Tribunal,Multinational,Valuation Dispute,471,58,Tax Consultant,6,91,1
+KRA-CASE-00419,Customs Duty,10821186.44,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1611,57,Legal Counsel,4,63,1
+KRA-CASE-00420,VAT,53059916.53,Tax Appeals Tribunal,Multinational,Input Tax Credit,1071,99,Tax Consultant,5,88,1
+KRA-CASE-00421,PAYE,17406344.5,High Court,Individual,Exemption Claim,1062,49,Legal Counsel,7,35,0
+KRA-CASE-00422,Excise Duty,96361174.09,Court of Appeal,SME,Statute of Limitations,312,52,Legal Counsel,9,89,1
+KRA-CASE-00423,PAYE,86077719.24,High Court,Multinational,Double Taxation,441,26,Legal Counsel,9,87,1
+KRA-CASE-00424,Customs Duty,92123116.85,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1061,69,Legal Counsel,10,90,1
+KRA-CASE-00425,VAT,76089463.73,Tax Appeals Tribunal,SME,Valuation Dispute,1410,95,Tax Consultant,9,54,1
+KRA-CASE-00426,VAT,52296862.12,Tax Appeals Tribunal,Individual,Procedural Error,439,34,Tax Consultant,5,36,1
+KRA-CASE-00427,Withholding Tax,25093572.7,High Court,Large Corporation,Transfer Pricing Dispute,447,96,Legal Counsel,11,57,1
+KRA-CASE-00428,VAT,61630077.93,High Court,SME,Double Taxation,1550,82,Legal Counsel,7,65,1
+KRA-CASE-00429,Withholding Tax,28799483.52,High Court,Multinational,Valuation Dispute,883,100,Tax Consultant,10,70,1
+KRA-CASE-00430,VAT,1345875.51,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1729,28,Tax Consultant,11,96,0
+KRA-CASE-00431,PAYE,54684182.91,High Court,Large Corporation,Double Taxation,632,57,Self-Represented,2,23,1
+KRA-CASE-00432,Income Tax,73521194.63,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1169,33,Self-Represented,8,0,0
+KRA-CASE-00433,Customs Duty,46659817.25,Court of Appeal,Individual,Exemption Claim,1252,6,Tax Consultant,9,62,1
+KRA-CASE-00434,PAYE,55038509.96,Tax Appeals Tribunal,Large Corporation,Double Taxation,406,66,Self-Represented,5,53,0
+KRA-CASE-00435,PAYE,53726743.46,Tax Appeals Tribunal,Individual,Double Taxation,1388,42,Legal Counsel,9,27,1
+KRA-CASE-00436,PAYE,53073364.62,Court of Appeal,Large Corporation,Procedural Error,264,85,Legal Counsel,7,82,1
+KRA-CASE-00437,PAYE,91864799.55,Tax Appeals Tribunal,Individual,Exemption Claim,811,14,Legal Counsel,9,3,1
+KRA-CASE-00438,PAYE,82219800.97,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1026,5,Legal Counsel,6,41,1
+KRA-CASE-00439,PAYE,8280427.53,Tax Appeals Tribunal,Multinational,Procedural Error,1313,8,Legal Counsel,6,87,1
+KRA-CASE-00440,Excise Duty,83574724.52,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1354,9,Legal Counsel,4,3,1
+KRA-CASE-00441,Excise Duty,71700984.97,Tax Appeals Tribunal,Individual,Statute of Limitations,1656,32,Legal Counsel,7,33,1
+KRA-CASE-00442,Excise Duty,38833858.73,High Court,SME,Procedural Error,827,86,Self-Represented,0,82,0
+KRA-CASE-00443,Withholding Tax,61854018.42,High Court,SME,Incorrect Assessment,762,64,Self-Represented,9,77,1
+KRA-CASE-00444,VAT,28187668.56,Court of Appeal,SME,Procedural Error,1000,20,Legal Counsel,4,95,1
+KRA-CASE-00445,Excise Duty,79687205.18,High Court,SME,Statute of Limitations,640,86,Tax Consultant,11,1,1
+KRA-CASE-00446,PAYE,87482954.42,Tax Appeals Tribunal,Individual,Valuation Dispute,1130,70,Tax Consultant,9,26,0
+KRA-CASE-00447,Withholding Tax,74155976.78,High Court,Individual,Statute of Limitations,359,23,Legal Counsel,8,24,0
+KRA-CASE-00448,VAT,18176730.58,High Court,Multinational,Input Tax Credit,1350,70,Self-Represented,2,32,0
+KRA-CASE-00449,VAT,19781888.37,Tax Appeals Tribunal,Multinational,Exemption Claim,292,85,Legal Counsel,3,36,1
+KRA-CASE-00450,PAYE,7027398.03,Tax Appeals Tribunal,SME,Exemption Claim,1292,84,Legal Counsel,4,72,1
+KRA-CASE-00451,PAYE,36481118.9,Tax Appeals Tribunal,SME,Procedural Error,671,31,Tax Consultant,13,35,1
+KRA-CASE-00452,Customs Duty,13473867.95,High Court,Multinational,Input Tax Credit,942,45,Tax Consultant,15,70,1
+KRA-CASE-00453,VAT,17618227.58,High Court,Large Corporation,Statute of Limitations,1133,25,Legal Counsel,2,93,1
+KRA-CASE-00454,VAT,89215913.2,High Court,Large Corporation,Valuation Dispute,1605,75,Legal Counsel,1,70,1
+KRA-CASE-00455,Customs Duty,54369758.93,Court of Appeal,SME,Statute of Limitations,779,50,Legal Counsel,9,17,1
+KRA-CASE-00456,Excise Duty,50137260.98,Tax Appeals Tribunal,SME,Procedural Error,1387,30,Tax Consultant,5,96,1
+KRA-CASE-00457,PAYE,14080050.73,Tax Appeals Tribunal,SME,Statute of Limitations,1537,93,Legal Counsel,11,5,1
+KRA-CASE-00458,Income Tax,76159164.16,Tax Appeals Tribunal,SME,Double Taxation,117,85,Legal Counsel,11,49,1
+KRA-CASE-00459,Excise Duty,91794299.31,High Court,Individual,Exemption Claim,241,90,Tax Consultant,8,94,1
+KRA-CASE-00460,Customs Duty,57884211.92,Tax Appeals Tribunal,SME,Valuation Dispute,778,75,Legal Counsel,2,66,1
+KRA-CASE-00461,Customs Duty,37664061.67,Court of Appeal,SME,Exemption Claim,1703,44,Legal Counsel,15,77,1
+KRA-CASE-00462,VAT,50208606.6,Tax Appeals Tribunal,Individual,Incorrect Assessment,1083,82,Legal Counsel,4,23,1
+KRA-CASE-00463,Income Tax,36254183.27,High Court,Individual,Double Taxation,879,42,Legal Counsel,15,86,1
+KRA-CASE-00464,Excise Duty,47928165.28,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,75,31,Self-Represented,5,17,0
+KRA-CASE-00465,Withholding Tax,51288649.46,High Court,Individual,Statute of Limitations,558,23,Legal Counsel,12,76,0
+KRA-CASE-00466,PAYE,63780389.54,High Court,Large Corporation,Transfer Pricing Dispute,205,27,Legal Counsel,15,61,1
+KRA-CASE-00467,Income Tax,21975413.29,Tax Appeals Tribunal,Individual,Statute of Limitations,1306,84,Legal Counsel,5,92,1
+KRA-CASE-00468,Withholding Tax,34299993.89,Tax Appeals Tribunal,SME,Double Taxation,804,49,Self-Represented,0,25,1
+KRA-CASE-00469,PAYE,85966189.62,Tax Appeals Tribunal,SME,Statute of Limitations,1270,12,Self-Represented,1,100,0
+KRA-CASE-00470,PAYE,50357754.35,Tax Appeals Tribunal,SME,Statute of Limitations,1265,69,Tax Consultant,13,66,0
+KRA-CASE-00471,Excise Duty,37069226.15,Tax Appeals Tribunal,SME,Double Taxation,1673,61,Tax Consultant,12,44,1
+KRA-CASE-00472,PAYE,80471872.84,Court of Appeal,Large Corporation,Incorrect Assessment,901,17,Legal Counsel,7,10,0
+KRA-CASE-00473,Customs Duty,59849320.37,Tax Appeals Tribunal,SME,Procedural Error,1482,95,Tax Consultant,3,66,1
+KRA-CASE-00474,VAT,37534236.68,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,771,13,Self-Represented,8,33,1
+KRA-CASE-00475,PAYE,42384976.67,Tax Appeals Tribunal,SME,Valuation Dispute,1576,26,Legal Counsel,15,22,1
+KRA-CASE-00476,Customs Duty,55931428.27,Tax Appeals Tribunal,Multinational,Exemption Claim,1615,90,Legal Counsel,4,84,0
+KRA-CASE-00477,VAT,74794028.8,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,235,27,Legal Counsel,10,70,1
+KRA-CASE-00478,PAYE,69720888.0,High Court,Individual,Procedural Error,1677,11,Tax Consultant,15,76,1
+KRA-CASE-00479,Excise Duty,8859661.9,Tax Appeals Tribunal,SME,Procedural Error,1513,49,Tax Consultant,12,78,0
+KRA-CASE-00480,Withholding Tax,52124504.04,High Court,SME,Statute of Limitations,1341,63,Legal Counsel,6,84,1
+KRA-CASE-00481,PAYE,28636350.85,Tax Appeals Tribunal,SME,Double Taxation,1289,21,Legal Counsel,11,30,1
+KRA-CASE-00482,Withholding Tax,78712.82,Tax Appeals Tribunal,Multinational,Valuation Dispute,753,85,Legal Counsel,6,66,1
+KRA-CASE-00483,VAT,73705707.74,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1517,71,Tax Consultant,11,44,1
+KRA-CASE-00484,Customs Duty,22668236.52,Court of Appeal,SME,Valuation Dispute,1207,0,Legal Counsel,13,64,1
+KRA-CASE-00485,VAT,55885139.75,Tax Appeals Tribunal,SME,Incorrect Assessment,1674,65,Tax Consultant,8,88,1
+KRA-CASE-00486,Excise Duty,96607242.79,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1618,58,Legal Counsel,0,61,0
+KRA-CASE-00487,VAT,25819085.49,Tax Appeals Tribunal,Large Corporation,Double Taxation,1416,89,Legal Counsel,10,52,1
+KRA-CASE-00488,Customs Duty,51674596.51,Tax Appeals Tribunal,Large Corporation,Double Taxation,618,11,Legal Counsel,10,9,1
+KRA-CASE-00489,PAYE,93143054.17,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,404,95,Legal Counsel,6,63,0
+KRA-CASE-00490,Withholding Tax,20006670.58,High Court,Multinational,Double Taxation,499,25,Tax Consultant,11,19,0
+KRA-CASE-00491,VAT,12031855.34,Tax Appeals Tribunal,Multinational,Input Tax Credit,1287,0,Tax Consultant,1,61,1
+KRA-CASE-00492,Customs Duty,62085714.11,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,1035,23,Tax Consultant,8,50,1
+KRA-CASE-00493,Income Tax,75029430.11,Tax Appeals Tribunal,SME,Valuation Dispute,1009,69,Self-Represented,11,50,1
+KRA-CASE-00494,Withholding Tax,77601601.19,Tax Appeals Tribunal,Individual,Input Tax Credit,676,88,Self-Represented,6,48,0
+KRA-CASE-00495,PAYE,10119745.22,Tax Appeals Tribunal,Multinational,Statute of Limitations,1153,33,Legal Counsel,15,78,1
+KRA-CASE-00496,Customs Duty,36624118.9,Tax Appeals Tribunal,Individual,Exemption Claim,777,51,Legal Counsel,5,73,1
+KRA-CASE-00497,Income Tax,97928281.56,High Court,Large Corporation,Transfer Pricing Dispute,1676,30,Legal Counsel,12,25,1
+KRA-CASE-00498,Income Tax,80013743.95,High Court,SME,Procedural Error,391,53,Legal Counsel,10,100,1
+KRA-CASE-00499,Excise Duty,30038416.51,Tax Appeals Tribunal,SME,Valuation Dispute,232,88,Self-Represented,6,32,0
+KRA-CASE-00500,Excise Duty,83905222.31,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,769,46,Legal Counsel,8,44,0
+KRA-CASE-00501,VAT,41205502.43,Tax Appeals Tribunal,Large Corporation,Double Taxation,1211,73,Legal Counsel,5,99,1
+KRA-CASE-00502,Customs Duty,35543148.39,High Court,SME,Input Tax Credit,190,48,Legal Counsel,14,80,1
+KRA-CASE-00503,Income Tax,86832352.17,High Court,Multinational,Valuation Dispute,1322,78,Legal Counsel,2,10,1
+KRA-CASE-00504,Income Tax,34395367.49,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1269,82,Legal Counsel,14,99,1
+KRA-CASE-00505,Customs Duty,74802155.07,Tax Appeals Tribunal,SME,Statute of Limitations,406,2,Self-Represented,7,84,0
+KRA-CASE-00506,Customs Duty,94046711.87,High Court,Individual,Statute of Limitations,843,13,Self-Represented,15,70,0
+KRA-CASE-00507,VAT,2685173.09,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,242,33,Legal Counsel,2,83,1
+KRA-CASE-00508,Excise Duty,30971596.82,Tax Appeals Tribunal,SME,Statute of Limitations,298,67,Tax Consultant,0,4,0
+KRA-CASE-00509,Withholding Tax,35716282.21,Court of Appeal,Multinational,Input Tax Credit,1813,69,Tax Consultant,14,17,1
+KRA-CASE-00510,Withholding Tax,53951792.47,Tax Appeals Tribunal,SME,Valuation Dispute,1102,81,Legal Counsel,9,44,1
+KRA-CASE-00511,Excise Duty,53989828.81,High Court,SME,Exemption Claim,874,33,Self-Represented,0,0,1
+KRA-CASE-00512,PAYE,81547209.93,High Court,SME,Input Tax Credit,1125,1,Legal Counsel,15,96,1
+KRA-CASE-00513,Excise Duty,29996071.27,High Court,Large Corporation,Double Taxation,1661,0,Legal Counsel,6,52,1
+KRA-CASE-00514,PAYE,43738781.32,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1726,48,Legal Counsel,2,54,0
+KRA-CASE-00515,Withholding Tax,23994203.4,High Court,Multinational,Transfer Pricing Dispute,613,83,Legal Counsel,8,52,1
+KRA-CASE-00516,Income Tax,85355528.24,Tax Appeals Tribunal,SME,Input Tax Credit,1295,57,Legal Counsel,15,24,1
+KRA-CASE-00517,Customs Duty,1988569.95,Tax Appeals Tribunal,SME,Statute of Limitations,239,36,Legal Counsel,14,93,0
+KRA-CASE-00518,VAT,23319409.27,Tax Appeals Tribunal,SME,Exemption Claim,890,39,Tax Consultant,15,47,0
+KRA-CASE-00519,Excise Duty,69708633.54,Tax Appeals Tribunal,Individual,Statute of Limitations,144,34,Tax Consultant,2,69,1
+KRA-CASE-00520,Excise Duty,18201293.67,High Court,SME,Valuation Dispute,1726,1,Self-Represented,7,49,0
+KRA-CASE-00521,Excise Duty,24753861.0,Court of Appeal,Individual,Incorrect Assessment,1097,85,Tax Consultant,15,49,1
+KRA-CASE-00522,Withholding Tax,96123328.96,Court of Appeal,Individual,Procedural Error,1555,70,Legal Counsel,8,61,1
+KRA-CASE-00523,Withholding Tax,29916367.72,Tax Appeals Tribunal,Individual,Double Taxation,261,30,Legal Counsel,10,1,0
+KRA-CASE-00524,Income Tax,79449320.21,Tax Appeals Tribunal,SME,Double Taxation,48,5,Legal Counsel,15,88,1
+KRA-CASE-00525,PAYE,15541444.65,High Court,Individual,Input Tax Credit,217,87,Legal Counsel,1,7,1
+KRA-CASE-00526,Customs Duty,64475260.92,High Court,Large Corporation,Statute of Limitations,1029,29,Legal Counsel,11,56,1
+KRA-CASE-00527,Withholding Tax,19336881.64,High Court,SME,Statute of Limitations,543,5,Legal Counsel,14,71,1
+KRA-CASE-00528,Customs Duty,54296270.98,Tax Appeals Tribunal,SME,Exemption Claim,692,93,Legal Counsel,5,8,1
+KRA-CASE-00529,PAYE,15544796.53,Tax Appeals Tribunal,SME,Exemption Claim,959,0,Tax Consultant,12,93,0
+KRA-CASE-00530,Income Tax,88299090.63,High Court,SME,Double Taxation,686,92,Self-Represented,12,24,0
+KRA-CASE-00531,PAYE,68338257.05,High Court,Individual,Transfer Pricing Dispute,690,52,Legal Counsel,3,12,1
+KRA-CASE-00532,PAYE,65906158.46,Tax Appeals Tribunal,Multinational,Statute of Limitations,1818,4,Legal Counsel,15,24,0
+KRA-CASE-00533,VAT,3230124.13,High Court,SME,Input Tax Credit,1106,79,Legal Counsel,8,6,0
+KRA-CASE-00534,Customs Duty,22111242.28,High Court,Individual,Double Taxation,1372,62,Tax Consultant,2,59,1
+KRA-CASE-00535,Withholding Tax,6116983.82,Tax Appeals Tribunal,Multinational,Valuation Dispute,1713,47,Tax Consultant,1,78,1
+KRA-CASE-00536,Customs Duty,52925632.09,High Court,Large Corporation,Incorrect Assessment,472,66,Self-Represented,7,68,0
+KRA-CASE-00537,Excise Duty,18986568.29,Tax Appeals Tribunal,Individual,Statute of Limitations,1173,95,Legal Counsel,3,98,0
+KRA-CASE-00538,Withholding Tax,57677537.72,High Court,Large Corporation,Valuation Dispute,243,21,Tax Consultant,12,64,1
+KRA-CASE-00539,Customs Duty,65770311.51,Tax Appeals Tribunal,SME,Exemption Claim,675,70,Tax Consultant,10,47,1
+KRA-CASE-00540,Excise Duty,76430227.57,Tax Appeals Tribunal,Large Corporation,Double Taxation,1183,69,Legal Counsel,8,46,1
+KRA-CASE-00541,Excise Duty,44777603.91,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1250,2,Legal Counsel,9,0,0
+KRA-CASE-00542,Customs Duty,98440222.81,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1163,65,Legal Counsel,4,12,1
+KRA-CASE-00543,VAT,46063962.08,Tax Appeals Tribunal,SME,Double Taxation,507,32,Tax Consultant,2,73,0
+KRA-CASE-00544,Excise Duty,56928040.45,Tax Appeals Tribunal,Individual,Exemption Claim,1653,61,Self-Represented,3,76,0
+KRA-CASE-00545,Withholding Tax,30074305.72,High Court,SME,Incorrect Assessment,1627,7,Tax Consultant,10,44,1
+KRA-CASE-00546,Excise Duty,41681345.18,High Court,Multinational,Double Taxation,1561,83,Tax Consultant,0,81,1
+KRA-CASE-00547,Withholding Tax,38279571.87,Tax Appeals Tribunal,Individual,Statute of Limitations,699,64,Legal Counsel,4,6,1
+KRA-CASE-00548,Withholding Tax,73171278.43,Tax Appeals Tribunal,SME,Incorrect Assessment,484,55,Legal Counsel,12,18,1
+KRA-CASE-00549,Income Tax,33650009.4,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,567,10,Legal Counsel,13,99,1
+KRA-CASE-00550,Withholding Tax,13080998.73,Tax Appeals Tribunal,SME,Input Tax Credit,839,83,Legal Counsel,7,31,1
+KRA-CASE-00551,VAT,26662396.21,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,260,85,Legal Counsel,11,44,1
+KRA-CASE-00552,Income Tax,32107799.37,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,376,44,Legal Counsel,14,79,0
+KRA-CASE-00553,Income Tax,44074319.24,Court of Appeal,Individual,Exemption Claim,349,96,Legal Counsel,2,14,1
+KRA-CASE-00554,Withholding Tax,5501074.44,Court of Appeal,Multinational,Transfer Pricing Dispute,58,43,Legal Counsel,3,39,1
+KRA-CASE-00555,Excise Duty,47145470.86,Tax Appeals Tribunal,Large Corporation,Double Taxation,447,69,Legal Counsel,8,70,1
+KRA-CASE-00556,Excise Duty,62323047.19,Court of Appeal,Large Corporation,Procedural Error,801,74,Tax Consultant,1,32,1
+KRA-CASE-00557,Income Tax,6057999.46,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,138,59,Legal Counsel,0,8,1
+KRA-CASE-00558,Excise Duty,66054263.91,High Court,Multinational,Exemption Claim,1800,13,Self-Represented,12,29,1
+KRA-CASE-00559,Excise Duty,50878606.2,High Court,Multinational,Input Tax Credit,1805,76,Legal Counsel,5,25,1
+KRA-CASE-00560,PAYE,96680797.67,Tax Appeals Tribunal,Large Corporation,Procedural Error,536,67,Legal Counsel,15,50,1
+KRA-CASE-00561,Withholding Tax,15742674.8,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,513,64,Legal Counsel,1,80,0
+KRA-CASE-00562,Customs Duty,87873793.56,High Court,Large Corporation,Procedural Error,1166,35,Legal Counsel,10,50,1
+KRA-CASE-00563,Withholding Tax,13769204.57,High Court,SME,Double Taxation,884,30,Legal Counsel,13,39,1
+KRA-CASE-00564,PAYE,32962009.6,Tax Appeals Tribunal,Individual,Statute of Limitations,1219,69,Legal Counsel,6,17,1
+KRA-CASE-00565,Customs Duty,68868782.34,High Court,Multinational,Valuation Dispute,1607,18,Legal Counsel,5,40,1
+KRA-CASE-00566,VAT,55756162.79,Court of Appeal,Individual,Exemption Claim,1749,18,Legal Counsel,10,52,1
+KRA-CASE-00567,Excise Duty,30369643.09,High Court,Large Corporation,Transfer Pricing Dispute,341,99,Self-Represented,4,23,1
+KRA-CASE-00568,VAT,76256626.0,High Court,SME,Double Taxation,1251,29,Legal Counsel,0,45,1
+KRA-CASE-00569,VAT,68829721.41,Tax Appeals Tribunal,SME,Input Tax Credit,1488,83,Legal Counsel,12,62,1
+KRA-CASE-00570,Excise Duty,13794396.6,Tax Appeals Tribunal,Individual,Procedural Error,582,52,Legal Counsel,6,96,1
+KRA-CASE-00571,Income Tax,6660325.61,Court of Appeal,Multinational,Input Tax Credit,1438,41,Tax Consultant,7,54,1
+KRA-CASE-00572,Excise Duty,77632661.18,High Court,Large Corporation,Exemption Claim,837,78,Tax Consultant,1,66,1
+KRA-CASE-00573,VAT,45188378.78,High Court,Individual,Double Taxation,1092,68,Legal Counsel,1,71,1
+KRA-CASE-00574,Excise Duty,51636861.98,High Court,Individual,Transfer Pricing Dispute,930,50,Tax Consultant,9,59,1
+KRA-CASE-00575,Income Tax,42275095.14,High Court,Individual,Statute of Limitations,979,82,Legal Counsel,3,23,1
+KRA-CASE-00576,PAYE,93787353.65,High Court,Individual,Valuation Dispute,692,57,Self-Represented,14,75,1
+KRA-CASE-00577,Withholding Tax,89584700.98,High Court,Individual,Exemption Claim,1446,83,Tax Consultant,5,91,1
+KRA-CASE-00578,Withholding Tax,12398244.47,Tax Appeals Tribunal,SME,Exemption Claim,204,67,Legal Counsel,5,48,0
+KRA-CASE-00579,PAYE,38091670.58,High Court,Multinational,Statute of Limitations,362,18,Self-Represented,1,53,0
+KRA-CASE-00580,Customs Duty,30986354.63,High Court,SME,Statute of Limitations,270,16,Tax Consultant,0,79,0
+KRA-CASE-00581,Customs Duty,1270166.09,Tax Appeals Tribunal,SME,Procedural Error,1275,63,Legal Counsel,15,58,1
+KRA-CASE-00582,Excise Duty,44215442.38,High Court,Individual,Transfer Pricing Dispute,1299,80,Legal Counsel,6,6,0
+KRA-CASE-00583,Income Tax,14868204.01,High Court,Individual,Procedural Error,1396,73,Tax Consultant,9,42,1
+KRA-CASE-00584,VAT,4950684.71,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1281,84,Legal Counsel,5,58,1
+KRA-CASE-00585,Withholding Tax,57917680.93,Court of Appeal,Individual,Transfer Pricing Dispute,691,47,Tax Consultant,2,97,0
+KRA-CASE-00586,Excise Duty,84338797.53,Tax Appeals Tribunal,SME,Incorrect Assessment,1452,35,Legal Counsel,13,67,1
+KRA-CASE-00587,Income Tax,69598158.26,High Court,Individual,Incorrect Assessment,1020,92,Legal Counsel,9,54,1
+KRA-CASE-00588,PAYE,84787407.09,Tax Appeals Tribunal,SME,Exemption Claim,295,78,Legal Counsel,15,63,1
+KRA-CASE-00589,Income Tax,88372184.94,Tax Appeals Tribunal,SME,Double Taxation,33,15,Self-Represented,3,94,0
+KRA-CASE-00590,Income Tax,79966456.91,Court of Appeal,SME,Exemption Claim,746,71,Tax Consultant,6,1,1
+KRA-CASE-00591,Withholding Tax,20158654.54,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,644,64,Legal Counsel,0,14,1
+KRA-CASE-00592,Withholding Tax,33361624.9,Tax Appeals Tribunal,SME,Procedural Error,1734,22,Self-Represented,10,86,1
+KRA-CASE-00593,Excise Duty,91620497.16,High Court,Large Corporation,Input Tax Credit,348,80,Legal Counsel,10,59,1
+KRA-CASE-00594,Excise Duty,92782608.18,Tax Appeals Tribunal,SME,Exemption Claim,1167,68,Self-Represented,10,45,0
+KRA-CASE-00595,VAT,96962848.58,Tax Appeals Tribunal,Individual,Valuation Dispute,1313,68,Tax Consultant,12,23,0
+KRA-CASE-00596,PAYE,11728621.59,High Court,SME,Exemption Claim,1483,4,Legal Counsel,2,63,1
+KRA-CASE-00597,Income Tax,37189778.51,High Court,SME,Transfer Pricing Dispute,388,14,Legal Counsel,1,99,1
+KRA-CASE-00598,Income Tax,91339716.92,Tax Appeals Tribunal,Individual,Input Tax Credit,1054,19,Self-Represented,15,93,0
+KRA-CASE-00599,PAYE,31070352.96,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1713,66,Legal Counsel,4,26,1
+KRA-CASE-00600,Withholding Tax,3703426.07,Tax Appeals Tribunal,Multinational,Incorrect Assessment,38,39,Tax Consultant,2,42,0
+KRA-CASE-00601,Excise Duty,88924128.31,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,76,73,Tax Consultant,6,41,1
+KRA-CASE-00602,Income Tax,19294936.68,Tax Appeals Tribunal,SME,Input Tax Credit,1404,15,Legal Counsel,5,35,1
+KRA-CASE-00603,VAT,1574908.91,High Court,SME,Double Taxation,1141,44,Legal Counsel,8,18,1
+KRA-CASE-00604,Withholding Tax,80410083.7,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1285,43,Legal Counsel,1,16,1
+KRA-CASE-00605,VAT,47100021.12,High Court,Individual,Procedural Error,206,54,Legal Counsel,14,78,1
+KRA-CASE-00606,Customs Duty,31278443.08,High Court,Large Corporation,Incorrect Assessment,1577,97,Legal Counsel,4,11,1
+KRA-CASE-00607,Withholding Tax,46854176.74,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,993,29,Tax Consultant,4,78,0
+KRA-CASE-00608,Customs Duty,91290517.99,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1645,41,Legal Counsel,0,8,1
+KRA-CASE-00609,Excise Duty,11333061.38,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1602,44,Legal Counsel,4,65,1
+KRA-CASE-00610,VAT,40598313.92,High Court,Individual,Incorrect Assessment,1652,38,Legal Counsel,12,75,1
+KRA-CASE-00611,Excise Duty,23895600.41,Tax Appeals Tribunal,Individual,Input Tax Credit,816,8,Legal Counsel,13,100,1
+KRA-CASE-00612,Excise Duty,56742758.86,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1387,85,Self-Represented,15,14,1
+KRA-CASE-00613,PAYE,59627745.58,Tax Appeals Tribunal,Individual,Input Tax Credit,390,39,Tax Consultant,2,76,0
+KRA-CASE-00614,VAT,68566592.76,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1042,82,Legal Counsel,2,27,1
+KRA-CASE-00615,Income Tax,88731790.58,Court of Appeal,Large Corporation,Procedural Error,1580,18,Legal Counsel,14,68,1
+KRA-CASE-00616,Customs Duty,39028766.89,Tax Appeals Tribunal,Individual,Exemption Claim,643,72,Tax Consultant,9,55,1
+KRA-CASE-00617,Withholding Tax,98258901.34,Tax Appeals Tribunal,Individual,Procedural Error,1282,65,Legal Counsel,4,37,1
+KRA-CASE-00618,VAT,36953828.21,Tax Appeals Tribunal,Individual,Exemption Claim,254,36,Tax Consultant,7,55,0
+KRA-CASE-00619,Withholding Tax,59036879.26,High Court,Large Corporation,Valuation Dispute,811,55,Legal Counsel,5,60,1
+KRA-CASE-00620,Income Tax,18863272.47,Tax Appeals Tribunal,Multinational,Valuation Dispute,345,36,Tax Consultant,4,17,0
+KRA-CASE-00621,VAT,7221012.35,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1377,55,Tax Consultant,4,10,1
+KRA-CASE-00622,Income Tax,64242177.81,Tax Appeals Tribunal,SME,Valuation Dispute,1306,23,Legal Counsel,13,70,1
+KRA-CASE-00623,Excise Duty,38502236.05,Tax Appeals Tribunal,SME,Procedural Error,1213,63,Tax Consultant,7,91,1
+KRA-CASE-00624,PAYE,26961582.29,Court of Appeal,SME,Procedural Error,107,72,Legal Counsel,11,14,1
+KRA-CASE-00625,PAYE,48179214.22,High Court,Individual,Transfer Pricing Dispute,982,66,Self-Represented,2,31,1
+KRA-CASE-00626,Excise Duty,63084751.77,High Court,Large Corporation,Transfer Pricing Dispute,1285,6,Tax Consultant,0,60,1
+KRA-CASE-00627,Excise Duty,51290677.88,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,752,37,Legal Counsel,1,88,1
+KRA-CASE-00628,PAYE,74955056.67,High Court,SME,Procedural Error,1318,60,Legal Counsel,1,84,1
+KRA-CASE-00629,Customs Duty,80899133.18,High Court,SME,Incorrect Assessment,289,64,Self-Represented,8,32,1
+KRA-CASE-00630,Income Tax,61598986.13,Tax Appeals Tribunal,SME,Incorrect Assessment,1266,22,Tax Consultant,4,84,0
+KRA-CASE-00631,Excise Duty,37008194.66,Tax Appeals Tribunal,Large Corporation,Double Taxation,1023,23,Tax Consultant,1,43,0
+KRA-CASE-00632,VAT,96736196.09,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1571,52,Tax Consultant,7,84,0
+KRA-CASE-00633,Excise Duty,72613609.23,Tax Appeals Tribunal,SME,Exemption Claim,141,82,Legal Counsel,3,6,1
+KRA-CASE-00634,Income Tax,46428292.06,Tax Appeals Tribunal,SME,Double Taxation,807,87,Legal Counsel,15,33,1
+KRA-CASE-00635,Income Tax,53067691.15,Tax Appeals Tribunal,SME,Input Tax Credit,812,86,Legal Counsel,1,12,1
+KRA-CASE-00636,PAYE,63760543.92,Court of Appeal,SME,Transfer Pricing Dispute,716,34,Legal Counsel,3,32,1
+KRA-CASE-00637,Withholding Tax,58438474.54,Tax Appeals Tribunal,Large Corporation,Double Taxation,1533,86,Legal Counsel,6,66,1
+KRA-CASE-00638,Customs Duty,67787930.11,Court of Appeal,SME,Procedural Error,1407,1,Tax Consultant,0,52,1
+KRA-CASE-00639,VAT,52550163.18,High Court,SME,Transfer Pricing Dispute,545,24,Self-Represented,2,7,1
+KRA-CASE-00640,PAYE,65677721.58,High Court,Multinational,Incorrect Assessment,1480,15,Self-Represented,4,48,1
+KRA-CASE-00641,Withholding Tax,76397583.74,High Court,Large Corporation,Statute of Limitations,257,89,Self-Represented,9,59,1
+KRA-CASE-00642,Withholding Tax,93621396.89,High Court,Multinational,Transfer Pricing Dispute,1605,54,Legal Counsel,10,32,1
+KRA-CASE-00643,Income Tax,78084093.29,Tax Appeals Tribunal,Individual,Valuation Dispute,711,7,Legal Counsel,8,22,1
+KRA-CASE-00644,Excise Duty,6986378.21,Court of Appeal,Individual,Valuation Dispute,395,82,Legal Counsel,4,69,1
+KRA-CASE-00645,Excise Duty,21877730.49,High Court,Multinational,Transfer Pricing Dispute,241,4,Self-Represented,8,99,1
+KRA-CASE-00646,Excise Duty,1925541.07,Tax Appeals Tribunal,Large Corporation,Procedural Error,107,85,Legal Counsel,4,89,0
+KRA-CASE-00647,Customs Duty,90466523.47,Tax Appeals Tribunal,SME,Input Tax Credit,1009,55,Legal Counsel,2,69,1
+KRA-CASE-00648,Income Tax,380570.66,Court of Appeal,Large Corporation,Input Tax Credit,278,72,Legal Counsel,11,42,1
+KRA-CASE-00649,Withholding Tax,30317666.24,Tax Appeals Tribunal,Multinational,Incorrect Assessment,778,68,Tax Consultant,10,10,1
+KRA-CASE-00650,Excise Duty,76057285.43,Tax Appeals Tribunal,Individual,Procedural Error,816,84,Self-Represented,12,13,1
+KRA-CASE-00651,Withholding Tax,68899816.11,Tax Appeals Tribunal,Multinational,Input Tax Credit,1535,24,Self-Represented,6,3,1
+KRA-CASE-00652,Withholding Tax,99638536.79,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1053,68,Tax Consultant,14,2,1
+KRA-CASE-00653,VAT,33961546.33,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,272,27,Tax Consultant,14,86,0
+KRA-CASE-00654,PAYE,14937915.28,Tax Appeals Tribunal,Multinational,Procedural Error,1536,18,Legal Counsel,0,60,1
+KRA-CASE-00655,PAYE,4627879.27,High Court,Individual,Statute of Limitations,1325,6,Tax Consultant,3,58,0
+KRA-CASE-00656,PAYE,17110404.32,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,263,63,Legal Counsel,7,8,1
+KRA-CASE-00657,Income Tax,42649835.82,High Court,Multinational,Valuation Dispute,694,15,Tax Consultant,4,41,1
+KRA-CASE-00658,Income Tax,76434576.84,Tax Appeals Tribunal,SME,Incorrect Assessment,590,18,Tax Consultant,5,89,0
+KRA-CASE-00659,Customs Duty,55363102.6,Tax Appeals Tribunal,Multinational,Procedural Error,303,12,Tax Consultant,12,99,1
+KRA-CASE-00660,Income Tax,1612251.11,Tax Appeals Tribunal,Individual,Statute of Limitations,212,90,Legal Counsel,9,53,1
+KRA-CASE-00661,Withholding Tax,80750809.73,High Court,Large Corporation,Double Taxation,323,81,Legal Counsel,14,52,1
+KRA-CASE-00662,Income Tax,93812056.56,High Court,Individual,Statute of Limitations,1498,63,Legal Counsel,2,80,0
+KRA-CASE-00663,Customs Duty,34817964.01,Tax Appeals Tribunal,Individual,Incorrect Assessment,1115,12,Legal Counsel,7,59,1
+KRA-CASE-00664,Withholding Tax,65949749.48,Tax Appeals Tribunal,Individual,Statute of Limitations,1433,60,Legal Counsel,5,85,1
+KRA-CASE-00665,VAT,5450060.05,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,714,78,Tax Consultant,14,5,1
+KRA-CASE-00666,VAT,74054667.64,Court of Appeal,Individual,Procedural Error,1023,65,Self-Represented,7,92,1
+KRA-CASE-00667,Excise Duty,59291030.89,Tax Appeals Tribunal,Individual,Exemption Claim,501,99,Self-Represented,7,12,0
+KRA-CASE-00668,Income Tax,73787899.21,High Court,SME,Double Taxation,180,60,Legal Counsel,1,55,1
+KRA-CASE-00669,Income Tax,21655707.95,High Court,Individual,Exemption Claim,309,58,Legal Counsel,11,34,1
+KRA-CASE-00670,Income Tax,33622339.15,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,309,14,Tax Consultant,14,53,1
+KRA-CASE-00671,Income Tax,76045941.32,Tax Appeals Tribunal,SME,Statute of Limitations,1646,81,Tax Consultant,5,73,1
+KRA-CASE-00672,PAYE,85507651.97,Tax Appeals Tribunal,Multinational,Input Tax Credit,1795,27,Legal Counsel,14,35,1
+KRA-CASE-00673,VAT,73015274.58,High Court,Individual,Exemption Claim,919,74,Legal Counsel,4,73,1
+KRA-CASE-00674,VAT,41806296.74,Tax Appeals Tribunal,Multinational,Procedural Error,901,67,Legal Counsel,3,57,1
+KRA-CASE-00675,Excise Duty,24089123.68,Tax Appeals Tribunal,Individual,Valuation Dispute,476,16,Legal Counsel,7,82,0
+KRA-CASE-00676,VAT,1642219.94,High Court,Individual,Input Tax Credit,1787,73,Legal Counsel,0,58,0
+KRA-CASE-00677,Excise Duty,77194909.03,High Court,SME,Exemption Claim,1313,59,Legal Counsel,0,80,1
+KRA-CASE-00678,VAT,38518682.83,High Court,SME,Transfer Pricing Dispute,902,96,Legal Counsel,6,100,1
+KRA-CASE-00679,Withholding Tax,8141856.2,High Court,Large Corporation,Procedural Error,1084,86,Legal Counsel,1,14,0
+KRA-CASE-00680,Excise Duty,36590806.35,High Court,SME,Statute of Limitations,1357,71,Legal Counsel,6,17,1
+KRA-CASE-00681,Customs Duty,23901338.9,Tax Appeals Tribunal,SME,Double Taxation,1572,95,Tax Consultant,10,45,1
+KRA-CASE-00682,Customs Duty,50381418.92,Tax Appeals Tribunal,Individual,Exemption Claim,737,57,Legal Counsel,3,60,1
+KRA-CASE-00683,Withholding Tax,53213852.67,High Court,Multinational,Input Tax Credit,1301,47,Tax Consultant,2,24,1
+KRA-CASE-00684,Excise Duty,8776509.58,Tax Appeals Tribunal,Individual,Incorrect Assessment,253,21,Legal Counsel,4,63,1
+KRA-CASE-00685,Income Tax,87505564.3,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,883,87,Legal Counsel,4,60,1
+KRA-CASE-00686,Customs Duty,42041990.8,High Court,Individual,Double Taxation,158,2,Tax Consultant,7,66,0
+KRA-CASE-00687,Withholding Tax,33620943.07,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1025,75,Legal Counsel,14,58,1
+KRA-CASE-00688,Customs Duty,56746803.51,High Court,SME,Transfer Pricing Dispute,494,61,Legal Counsel,9,98,1
+KRA-CASE-00689,VAT,14876416.62,Tax Appeals Tribunal,Multinational,Statute of Limitations,1487,68,Legal Counsel,5,90,0
+KRA-CASE-00690,Withholding Tax,90475879.16,High Court,Individual,Incorrect Assessment,114,40,Legal Counsel,14,33,1
+KRA-CASE-00691,Customs Duty,18490433.48,Tax Appeals Tribunal,Individual,Exemption Claim,734,18,Legal Counsel,5,68,0
+KRA-CASE-00692,Customs Duty,12192927.84,Tax Appeals Tribunal,Multinational,Statute of Limitations,968,40,Self-Represented,10,82,0
+KRA-CASE-00693,Withholding Tax,29590909.07,High Court,Multinational,Statute of Limitations,1667,72,Legal Counsel,14,43,1
+KRA-CASE-00694,Withholding Tax,11275946.51,Tax Appeals Tribunal,Individual,Incorrect Assessment,660,3,Legal Counsel,7,57,1
+KRA-CASE-00695,Customs Duty,9293489.07,Tax Appeals Tribunal,Large Corporation,Double Taxation,1630,98,Legal Counsel,0,10,1
+KRA-CASE-00696,PAYE,84952666.31,High Court,Multinational,Valuation Dispute,428,62,Legal Counsel,1,85,1
+KRA-CASE-00697,Customs Duty,39785921.83,High Court,SME,Valuation Dispute,793,1,Legal Counsel,11,39,1
+KRA-CASE-00698,Excise Duty,87436458.49,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1548,53,Tax Consultant,9,20,1
+KRA-CASE-00699,Withholding Tax,97037549.29,Tax Appeals Tribunal,Multinational,Statute of Limitations,1741,75,Legal Counsel,4,26,1
+KRA-CASE-00700,Customs Duty,47487582.34,High Court,Multinational,Incorrect Assessment,1239,96,Legal Counsel,0,52,1
+KRA-CASE-00701,Withholding Tax,91445329.11,Tax Appeals Tribunal,SME,Statute of Limitations,438,23,Tax Consultant,9,70,1
+KRA-CASE-00702,Excise Duty,4271179.8,High Court,Large Corporation,Transfer Pricing Dispute,1041,71,Legal Counsel,7,3,1
+KRA-CASE-00703,VAT,15444695.77,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,284,83,Legal Counsel,9,53,1
+KRA-CASE-00704,Income Tax,49214056.0,High Court,Individual,Incorrect Assessment,1596,35,Legal Counsel,2,76,1
+KRA-CASE-00705,Withholding Tax,36207863.07,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1316,87,Legal Counsel,3,47,1
+KRA-CASE-00706,PAYE,73309079.19,Tax Appeals Tribunal,SME,Procedural Error,329,40,Legal Counsel,4,45,0
+KRA-CASE-00707,Income Tax,5336188.42,Tax Appeals Tribunal,Large Corporation,Exemption Claim,129,37,Legal Counsel,2,65,1
+KRA-CASE-00708,Income Tax,76655921.65,Tax Appeals Tribunal,Individual,Statute of Limitations,1143,41,Tax Consultant,9,34,0
+KRA-CASE-00709,Withholding Tax,69811852.83,Tax Appeals Tribunal,SME,Exemption Claim,1716,18,Self-Represented,9,47,0
+KRA-CASE-00710,Excise Duty,41228850.72,Court of Appeal,Individual,Double Taxation,346,64,Legal Counsel,6,71,1
+KRA-CASE-00711,PAYE,68980800.27,Court of Appeal,Large Corporation,Incorrect Assessment,884,58,Tax Consultant,3,16,1
+KRA-CASE-00712,VAT,47977847.08,Tax Appeals Tribunal,SME,Input Tax Credit,1253,66,Tax Consultant,10,22,1
+KRA-CASE-00713,Withholding Tax,30503191.71,High Court,Individual,Statute of Limitations,1784,88,Self-Represented,7,39,1
+KRA-CASE-00714,Income Tax,21023608.6,Court of Appeal,SME,Incorrect Assessment,189,2,Tax Consultant,13,5,1
+KRA-CASE-00715,Income Tax,10826347.32,High Court,SME,Procedural Error,990,15,Tax Consultant,1,8,1
+KRA-CASE-00716,Customs Duty,66775263.03,High Court,Large Corporation,Double Taxation,1233,25,Self-Represented,11,3,0
+KRA-CASE-00717,VAT,14598419.92,High Court,SME,Exemption Claim,751,20,Tax Consultant,7,64,0
+KRA-CASE-00718,PAYE,6880287.04,High Court,Large Corporation,Double Taxation,1495,24,Tax Consultant,5,96,1
+KRA-CASE-00719,PAYE,482676.42,High Court,Multinational,Input Tax Credit,780,89,Legal Counsel,14,86,1
+KRA-CASE-00720,VAT,18125811.34,Tax Appeals Tribunal,SME,Double Taxation,1083,29,Legal Counsel,10,15,1
+KRA-CASE-00721,Excise Duty,11076100.31,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1171,92,Self-Represented,10,63,0
+KRA-CASE-00722,VAT,38508872.63,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,492,70,Legal Counsel,13,24,1
+KRA-CASE-00723,VAT,89480726.97,High Court,Multinational,Exemption Claim,397,1,Tax Consultant,15,86,1
+KRA-CASE-00724,VAT,39667157.37,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,323,50,Legal Counsel,3,94,0
+KRA-CASE-00725,Income Tax,6517805.6,Court of Appeal,SME,Valuation Dispute,281,29,Tax Consultant,15,35,1
+KRA-CASE-00726,Withholding Tax,76608917.81,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,759,60,Legal Counsel,12,62,1
+KRA-CASE-00727,PAYE,27925118.79,High Court,Individual,Transfer Pricing Dispute,1032,63,Legal Counsel,4,3,1
+KRA-CASE-00728,VAT,73792945.67,High Court,SME,Procedural Error,396,48,Legal Counsel,10,19,1
+KRA-CASE-00729,Customs Duty,62215577.81,Tax Appeals Tribunal,Individual,Input Tax Credit,1653,59,Legal Counsel,15,62,1
+KRA-CASE-00730,PAYE,26203444.11,Tax Appeals Tribunal,Multinational,Procedural Error,1594,4,Tax Consultant,3,49,1
+KRA-CASE-00731,Excise Duty,31490191.82,Tax Appeals Tribunal,SME,Procedural Error,392,71,Legal Counsel,9,90,1
+KRA-CASE-00732,Income Tax,49173386.88,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1594,14,Legal Counsel,15,84,0
+KRA-CASE-00733,PAYE,68553148.0,Tax Appeals Tribunal,SME,Statute of Limitations,1067,7,Legal Counsel,15,75,0
+KRA-CASE-00734,Excise Duty,61713120.65,Tax Appeals Tribunal,Multinational,Exemption Claim,155,3,Legal Counsel,4,46,1
+KRA-CASE-00735,Customs Duty,80964865.08,Tax Appeals Tribunal,Large Corporation,Exemption Claim,809,12,Legal Counsel,11,52,1
+KRA-CASE-00736,Customs Duty,5692102.22,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1243,10,Tax Consultant,2,39,1
+KRA-CASE-00737,VAT,33792545.99,Tax Appeals Tribunal,SME,Input Tax Credit,1377,54,Legal Counsel,13,34,1
+KRA-CASE-00738,VAT,69611049.7,Tax Appeals Tribunal,Multinational,Valuation Dispute,1198,49,Legal Counsel,3,62,1
+KRA-CASE-00739,VAT,69101853.25,Tax Appeals Tribunal,SME,Exemption Claim,371,78,Legal Counsel,13,25,1
+KRA-CASE-00740,Excise Duty,63562647.83,Court of Appeal,Individual,Double Taxation,618,33,Self-Represented,12,28,1
+KRA-CASE-00741,PAYE,74301658.16,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1242,43,Legal Counsel,15,54,1
+KRA-CASE-00742,Income Tax,34764282.89,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,916,84,Legal Counsel,6,53,1
+KRA-CASE-00743,Excise Duty,25163916.05,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,68,80,Legal Counsel,5,73,0
+KRA-CASE-00744,Excise Duty,21334632.86,Court of Appeal,Large Corporation,Input Tax Credit,578,81,Legal Counsel,13,72,1
+KRA-CASE-00745,Withholding Tax,62694509.23,Tax Appeals Tribunal,SME,Statute of Limitations,522,19,Legal Counsel,9,55,1
+KRA-CASE-00746,Excise Duty,31899385.36,High Court,Individual,Double Taxation,1762,52,Legal Counsel,9,82,0
+KRA-CASE-00747,Income Tax,25681841.16,High Court,SME,Incorrect Assessment,337,24,Self-Represented,9,59,1
+KRA-CASE-00748,Excise Duty,56004509.8,Tax Appeals Tribunal,Large Corporation,Procedural Error,443,20,Legal Counsel,0,33,1
+KRA-CASE-00749,Customs Duty,65884137.73,Tax Appeals Tribunal,Multinational,Input Tax Credit,1632,2,Self-Represented,2,40,1
+KRA-CASE-00750,PAYE,29833018.55,Tax Appeals Tribunal,Multinational,Exemption Claim,1405,84,Tax Consultant,12,92,1
+KRA-CASE-00751,Income Tax,23642313.12,Tax Appeals Tribunal,SME,Incorrect Assessment,1098,85,Tax Consultant,8,63,1
+KRA-CASE-00752,VAT,23845781.68,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1734,74,Legal Counsel,7,54,1
+KRA-CASE-00753,Income Tax,14470576.97,Tax Appeals Tribunal,Multinational,Input Tax Credit,866,32,Tax Consultant,1,62,0
+KRA-CASE-00754,PAYE,37501763.21,Court of Appeal,SME,Valuation Dispute,1002,87,Legal Counsel,8,100,1
+KRA-CASE-00755,Income Tax,36331651.33,High Court,Large Corporation,Procedural Error,1351,77,Self-Represented,1,88,1
+KRA-CASE-00756,Withholding Tax,24005599.13,Tax Appeals Tribunal,SME,Exemption Claim,1693,87,Self-Represented,7,56,0
+KRA-CASE-00757,Excise Duty,836217.32,Court of Appeal,Multinational,Transfer Pricing Dispute,646,11,Tax Consultant,7,38,1
+KRA-CASE-00758,Income Tax,85948702.9,Tax Appeals Tribunal,SME,Exemption Claim,1693,98,Legal Counsel,1,35,1
+KRA-CASE-00759,VAT,82328618.15,Court of Appeal,SME,Valuation Dispute,1752,42,Legal Counsel,3,20,1
+KRA-CASE-00760,Withholding Tax,26133958.97,Tax Appeals Tribunal,SME,Exemption Claim,958,88,Self-Represented,1,82,1
+KRA-CASE-00761,Withholding Tax,18414775.24,Tax Appeals Tribunal,Large Corporation,Procedural Error,850,25,Legal Counsel,10,73,1
+KRA-CASE-00762,VAT,11127278.56,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1764,76,Legal Counsel,10,57,1
+KRA-CASE-00763,Excise Duty,87356909.08,Tax Appeals Tribunal,Individual,Exemption Claim,1667,36,Self-Represented,13,47,0
+KRA-CASE-00764,Income Tax,39379743.33,Tax Appeals Tribunal,Large Corporation,Double Taxation,72,2,Tax Consultant,7,11,0
+KRA-CASE-00765,Excise Duty,19866706.96,High Court,Individual,Valuation Dispute,1295,54,Legal Counsel,4,11,1
+KRA-CASE-00766,Customs Duty,17053782.24,Tax Appeals Tribunal,Individual,Valuation Dispute,1613,58,Tax Consultant,15,15,1
+KRA-CASE-00767,Income Tax,71370693.01,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,619,95,Legal Counsel,4,55,1
+KRA-CASE-00768,Income Tax,60028274.51,Court of Appeal,SME,Double Taxation,886,23,Legal Counsel,4,3,1
+KRA-CASE-00769,Customs Duty,97614009.88,Tax Appeals Tribunal,SME,Double Taxation,787,74,Legal Counsel,14,10,1
+KRA-CASE-00770,VAT,46914716.72,High Court,Multinational,Valuation Dispute,1436,27,Legal Counsel,13,94,1
+KRA-CASE-00771,PAYE,25659748.11,Tax Appeals Tribunal,Individual,Exemption Claim,510,60,Tax Consultant,1,0,0
+KRA-CASE-00772,Customs Duty,50478972.68,Tax Appeals Tribunal,Multinational,Exemption Claim,300,71,Self-Represented,5,33,1
+KRA-CASE-00773,Income Tax,50399484.85,Court of Appeal,Multinational,Statute of Limitations,213,40,Legal Counsel,13,18,1
+KRA-CASE-00774,Customs Duty,11728363.51,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1561,46,Tax Consultant,9,33,1
+KRA-CASE-00775,PAYE,82967438.43,Court of Appeal,SME,Valuation Dispute,367,40,Legal Counsel,15,97,1
+KRA-CASE-00776,Income Tax,55589687.09,Court of Appeal,Large Corporation,Input Tax Credit,138,24,Self-Represented,7,23,1
+KRA-CASE-00777,VAT,47051240.76,Tax Appeals Tribunal,SME,Incorrect Assessment,1043,5,Legal Counsel,15,58,1
+KRA-CASE-00778,Excise Duty,11293463.84,High Court,Individual,Exemption Claim,221,26,Tax Consultant,5,21,0
+KRA-CASE-00779,Withholding Tax,50898339.5,Tax Appeals Tribunal,Multinational,Double Taxation,1225,0,Legal Counsel,5,53,1
+KRA-CASE-00780,VAT,24653435.71,Tax Appeals Tribunal,Individual,Exemption Claim,83,36,Legal Counsel,3,50,1
+KRA-CASE-00781,Customs Duty,59054332.86,Court of Appeal,Large Corporation,Statute of Limitations,89,10,Legal Counsel,15,58,1
+KRA-CASE-00782,Withholding Tax,95522393.02,Tax Appeals Tribunal,Individual,Procedural Error,1373,79,Tax Consultant,10,93,1
+KRA-CASE-00783,Withholding Tax,90692492.76,High Court,Individual,Procedural Error,1671,82,Legal Counsel,1,95,1
+KRA-CASE-00784,VAT,54738264.37,High Court,Individual,Transfer Pricing Dispute,394,30,Tax Consultant,12,11,1
+KRA-CASE-00785,VAT,85241966.03,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1355,96,Tax Consultant,4,15,1
+KRA-CASE-00786,Customs Duty,49109967.51,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1432,77,Self-Represented,3,47,0
+KRA-CASE-00787,PAYE,20027132.5,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1183,76,Legal Counsel,13,47,1
+KRA-CASE-00788,PAYE,18676265.46,High Court,Individual,Exemption Claim,979,86,Legal Counsel,4,63,1
+KRA-CASE-00789,PAYE,62974480.15,Tax Appeals Tribunal,SME,Valuation Dispute,192,61,Legal Counsel,4,87,1
+KRA-CASE-00790,Customs Duty,84161718.53,Tax Appeals Tribunal,SME,Procedural Error,1158,9,Tax Consultant,3,65,0
+KRA-CASE-00791,Excise Duty,41331289.48,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,757,32,Legal Counsel,0,14,1
+KRA-CASE-00792,Withholding Tax,66174753.43,Tax Appeals Tribunal,Individual,Valuation Dispute,122,10,Legal Counsel,9,40,0
+KRA-CASE-00793,PAYE,72423263.75,High Court,SME,Transfer Pricing Dispute,729,23,Legal Counsel,2,95,1
+KRA-CASE-00794,PAYE,25968801.39,High Court,SME,Procedural Error,41,50,Self-Represented,5,83,1
+KRA-CASE-00795,Excise Duty,46043293.58,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,650,79,Tax Consultant,11,88,1
+KRA-CASE-00796,Withholding Tax,96316003.96,High Court,Large Corporation,Incorrect Assessment,286,17,Self-Represented,3,2,0
+KRA-CASE-00797,Withholding Tax,97053510.35,High Court,Individual,Statute of Limitations,1360,30,Legal Counsel,6,11,1
+KRA-CASE-00798,Customs Duty,76983628.58,Tax Appeals Tribunal,SME,Incorrect Assessment,370,19,Legal Counsel,14,62,1
+KRA-CASE-00799,Excise Duty,2011796.48,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1196,50,Self-Represented,0,13,1
+KRA-CASE-00800,Withholding Tax,84770571.53,Tax Appeals Tribunal,SME,Input Tax Credit,1539,74,Legal Counsel,9,4,1
+KRA-CASE-00801,Excise Duty,39998053.2,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,504,91,Self-Represented,0,54,1
+KRA-CASE-00802,PAYE,31619222.52,Tax Appeals Tribunal,Multinational,Valuation Dispute,999,14,Legal Counsel,11,57,1
+KRA-CASE-00803,Withholding Tax,43651188.9,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,734,56,Legal Counsel,7,75,1
+KRA-CASE-00804,Withholding Tax,33948342.21,High Court,Large Corporation,Input Tax Credit,298,37,Legal Counsel,12,53,1
+KRA-CASE-00805,Withholding Tax,65267393.78,Tax Appeals Tribunal,SME,Statute of Limitations,1303,26,Legal Counsel,2,85,1
+KRA-CASE-00806,Excise Duty,12953200.57,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1655,53,Tax Consultant,15,38,1
+KRA-CASE-00807,Income Tax,20982822.49,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,761,86,Self-Represented,1,8,0
+KRA-CASE-00808,Customs Duty,43090515.23,High Court,Individual,Double Taxation,1026,33,Tax Consultant,11,98,0
+KRA-CASE-00809,VAT,77020984.55,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1476,6,Tax Consultant,14,58,1
+KRA-CASE-00810,VAT,97467242.67,High Court,Large Corporation,Incorrect Assessment,1716,71,Self-Represented,3,21,1
+KRA-CASE-00811,Withholding Tax,11850032.14,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1480,56,Tax Consultant,15,93,0
+KRA-CASE-00812,VAT,15471858.46,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1767,25,Legal Counsel,13,98,0
+KRA-CASE-00813,VAT,24569340.66,High Court,SME,Statute of Limitations,204,34,Legal Counsel,13,46,1
+KRA-CASE-00814,Withholding Tax,66516275.73,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1642,29,Self-Represented,13,52,1
+KRA-CASE-00815,Excise Duty,89811622.49,Court of Appeal,SME,Exemption Claim,90,56,Self-Represented,0,91,1
+KRA-CASE-00816,PAYE,94367101.89,Tax Appeals Tribunal,SME,Statute of Limitations,918,7,Legal Counsel,1,84,1
+KRA-CASE-00817,Withholding Tax,15137662.4,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,888,51,Tax Consultant,9,92,1
+KRA-CASE-00818,Withholding Tax,31403838.87,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1464,51,Legal Counsel,6,69,1
+KRA-CASE-00819,PAYE,78844740.82,High Court,Large Corporation,Valuation Dispute,1618,25,Tax Consultant,2,4,1
+KRA-CASE-00820,PAYE,33482567.83,High Court,Large Corporation,Statute of Limitations,1095,69,Legal Counsel,2,65,1
+KRA-CASE-00821,PAYE,31259628.74,Tax Appeals Tribunal,Large Corporation,Procedural Error,87,69,Legal Counsel,7,99,1
+KRA-CASE-00822,Customs Duty,72664599.18,Court of Appeal,Individual,Procedural Error,1753,47,Legal Counsel,11,15,1
+KRA-CASE-00823,VAT,75668166.31,Court of Appeal,SME,Procedural Error,958,43,Tax Consultant,7,44,1
+KRA-CASE-00824,Customs Duty,28489322.72,High Court,Large Corporation,Statute of Limitations,1492,48,Legal Counsel,7,13,1
+KRA-CASE-00825,Customs Duty,51669359.92,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,230,18,Legal Counsel,13,10,1
+KRA-CASE-00826,VAT,6266257.57,High Court,SME,Input Tax Credit,189,47,Legal Counsel,12,75,0
+KRA-CASE-00827,PAYE,51918552.69,Tax Appeals Tribunal,SME,Input Tax Credit,1333,54,Tax Consultant,15,93,1
+KRA-CASE-00828,Excise Duty,82389992.44,Tax Appeals Tribunal,Individual,Input Tax Credit,294,90,Legal Counsel,3,88,1
+KRA-CASE-00829,Income Tax,45570465.76,Tax Appeals Tribunal,Individual,Exemption Claim,273,77,Tax Consultant,3,15,1
+KRA-CASE-00830,Customs Duty,57197887.2,Tax Appeals Tribunal,Individual,Exemption Claim,654,47,Legal Counsel,15,3,1
+KRA-CASE-00831,Income Tax,14256873.58,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,610,27,Self-Represented,15,0,0
+KRA-CASE-00832,VAT,54776353.1,Tax Appeals Tribunal,Individual,Input Tax Credit,1203,39,Legal Counsel,10,100,1
+KRA-CASE-00833,Excise Duty,47548993.47,High Court,Large Corporation,Statute of Limitations,1063,81,Legal Counsel,14,85,1
+KRA-CASE-00834,Excise Duty,14940809.96,High Court,Individual,Valuation Dispute,823,29,Tax Consultant,10,69,1
+KRA-CASE-00835,VAT,95810045.23,High Court,Large Corporation,Incorrect Assessment,1803,21,Legal Counsel,9,71,1
+KRA-CASE-00836,Withholding Tax,12421972.05,Tax Appeals Tribunal,Individual,Procedural Error,1197,66,Self-Represented,15,64,1
+KRA-CASE-00837,VAT,12072303.49,Court of Appeal,Individual,Procedural Error,593,100,Legal Counsel,14,10,1
+KRA-CASE-00838,PAYE,60705139.37,Tax Appeals Tribunal,Individual,Procedural Error,726,55,Self-Represented,0,67,0
+KRA-CASE-00839,Customs Duty,38231997.79,Tax Appeals Tribunal,Multinational,Statute of Limitations,614,18,Self-Represented,2,19,1
+KRA-CASE-00840,Customs Duty,95218864.51,High Court,Individual,Exemption Claim,401,3,Legal Counsel,9,49,1
+KRA-CASE-00841,VAT,32038144.31,Tax Appeals Tribunal,SME,Valuation Dispute,1725,15,Self-Represented,7,96,0
+KRA-CASE-00842,PAYE,58623606.23,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,265,34,Self-Represented,14,70,1
+KRA-CASE-00843,Excise Duty,6592548.28,Tax Appeals Tribunal,Large Corporation,Procedural Error,581,70,Tax Consultant,3,31,1
+KRA-CASE-00844,PAYE,65172513.43,Tax Appeals Tribunal,SME,Input Tax Credit,201,81,Legal Counsel,4,47,0
+KRA-CASE-00845,PAYE,98531606.11,High Court,SME,Valuation Dispute,1166,57,Self-Represented,14,79,1
+KRA-CASE-00846,Customs Duty,65323231.96,Tax Appeals Tribunal,Individual,Input Tax Credit,589,76,Legal Counsel,12,44,1
+KRA-CASE-00847,Withholding Tax,21314775.77,High Court,SME,Statute of Limitations,1543,68,Legal Counsel,9,11,1
+KRA-CASE-00848,Excise Duty,69858009.51,High Court,Large Corporation,Transfer Pricing Dispute,914,26,Legal Counsel,10,87,0
+KRA-CASE-00849,Customs Duty,63535229.56,Court of Appeal,Large Corporation,Transfer Pricing Dispute,533,84,Tax Consultant,10,26,1
+KRA-CASE-00850,Excise Duty,95901318.31,Tax Appeals Tribunal,Multinational,Statute of Limitations,1353,0,Legal Counsel,0,1,1
+KRA-CASE-00851,Withholding Tax,17394925.26,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1591,50,Legal Counsel,2,68,1
+KRA-CASE-00852,VAT,89262590.7,High Court,SME,Incorrect Assessment,752,48,Tax Consultant,11,49,1
+KRA-CASE-00853,Income Tax,83922621.99,High Court,Multinational,Incorrect Assessment,977,47,Tax Consultant,14,1,1
+KRA-CASE-00854,Income Tax,74327287.3,High Court,Large Corporation,Exemption Claim,422,11,Tax Consultant,9,91,1
+KRA-CASE-00855,Income Tax,23464081.48,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1039,90,Legal Counsel,6,0,1
+KRA-CASE-00856,Income Tax,98427140.62,High Court,Individual,Transfer Pricing Dispute,1195,64,Legal Counsel,6,84,1
+KRA-CASE-00857,Withholding Tax,56592419.43,High Court,SME,Incorrect Assessment,1234,16,Legal Counsel,4,33,1
+KRA-CASE-00858,PAYE,85555121.95,High Court,Large Corporation,Transfer Pricing Dispute,422,86,Self-Represented,8,87,1
+KRA-CASE-00859,PAYE,88316038.51,Tax Appeals Tribunal,SME,Procedural Error,1778,41,Legal Counsel,13,35,1
+KRA-CASE-00860,VAT,68033338.87,Tax Appeals Tribunal,SME,Procedural Error,1507,28,Self-Represented,13,68,1
+KRA-CASE-00861,Excise Duty,31658384.38,Tax Appeals Tribunal,SME,Procedural Error,1540,28,Tax Consultant,13,9,1
+KRA-CASE-00862,Income Tax,19727837.93,Tax Appeals Tribunal,Individual,Incorrect Assessment,87,61,Legal Counsel,0,75,0
+KRA-CASE-00863,Withholding Tax,93509327.12,High Court,Individual,Input Tax Credit,518,43,Tax Consultant,10,66,1
+KRA-CASE-00864,Income Tax,94357580.34,High Court,Large Corporation,Incorrect Assessment,1310,57,Legal Counsel,2,7,1
+KRA-CASE-00865,VAT,37770643.55,High Court,Large Corporation,Statute of Limitations,156,56,Self-Represented,13,8,1
+KRA-CASE-00866,VAT,67772567.52,Tax Appeals Tribunal,SME,Valuation Dispute,852,12,Legal Counsel,13,29,1
+KRA-CASE-00867,PAYE,78758107.11,High Court,SME,Input Tax Credit,1658,54,Tax Consultant,3,43,1
+KRA-CASE-00868,Withholding Tax,93761605.98,High Court,SME,Exemption Claim,1233,24,Self-Represented,0,76,0
+KRA-CASE-00869,Withholding Tax,6801069.99,High Court,Individual,Statute of Limitations,1335,65,Legal Counsel,13,61,1
+KRA-CASE-00870,Withholding Tax,62104046.13,Tax Appeals Tribunal,Individual,Procedural Error,153,16,Legal Counsel,13,65,0
+KRA-CASE-00871,Withholding Tax,75449644.82,Tax Appeals Tribunal,Multinational,Statute of Limitations,331,60,Legal Counsel,10,37,1
+KRA-CASE-00872,Customs Duty,97028592.29,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,147,30,Legal Counsel,1,54,1
+KRA-CASE-00873,Customs Duty,19580942.61,Tax Appeals Tribunal,Multinational,Incorrect Assessment,729,24,Legal Counsel,14,76,0
+KRA-CASE-00874,Withholding Tax,33147986.18,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,887,42,Self-Represented,14,5,1
+KRA-CASE-00875,Excise Duty,21979617.85,Tax Appeals Tribunal,Individual,Double Taxation,985,79,Legal Counsel,15,94,1
+KRA-CASE-00876,Customs Duty,80736767.16,Tax Appeals Tribunal,SME,Procedural Error,773,1,Self-Represented,0,71,0
+KRA-CASE-00877,VAT,14283077.21,Tax Appeals Tribunal,Large Corporation,Exemption Claim,119,3,Self-Represented,9,22,0
+KRA-CASE-00878,Income Tax,88543953.84,High Court,SME,Double Taxation,395,25,Self-Represented,8,12,0
+KRA-CASE-00879,VAT,83153001.34,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,723,26,Legal Counsel,7,47,1
+KRA-CASE-00880,Customs Duty,66107826.09,Court of Appeal,Multinational,Valuation Dispute,1486,8,Self-Represented,4,24,1
+KRA-CASE-00881,Income Tax,53278843.39,High Court,SME,Valuation Dispute,1332,31,Tax Consultant,6,68,1
+KRA-CASE-00882,Customs Duty,78969299.55,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1817,16,Tax Consultant,15,26,0
+KRA-CASE-00883,Withholding Tax,8186699.8,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,372,65,Legal Counsel,11,63,1
+KRA-CASE-00884,PAYE,46453514.39,Tax Appeals Tribunal,SME,Input Tax Credit,1495,63,Legal Counsel,12,81,1
+KRA-CASE-00885,PAYE,64991239.29,Tax Appeals Tribunal,Multinational,Input Tax Credit,1797,30,Legal Counsel,9,54,1
+KRA-CASE-00886,Excise Duty,57158470.16,Court of Appeal,SME,Incorrect Assessment,305,96,Self-Represented,14,66,1
+KRA-CASE-00887,Customs Duty,23056248.94,Tax Appeals Tribunal,SME,Exemption Claim,902,57,Legal Counsel,13,47,1
+KRA-CASE-00888,Excise Duty,31736191.55,Tax Appeals Tribunal,Individual,Double Taxation,573,82,Self-Represented,2,37,0
+KRA-CASE-00889,PAYE,51303459.4,High Court,Large Corporation,Double Taxation,231,15,Self-Represented,1,69,0
+KRA-CASE-00890,Income Tax,33409096.26,High Court,SME,Transfer Pricing Dispute,420,90,Legal Counsel,4,96,1
+KRA-CASE-00891,Withholding Tax,73995109.54,Court of Appeal,Individual,Transfer Pricing Dispute,607,44,Tax Consultant,12,51,1
+KRA-CASE-00892,PAYE,75792717.2,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1802,50,Legal Counsel,6,60,1
+KRA-CASE-00893,Income Tax,51606743.78,High Court,Large Corporation,Input Tax Credit,727,10,Legal Counsel,6,54,1
+KRA-CASE-00894,Withholding Tax,41797902.07,Tax Appeals Tribunal,Multinational,Procedural Error,797,17,Legal Counsel,4,39,1
+KRA-CASE-00895,Withholding Tax,1017631.35,High Court,Large Corporation,Exemption Claim,491,53,Legal Counsel,12,97,0
+KRA-CASE-00896,Withholding Tax,53783520.44,Tax Appeals Tribunal,Individual,Procedural Error,314,19,Tax Consultant,10,72,0
+KRA-CASE-00897,Withholding Tax,79924620.47,Court of Appeal,SME,Valuation Dispute,810,26,Tax Consultant,2,68,1
+KRA-CASE-00898,Excise Duty,18874450.88,Tax Appeals Tribunal,SME,Input Tax Credit,1338,38,Self-Represented,3,86,1
+KRA-CASE-00899,PAYE,17804727.66,High Court,Large Corporation,Procedural Error,412,25,Self-Represented,12,36,1
+KRA-CASE-00900,Income Tax,23342290.63,High Court,Individual,Procedural Error,784,66,Self-Represented,10,52,1
+KRA-CASE-00901,Excise Duty,15745693.73,Tax Appeals Tribunal,SME,Input Tax Credit,1551,8,Legal Counsel,6,16,1
+KRA-CASE-00902,Income Tax,31010229.77,High Court,Large Corporation,Statute of Limitations,1266,73,Tax Consultant,6,64,1
+KRA-CASE-00903,Withholding Tax,68499351.12,Tax Appeals Tribunal,Individual,Statute of Limitations,942,8,Tax Consultant,7,67,1
+KRA-CASE-00904,Customs Duty,91034738.77,High Court,SME,Procedural Error,1539,11,Legal Counsel,14,44,1
+KRA-CASE-00905,Withholding Tax,84271815.42,High Court,SME,Statute of Limitations,880,31,Self-Represented,13,58,1
+KRA-CASE-00906,Excise Duty,91087767.89,Tax Appeals Tribunal,SME,Valuation Dispute,1460,5,Legal Counsel,5,35,0
+KRA-CASE-00907,Withholding Tax,53796867.43,High Court,Individual,Double Taxation,1040,52,Tax Consultant,3,47,0
+KRA-CASE-00908,VAT,75551916.77,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,953,21,Legal Counsel,1,59,1
+KRA-CASE-00909,VAT,7365889.43,High Court,Large Corporation,Valuation Dispute,733,95,Legal Counsel,6,50,1
+KRA-CASE-00910,VAT,1123199.27,Tax Appeals Tribunal,Multinational,Exemption Claim,1402,95,Legal Counsel,14,8,1
+KRA-CASE-00911,VAT,54865432.61,Tax Appeals Tribunal,Multinational,Statute of Limitations,994,35,Tax Consultant,5,2,1
+KRA-CASE-00912,PAYE,10096486.35,Tax Appeals Tribunal,SME,Valuation Dispute,374,9,Legal Counsel,0,86,0
+KRA-CASE-00913,Customs Duty,15391972.91,Tax Appeals Tribunal,Individual,Procedural Error,1412,68,Legal Counsel,1,81,1
+KRA-CASE-00914,PAYE,64119168.32,High Court,Multinational,Valuation Dispute,1443,39,Legal Counsel,0,6,1
+KRA-CASE-00915,Excise Duty,76723068.13,Court of Appeal,SME,Double Taxation,439,11,Self-Represented,0,1,1
+KRA-CASE-00916,Customs Duty,82061628.59,High Court,Individual,Incorrect Assessment,1662,85,Self-Represented,5,5,1
+KRA-CASE-00917,Excise Duty,51274385.06,High Court,SME,Double Taxation,1309,26,Tax Consultant,12,54,1
+KRA-CASE-00918,VAT,23279193.37,Tax Appeals Tribunal,SME,Procedural Error,853,83,Legal Counsel,12,27,1
+KRA-CASE-00919,Excise Duty,22048614.56,High Court,SME,Exemption Claim,119,8,Tax Consultant,13,38,1
+KRA-CASE-00920,PAYE,49982623.66,Court of Appeal,Large Corporation,Statute of Limitations,545,12,Legal Counsel,12,86,1
+KRA-CASE-00921,Withholding Tax,13336497.04,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1773,85,Legal Counsel,10,2,1
+KRA-CASE-00922,PAYE,91214720.34,Tax Appeals Tribunal,SME,Double Taxation,1061,75,Legal Counsel,0,29,1
+KRA-CASE-00923,VAT,61654050.03,High Court,SME,Valuation Dispute,1580,31,Legal Counsel,1,17,1
+KRA-CASE-00924,Customs Duty,49897711.87,Tax Appeals Tribunal,SME,Procedural Error,517,92,Legal Counsel,14,94,1
+KRA-CASE-00925,Customs Duty,13469987.84,Tax Appeals Tribunal,Large Corporation,Procedural Error,1096,53,Legal Counsel,9,96,1
+KRA-CASE-00926,VAT,22939551.7,High Court,SME,Double Taxation,1134,6,Tax Consultant,7,87,1
+KRA-CASE-00927,Withholding Tax,71964246.86,High Court,SME,Exemption Claim,405,56,Legal Counsel,2,62,1
+KRA-CASE-00928,VAT,95368435.93,Tax Appeals Tribunal,Multinational,Double Taxation,287,11,Self-Represented,6,30,1
+KRA-CASE-00929,PAYE,7862543.13,High Court,SME,Double Taxation,531,54,Self-Represented,7,38,1
+KRA-CASE-00930,Customs Duty,57663361.95,Court of Appeal,Individual,Input Tax Credit,193,46,Legal Counsel,5,60,1
+KRA-CASE-00931,Excise Duty,42298590.87,High Court,SME,Statute of Limitations,1708,61,Self-Represented,12,54,1
+KRA-CASE-00932,VAT,75897889.32,Court of Appeal,SME,Statute of Limitations,1162,93,Self-Represented,12,59,1
+KRA-CASE-00933,Customs Duty,45387630.43,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,712,17,Legal Counsel,6,19,0
+KRA-CASE-00934,Income Tax,467846.04,High Court,Large Corporation,Exemption Claim,1036,51,Tax Consultant,12,95,1
+KRA-CASE-00935,Customs Duty,38434540.51,Tax Appeals Tribunal,Multinational,Incorrect Assessment,867,4,Tax Consultant,3,49,1
+KRA-CASE-00936,PAYE,16278120.21,High Court,Multinational,Exemption Claim,1073,90,Legal Counsel,11,89,1
+KRA-CASE-00937,VAT,65108088.15,Court of Appeal,Large Corporation,Double Taxation,1008,4,Tax Consultant,11,80,1
+KRA-CASE-00938,Withholding Tax,67658738.6,High Court,Large Corporation,Transfer Pricing Dispute,1269,58,Tax Consultant,4,32,1
+KRA-CASE-00939,Income Tax,60234825.23,Court of Appeal,Large Corporation,Procedural Error,269,98,Self-Represented,12,50,1
+KRA-CASE-00940,Withholding Tax,58636734.84,Court of Appeal,SME,Double Taxation,1824,54,Self-Represented,13,32,1
+KRA-CASE-00941,Withholding Tax,30256845.62,Court of Appeal,Large Corporation,Valuation Dispute,1230,39,Legal Counsel,2,13,1
+KRA-CASE-00942,Withholding Tax,57282538.95,High Court,Large Corporation,Transfer Pricing Dispute,1563,26,Tax Consultant,12,89,1
+KRA-CASE-00943,Customs Duty,691709.66,Tax Appeals Tribunal,SME,Incorrect Assessment,173,99,Legal Counsel,13,83,0
+KRA-CASE-00944,Customs Duty,73317571.48,Tax Appeals Tribunal,SME,Statute of Limitations,435,62,Self-Represented,3,57,1
+KRA-CASE-00945,PAYE,81446326.97,Tax Appeals Tribunal,Individual,Statute of Limitations,1687,97,Self-Represented,13,56,1
+KRA-CASE-00946,Withholding Tax,91301491.87,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,630,10,Legal Counsel,8,8,1
+KRA-CASE-00947,Customs Duty,3015181.84,Tax Appeals Tribunal,SME,Incorrect Assessment,49,7,Legal Counsel,0,85,0
+KRA-CASE-00948,PAYE,78931256.42,Tax Appeals Tribunal,Individual,Procedural Error,799,77,Legal Counsel,8,62,1
+KRA-CASE-00949,Excise Duty,75703318.21,High Court,SME,Exemption Claim,675,30,Tax Consultant,12,48,0
+KRA-CASE-00950,PAYE,5771292.32,Tax Appeals Tribunal,SME,Incorrect Assessment,36,58,Tax Consultant,12,92,0
+KRA-CASE-00951,Income Tax,2616758.71,Tax Appeals Tribunal,SME,Double Taxation,784,57,Legal Counsel,15,65,1
+KRA-CASE-00952,Excise Duty,66039829.61,Tax Appeals Tribunal,Large Corporation,Exemption Claim,64,81,Legal Counsel,1,94,0
+KRA-CASE-00953,Customs Duty,67809045.49,Tax Appeals Tribunal,SME,Incorrect Assessment,743,54,Tax Consultant,15,84,1
+KRA-CASE-00954,Withholding Tax,90525016.07,High Court,SME,Double Taxation,1488,18,Tax Consultant,1,16,0
+KRA-CASE-00955,Excise Duty,79692235.0,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,374,57,Tax Consultant,15,84,1
+KRA-CASE-00956,PAYE,24128116.28,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,246,55,Tax Consultant,0,20,1
+KRA-CASE-00957,Customs Duty,90269719.46,High Court,Individual,Transfer Pricing Dispute,1393,60,Tax Consultant,3,85,1
+KRA-CASE-00958,Income Tax,92277481.87,High Court,SME,Exemption Claim,1815,28,Tax Consultant,2,82,0
+KRA-CASE-00959,Customs Duty,37732181.73,High Court,Large Corporation,Valuation Dispute,1369,82,Tax Consultant,13,29,1
+KRA-CASE-00960,Income Tax,25946440.16,Tax Appeals Tribunal,Individual,Exemption Claim,1546,75,Tax Consultant,3,73,1
+KRA-CASE-00961,Customs Duty,12785375.77,Tax Appeals Tribunal,SME,Procedural Error,666,7,Legal Counsel,6,49,1
+KRA-CASE-00962,Excise Duty,31998316.76,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1094,84,Legal Counsel,7,13,1
+KRA-CASE-00963,Excise Duty,968392.77,High Court,SME,Transfer Pricing Dispute,1744,28,Legal Counsel,14,18,1
+KRA-CASE-00964,PAYE,28375112.89,High Court,Large Corporation,Procedural Error,1256,40,Legal Counsel,3,35,1
+KRA-CASE-00965,Withholding Tax,57418496.71,High Court,Individual,Transfer Pricing Dispute,1472,48,Self-Represented,10,19,1
+KRA-CASE-00966,Withholding Tax,21100777.91,High Court,Large Corporation,Procedural Error,1802,99,Self-Represented,15,93,1
+KRA-CASE-00967,Excise Duty,29945222.64,High Court,Multinational,Statute of Limitations,74,70,Legal Counsel,13,86,1
+KRA-CASE-00968,Excise Duty,99031914.28,High Court,SME,Transfer Pricing Dispute,608,89,Tax Consultant,12,12,1
+KRA-CASE-00969,Income Tax,32375687.63,High Court,Multinational,Procedural Error,1770,90,Legal Counsel,5,73,1
+KRA-CASE-00970,Income Tax,44216279.87,Tax Appeals Tribunal,Multinational,Double Taxation,476,95,Self-Represented,0,46,1
+KRA-CASE-00971,Withholding Tax,85621322.52,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,801,54,Legal Counsel,5,7,1
+KRA-CASE-00972,VAT,35590606.19,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1085,83,Legal Counsel,13,19,1
+KRA-CASE-00973,Withholding Tax,72268914.23,Tax Appeals Tribunal,Individual,Valuation Dispute,1030,38,Legal Counsel,5,83,0
+KRA-CASE-00974,Withholding Tax,37568395.49,High Court,Large Corporation,Incorrect Assessment,1622,59,Tax Consultant,12,35,1
+KRA-CASE-00975,Withholding Tax,65336887.62,Tax Appeals Tribunal,Individual,Incorrect Assessment,279,62,Legal Counsel,7,2,1
+KRA-CASE-00976,PAYE,57319541.79,Tax Appeals Tribunal,SME,Incorrect Assessment,1656,75,Self-Represented,15,82,1
+KRA-CASE-00977,Withholding Tax,43393965.04,Tax Appeals Tribunal,Individual,Incorrect Assessment,1491,68,Self-Represented,0,50,1
+KRA-CASE-00978,PAYE,81755411.18,High Court,SME,Incorrect Assessment,1092,74,Legal Counsel,3,96,1
+KRA-CASE-00979,Income Tax,96569820.32,High Court,Individual,Statute of Limitations,40,71,Legal Counsel,10,15,1
+KRA-CASE-00980,VAT,12925158.25,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1773,96,Self-Represented,3,64,0
+KRA-CASE-00981,Customs Duty,36387786.09,Tax Appeals Tribunal,SME,Procedural Error,538,38,Self-Represented,9,84,0
+KRA-CASE-00982,PAYE,44519782.74,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1271,68,Legal Counsel,3,84,0
+KRA-CASE-00983,VAT,23748180.54,Tax Appeals Tribunal,SME,Double Taxation,304,77,Legal Counsel,11,35,1
+KRA-CASE-00984,Income Tax,72923985.21,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,811,83,Tax Consultant,12,58,1
+KRA-CASE-00985,VAT,94476811.33,High Court,Multinational,Statute of Limitations,1127,26,Self-Represented,8,81,0
+KRA-CASE-00986,Withholding Tax,64574844.02,High Court,SME,Statute of Limitations,889,19,Legal Counsel,13,48,1
+KRA-CASE-00987,VAT,96403569.23,Tax Appeals Tribunal,SME,Incorrect Assessment,1430,70,Legal Counsel,10,81,1
+KRA-CASE-00988,VAT,36313807.49,Tax Appeals Tribunal,SME,Double Taxation,590,1,Self-Represented,7,48,0
+KRA-CASE-00989,VAT,78284225.18,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1235,62,Self-Represented,11,89,1
+KRA-CASE-00990,PAYE,86546565.03,Tax Appeals Tribunal,Large Corporation,Procedural Error,379,40,Tax Consultant,12,23,1
+KRA-CASE-00991,Customs Duty,80618195.35,High Court,Large Corporation,Valuation Dispute,1006,75,Self-Represented,0,87,1
+KRA-CASE-00992,PAYE,71336605.0,High Court,Individual,Transfer Pricing Dispute,138,92,Legal Counsel,11,90,1
+KRA-CASE-00993,Income Tax,67837611.75,Tax Appeals Tribunal,SME,Input Tax Credit,754,59,Legal Counsel,8,54,1
+KRA-CASE-00994,PAYE,94170617.09,High Court,Large Corporation,Transfer Pricing Dispute,1331,11,Tax Consultant,13,98,1
+KRA-CASE-00995,Customs Duty,84532298.51,High Court,Individual,Double Taxation,221,21,Legal Counsel,2,95,0
+KRA-CASE-00996,Customs Duty,55438269.5,Tax Appeals Tribunal,Multinational,Valuation Dispute,1416,65,Tax Consultant,4,61,1
+KRA-CASE-00997,Excise Duty,51525398.13,Court of Appeal,Multinational,Incorrect Assessment,860,1,Legal Counsel,0,91,1
+KRA-CASE-00998,Excise Duty,70274041.79,High Court,Individual,Procedural Error,1273,57,Tax Consultant,7,22,1
+KRA-CASE-00999,VAT,36736741.16,Tax Appeals Tribunal,SME,Procedural Error,895,63,Legal Counsel,11,14,0
+KRA-CASE-01000,Customs Duty,91408815.24,Tax Appeals Tribunal,SME,Incorrect Assessment,624,38,Legal Counsel,8,27,1
+KRA-CASE-01001,VAT,73815670.93,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1346,65,Tax Consultant,1,59,1
+KRA-CASE-01002,PAYE,84842760.43,Tax Appeals Tribunal,Individual,Input Tax Credit,702,38,Legal Counsel,0,44,1
+KRA-CASE-01003,Withholding Tax,18656462.75,Tax Appeals Tribunal,Individual,Input Tax Credit,434,10,Legal Counsel,4,52,1
+KRA-CASE-01004,VAT,91315255.79,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,493,60,Legal Counsel,9,46,1
+KRA-CASE-01005,Excise Duty,89224728.91,Tax Appeals Tribunal,SME,Input Tax Credit,1374,56,Self-Represented,11,95,1
+KRA-CASE-01006,Excise Duty,630731.36,High Court,Large Corporation,Incorrect Assessment,418,36,Self-Represented,12,53,1
+KRA-CASE-01007,Withholding Tax,33154790.4,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1392,34,Self-Represented,15,70,0
+KRA-CASE-01008,Excise Duty,79992017.54,High Court,SME,Valuation Dispute,1057,92,Tax Consultant,12,16,1
+KRA-CASE-01009,VAT,95769975.52,High Court,Individual,Exemption Claim,1054,1,Tax Consultant,7,6,1
+KRA-CASE-01010,Withholding Tax,82992084.23,Tax Appeals Tribunal,SME,Procedural Error,919,61,Legal Counsel,15,10,1
+KRA-CASE-01011,Excise Duty,24812342.56,Tax Appeals Tribunal,SME,Double Taxation,605,98,Self-Represented,8,89,0
+KRA-CASE-01012,Income Tax,66649728.27,Tax Appeals Tribunal,SME,Incorrect Assessment,1465,93,Legal Counsel,5,24,0
+KRA-CASE-01013,PAYE,62909345.48,Tax Appeals Tribunal,Individual,Valuation Dispute,108,35,Tax Consultant,4,54,1
+KRA-CASE-01014,VAT,61665912.45,Tax Appeals Tribunal,Individual,Valuation Dispute,1105,39,Legal Counsel,7,28,1
+KRA-CASE-01015,Customs Duty,42636281.9,Tax Appeals Tribunal,SME,Procedural Error,653,14,Legal Counsel,8,44,1
+KRA-CASE-01016,Withholding Tax,41836516.28,Tax Appeals Tribunal,Individual,Procedural Error,31,6,Legal Counsel,10,27,0
+KRA-CASE-01017,Customs Duty,47232213.51,Court of Appeal,Individual,Statute of Limitations,546,62,Legal Counsel,9,14,1
+KRA-CASE-01018,VAT,66911306.66,High Court,Large Corporation,Statute of Limitations,708,46,Legal Counsel,11,95,1
+KRA-CASE-01019,PAYE,52909763.26,Tax Appeals Tribunal,Large Corporation,Double Taxation,1226,49,Self-Represented,3,16,0
+KRA-CASE-01020,Withholding Tax,74271614.3,Tax Appeals Tribunal,SME,Double Taxation,425,90,Legal Counsel,3,9,1
+KRA-CASE-01021,PAYE,61920086.39,Tax Appeals Tribunal,SME,Double Taxation,1122,92,Self-Represented,4,24,0
+KRA-CASE-01022,Excise Duty,55072043.42,Tax Appeals Tribunal,Multinational,Exemption Claim,779,57,Legal Counsel,3,55,1
+KRA-CASE-01023,VAT,48307920.8,Tax Appeals Tribunal,Multinational,Procedural Error,371,76,Legal Counsel,4,37,1
+KRA-CASE-01024,VAT,95582502.02,Tax Appeals Tribunal,Multinational,Double Taxation,1546,50,Legal Counsel,2,21,0
+KRA-CASE-01025,Excise Duty,75085242.75,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1273,34,Legal Counsel,0,20,0
+KRA-CASE-01026,PAYE,21819881.82,High Court,Multinational,Input Tax Credit,1061,90,Legal Counsel,8,38,1
+KRA-CASE-01027,Income Tax,29671550.5,Tax Appeals Tribunal,Individual,Double Taxation,123,68,Legal Counsel,1,81,1
+KRA-CASE-01028,Income Tax,94207497.77,Tax Appeals Tribunal,Individual,Procedural Error,1345,31,Tax Consultant,6,68,0
+KRA-CASE-01029,VAT,189926.15,Tax Appeals Tribunal,Large Corporation,Exemption Claim,694,10,Tax Consultant,8,92,0
+KRA-CASE-01030,Income Tax,40863871.08,High Court,SME,Procedural Error,1311,1,Tax Consultant,7,93,0
+KRA-CASE-01031,Customs Duty,17714687.15,Court of Appeal,SME,Incorrect Assessment,1509,95,Legal Counsel,8,80,1
+KRA-CASE-01032,Withholding Tax,60453951.9,Tax Appeals Tribunal,SME,Exemption Claim,580,26,Legal Counsel,12,19,1
+KRA-CASE-01033,Excise Duty,23210728.11,High Court,SME,Input Tax Credit,221,63,Self-Represented,5,22,0
+KRA-CASE-01034,Income Tax,56987315.61,Court of Appeal,Individual,Transfer Pricing Dispute,73,39,Self-Represented,5,50,1
+KRA-CASE-01035,Withholding Tax,60801816.58,Tax Appeals Tribunal,Individual,Double Taxation,961,82,Tax Consultant,3,92,1
+KRA-CASE-01036,PAYE,13772264.96,High Court,Individual,Incorrect Assessment,803,49,Self-Represented,0,97,0
+KRA-CASE-01037,Withholding Tax,93471039.64,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,322,80,Legal Counsel,0,13,1
+KRA-CASE-01038,PAYE,73626344.45,Tax Appeals Tribunal,Large Corporation,Double Taxation,315,61,Tax Consultant,14,20,0
+KRA-CASE-01039,Customs Duty,33209044.15,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1315,69,Self-Represented,1,13,1
+KRA-CASE-01040,PAYE,29709012.2,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,32,28,Self-Represented,13,49,0
+KRA-CASE-01041,Income Tax,35363325.69,Tax Appeals Tribunal,Multinational,Valuation Dispute,1436,91,Tax Consultant,3,62,1
+KRA-CASE-01042,Income Tax,99077266.94,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,761,9,Legal Counsel,3,46,1
+KRA-CASE-01043,VAT,89563869.77,High Court,Individual,Exemption Claim,1258,23,Legal Counsel,4,85,1
+KRA-CASE-01044,Withholding Tax,30191298.49,High Court,SME,Incorrect Assessment,585,63,Legal Counsel,8,91,1
+KRA-CASE-01045,VAT,78896169.83,High Court,Multinational,Statute of Limitations,685,18,Legal Counsel,15,8,1
+KRA-CASE-01046,VAT,57805395.81,Court of Appeal,SME,Incorrect Assessment,691,16,Self-Represented,12,45,1
+KRA-CASE-01047,Customs Duty,49445937.32,Tax Appeals Tribunal,Multinational,Exemption Claim,313,83,Tax Consultant,12,53,1
+KRA-CASE-01048,PAYE,49735374.33,Tax Appeals Tribunal,SME,Double Taxation,817,10,Legal Counsel,13,67,1
+KRA-CASE-01049,PAYE,77670426.15,High Court,Individual,Incorrect Assessment,511,46,Self-Represented,0,46,1
+KRA-CASE-01050,PAYE,47418938.7,Tax Appeals Tribunal,Individual,Exemption Claim,769,99,Tax Consultant,9,58,1
+KRA-CASE-01051,Income Tax,83533470.99,Tax Appeals Tribunal,Multinational,Valuation Dispute,526,26,Tax Consultant,1,95,1
+KRA-CASE-01052,Income Tax,11767719.14,High Court,Individual,Procedural Error,1455,54,Legal Counsel,3,84,1
+KRA-CASE-01053,PAYE,7423341.05,High Court,Multinational,Procedural Error,330,46,Self-Represented,7,9,0
+KRA-CASE-01054,VAT,56939856.31,High Court,Individual,Statute of Limitations,992,95,Self-Represented,9,60,0
+KRA-CASE-01055,Excise Duty,72269614.19,Tax Appeals Tribunal,Large Corporation,Procedural Error,617,14,Self-Represented,1,77,1
+KRA-CASE-01056,Income Tax,50354377.51,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1164,91,Tax Consultant,9,90,1
+KRA-CASE-01057,Income Tax,42395842.65,Tax Appeals Tribunal,Multinational,Valuation Dispute,286,95,Legal Counsel,1,28,1
+KRA-CASE-01058,Excise Duty,18410192.58,High Court,SME,Incorrect Assessment,1702,88,Legal Counsel,10,83,1
+KRA-CASE-01059,Withholding Tax,40539732.5,Tax Appeals Tribunal,Individual,Exemption Claim,1354,54,Self-Represented,3,13,0
+KRA-CASE-01060,VAT,36302027.83,High Court,SME,Double Taxation,607,20,Legal Counsel,2,27,1
+KRA-CASE-01061,PAYE,1147152.46,Court of Appeal,Individual,Double Taxation,1337,4,Legal Counsel,2,72,1
+KRA-CASE-01062,PAYE,4535210.09,Court of Appeal,SME,Procedural Error,674,11,Tax Consultant,0,45,0
+KRA-CASE-01063,Customs Duty,95875965.34,Tax Appeals Tribunal,SME,Valuation Dispute,1516,45,Tax Consultant,3,42,0
+KRA-CASE-01064,Excise Duty,89656292.47,Tax Appeals Tribunal,SME,Statute of Limitations,78,75,Tax Consultant,15,75,0
+KRA-CASE-01065,VAT,29047432.13,Tax Appeals Tribunal,SME,Incorrect Assessment,1501,29,Tax Consultant,4,98,0
+KRA-CASE-01066,Withholding Tax,16146650.3,Court of Appeal,SME,Exemption Claim,946,100,Self-Represented,9,46,0
+KRA-CASE-01067,PAYE,85602457.67,Tax Appeals Tribunal,Multinational,Valuation Dispute,519,26,Tax Consultant,2,19,1
+KRA-CASE-01068,PAYE,62797575.15,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1599,39,Legal Counsel,2,63,1
+KRA-CASE-01069,VAT,45508045.36,Tax Appeals Tribunal,SME,Incorrect Assessment,603,73,Legal Counsel,2,9,1
+KRA-CASE-01070,Income Tax,71079970.44,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,1592,56,Legal Counsel,4,15,1
+KRA-CASE-01071,PAYE,48851486.59,Tax Appeals Tribunal,SME,Valuation Dispute,1785,79,Tax Consultant,4,56,1
+KRA-CASE-01072,Customs Duty,51272301.23,High Court,SME,Incorrect Assessment,1427,52,Legal Counsel,8,87,1
+KRA-CASE-01073,VAT,62080341.7,High Court,Large Corporation,Double Taxation,1463,71,Self-Represented,3,37,1
+KRA-CASE-01074,Excise Duty,15862670.11,Tax Appeals Tribunal,Individual,Valuation Dispute,1820,59,Legal Counsel,11,59,1
+KRA-CASE-01075,Excise Duty,64266324.04,Court of Appeal,SME,Incorrect Assessment,399,93,Self-Represented,12,98,0
+KRA-CASE-01076,Excise Duty,19987126.43,Tax Appeals Tribunal,SME,Input Tax Credit,465,89,Legal Counsel,3,35,1
+KRA-CASE-01077,Excise Duty,3876319.77,Tax Appeals Tribunal,SME,Double Taxation,685,72,Self-Represented,12,7,0
+KRA-CASE-01078,Customs Duty,78966434.95,Court of Appeal,Individual,Double Taxation,1807,2,Tax Consultant,13,34,1
+KRA-CASE-01079,Customs Duty,63586944.93,Tax Appeals Tribunal,Individual,Valuation Dispute,197,38,Tax Consultant,14,53,0
+KRA-CASE-01080,PAYE,21449785.08,High Court,Individual,Procedural Error,219,54,Legal Counsel,9,21,1
+KRA-CASE-01081,Income Tax,34960162.1,Tax Appeals Tribunal,SME,Statute of Limitations,1456,55,Legal Counsel,12,1,1
+KRA-CASE-01082,PAYE,78318083.78,Tax Appeals Tribunal,Individual,Statute of Limitations,693,85,Tax Consultant,10,1,1
+KRA-CASE-01083,Income Tax,89655286.19,Court of Appeal,SME,Exemption Claim,262,86,Legal Counsel,0,57,1
+KRA-CASE-01084,Income Tax,63447590.64,High Court,SME,Procedural Error,477,95,Tax Consultant,13,89,1
+KRA-CASE-01085,PAYE,77449720.33,High Court,Individual,Double Taxation,421,86,Legal Counsel,0,47,0
+KRA-CASE-01086,Customs Duty,1668317.31,High Court,SME,Incorrect Assessment,1462,63,Legal Counsel,14,52,1
+KRA-CASE-01087,Excise Duty,35205311.39,High Court,SME,Exemption Claim,262,22,Legal Counsel,11,22,1
+KRA-CASE-01088,PAYE,59509436.42,Tax Appeals Tribunal,SME,Valuation Dispute,1328,36,Legal Counsel,3,11,1
+KRA-CASE-01089,VAT,9009312.1,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1046,95,Tax Consultant,3,81,0
+KRA-CASE-01090,Excise Duty,50360983.93,High Court,Large Corporation,Valuation Dispute,463,28,Tax Consultant,12,14,1
+KRA-CASE-01091,Income Tax,85641446.08,Court of Appeal,SME,Input Tax Credit,875,82,Legal Counsel,12,0,1
+KRA-CASE-01092,Customs Duty,78230495.6,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,659,53,Legal Counsel,0,53,1
+KRA-CASE-01093,VAT,1602229.99,Tax Appeals Tribunal,SME,Exemption Claim,716,21,Tax Consultant,13,30,0
+KRA-CASE-01094,PAYE,97350357.79,Tax Appeals Tribunal,Large Corporation,Procedural Error,1671,73,Legal Counsel,12,93,1
+KRA-CASE-01095,Income Tax,40341745.99,Tax Appeals Tribunal,Individual,Double Taxation,233,90,Tax Consultant,3,80,0
+KRA-CASE-01096,PAYE,78438915.33,High Court,Large Corporation,Transfer Pricing Dispute,1744,70,Self-Represented,10,26,1
+KRA-CASE-01097,VAT,9371877.43,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,86,79,Legal Counsel,2,73,0
+KRA-CASE-01098,Excise Duty,2577723.14,High Court,Multinational,Exemption Claim,412,30,Legal Counsel,7,38,1
+KRA-CASE-01099,Income Tax,53564951.17,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1607,33,Legal Counsel,8,10,1
+KRA-CASE-01100,Income Tax,62762429.0,High Court,SME,Incorrect Assessment,257,58,Tax Consultant,3,13,1
+KRA-CASE-01101,Income Tax,28282180.69,High Court,Individual,Input Tax Credit,1759,46,Tax Consultant,6,50,1
+KRA-CASE-01102,VAT,49129143.9,Tax Appeals Tribunal,Individual,Incorrect Assessment,460,87,Legal Counsel,10,81,0
+KRA-CASE-01103,Excise Duty,80864478.06,Tax Appeals Tribunal,Individual,Statute of Limitations,1380,72,Legal Counsel,1,15,0
+KRA-CASE-01104,Customs Duty,99374270.79,Tax Appeals Tribunal,Large Corporation,Procedural Error,354,66,Legal Counsel,3,24,1
+KRA-CASE-01105,PAYE,3004046.52,Tax Appeals Tribunal,SME,Statute of Limitations,472,46,Self-Represented,6,3,1
+KRA-CASE-01106,Customs Duty,13899573.79,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,578,35,Legal Counsel,2,44,1
+KRA-CASE-01107,Withholding Tax,55172136.55,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,923,65,Tax Consultant,6,32,1
+KRA-CASE-01108,Income Tax,19827750.54,High Court,Large Corporation,Valuation Dispute,240,74,Tax Consultant,9,21,0
+KRA-CASE-01109,Income Tax,95378519.37,Tax Appeals Tribunal,Multinational,Valuation Dispute,1251,95,Legal Counsel,10,79,1
+KRA-CASE-01110,VAT,60749200.23,Tax Appeals Tribunal,SME,Exemption Claim,1325,8,Legal Counsel,1,65,1
+KRA-CASE-01111,Customs Duty,58707580.82,Tax Appeals Tribunal,Large Corporation,Exemption Claim,845,3,Self-Represented,10,54,1
+KRA-CASE-01112,Income Tax,35806564.45,Tax Appeals Tribunal,Large Corporation,Exemption Claim,327,99,Legal Counsel,0,40,1
+KRA-CASE-01113,Withholding Tax,1139557.38,Tax Appeals Tribunal,SME,Exemption Claim,506,71,Self-Represented,9,77,0
+KRA-CASE-01114,Income Tax,52749873.03,Tax Appeals Tribunal,SME,Incorrect Assessment,1205,82,Legal Counsel,13,40,1
+KRA-CASE-01115,Customs Duty,19855133.75,Tax Appeals Tribunal,SME,Procedural Error,592,53,Self-Represented,14,21,0
+KRA-CASE-01116,PAYE,32721132.23,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,66,82,Tax Consultant,0,59,1
+KRA-CASE-01117,Customs Duty,13149252.2,Court of Appeal,Individual,Procedural Error,720,82,Self-Represented,15,12,1
+KRA-CASE-01118,Excise Duty,72339204.28,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,193,71,Tax Consultant,15,78,0
+KRA-CASE-01119,VAT,39363082.8,High Court,SME,Incorrect Assessment,1756,47,Tax Consultant,3,3,1
+KRA-CASE-01120,Income Tax,4831032.15,Tax Appeals Tribunal,Individual,Exemption Claim,1794,88,Legal Counsel,7,21,1
+KRA-CASE-01121,VAT,19156411.35,Court of Appeal,SME,Procedural Error,1439,6,Legal Counsel,1,14,1
+KRA-CASE-01122,VAT,94717128.84,Tax Appeals Tribunal,SME,Valuation Dispute,582,89,Self-Represented,4,74,1
+KRA-CASE-01123,Excise Duty,12034146.89,Tax Appeals Tribunal,Individual,Valuation Dispute,1334,57,Legal Counsel,7,73,0
+KRA-CASE-01124,Excise Duty,66143834.1,Court of Appeal,SME,Input Tax Credit,492,11,Legal Counsel,9,91,0
+KRA-CASE-01125,VAT,35333319.26,High Court,Individual,Double Taxation,1453,9,Self-Represented,15,7,0
+KRA-CASE-01126,Income Tax,1362154.28,Tax Appeals Tribunal,Large Corporation,Double Taxation,1028,13,Legal Counsel,10,97,1
+KRA-CASE-01127,Customs Duty,70865810.56,High Court,Large Corporation,Incorrect Assessment,296,28,Tax Consultant,12,57,1
+KRA-CASE-01128,PAYE,51370731.05,High Court,Individual,Transfer Pricing Dispute,896,21,Legal Counsel,3,18,1
+KRA-CASE-01129,Excise Duty,87625813.81,High Court,Individual,Input Tax Credit,413,34,Self-Represented,14,45,0
+KRA-CASE-01130,Customs Duty,11876703.09,Tax Appeals Tribunal,SME,Double Taxation,338,50,Legal Counsel,10,6,1
+KRA-CASE-01131,Excise Duty,27295257.23,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,427,37,Self-Represented,5,76,0
+KRA-CASE-01132,Customs Duty,52979797.21,Tax Appeals Tribunal,SME,Procedural Error,1353,31,Tax Consultant,7,14,1
+KRA-CASE-01133,VAT,89511093.16,Tax Appeals Tribunal,Individual,Incorrect Assessment,594,28,Tax Consultant,12,50,0
+KRA-CASE-01134,Excise Duty,10175361.98,High Court,Multinational,Transfer Pricing Dispute,1044,26,Self-Represented,6,44,1
+KRA-CASE-01135,Withholding Tax,28834855.35,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,409,64,Tax Consultant,15,94,0
+KRA-CASE-01136,Customs Duty,85263765.73,High Court,Individual,Incorrect Assessment,371,23,Legal Counsel,14,18,1
+KRA-CASE-01137,VAT,66619836.34,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,187,21,Legal Counsel,0,76,1
+KRA-CASE-01138,Customs Duty,96955676.01,Tax Appeals Tribunal,SME,Double Taxation,997,14,Self-Represented,0,72,0
+KRA-CASE-01139,Withholding Tax,99041789.51,High Court,SME,Statute of Limitations,1576,18,Tax Consultant,3,38,1
+KRA-CASE-01140,Withholding Tax,33600951.28,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1388,62,Legal Counsel,14,1,1
+KRA-CASE-01141,Customs Duty,30148346.58,Tax Appeals Tribunal,SME,Input Tax Credit,260,34,Legal Counsel,0,18,0
+KRA-CASE-01142,Excise Duty,85633739.14,High Court,Individual,Input Tax Credit,93,31,Legal Counsel,13,46,1
+KRA-CASE-01143,Income Tax,74449293.65,Tax Appeals Tribunal,Multinational,Incorrect Assessment,590,80,Legal Counsel,14,67,1
+KRA-CASE-01144,Income Tax,26567667.85,High Court,Multinational,Valuation Dispute,1236,53,Tax Consultant,8,39,1
+KRA-CASE-01145,Income Tax,4157942.74,Tax Appeals Tribunal,SME,Incorrect Assessment,917,58,Legal Counsel,11,36,1
+KRA-CASE-01146,VAT,96948515.51,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1424,19,Legal Counsel,9,79,0
+KRA-CASE-01147,PAYE,66448816.09,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,61,58,Self-Represented,9,75,1
+KRA-CASE-01148,VAT,5366668.56,Tax Appeals Tribunal,SME,Procedural Error,132,32,Self-Represented,9,100,0
+KRA-CASE-01149,PAYE,66549333.6,High Court,Individual,Incorrect Assessment,1490,34,Self-Represented,6,55,0
+KRA-CASE-01150,PAYE,91830070.74,Tax Appeals Tribunal,Individual,Exemption Claim,539,86,Legal Counsel,13,51,0
+KRA-CASE-01151,VAT,89308712.37,Court of Appeal,SME,Statute of Limitations,1184,55,Legal Counsel,10,74,1
+KRA-CASE-01152,Income Tax,68347952.31,Tax Appeals Tribunal,Individual,Double Taxation,646,39,Self-Represented,14,69,1
+KRA-CASE-01153,Income Tax,37627796.08,High Court,SME,Statute of Limitations,1108,56,Legal Counsel,11,59,1
+KRA-CASE-01154,Customs Duty,42795533.64,Tax Appeals Tribunal,SME,Procedural Error,1174,3,Tax Consultant,13,11,1
+KRA-CASE-01155,Income Tax,61540094.63,Tax Appeals Tribunal,Individual,Exemption Claim,290,79,Legal Counsel,9,6,1
+KRA-CASE-01156,Excise Duty,12637287.27,High Court,SME,Input Tax Credit,1748,6,Self-Represented,8,83,1
+KRA-CASE-01157,VAT,33381671.28,Tax Appeals Tribunal,SME,Input Tax Credit,1444,42,Tax Consultant,3,94,0
+KRA-CASE-01158,PAYE,67457579.29,High Court,Individual,Double Taxation,1087,18,Legal Counsel,15,17,1
+KRA-CASE-01159,Income Tax,89510481.5,High Court,Individual,Transfer Pricing Dispute,1502,0,Tax Consultant,6,14,1
+KRA-CASE-01160,VAT,53569.39,High Court,Individual,Incorrect Assessment,536,26,Self-Represented,0,64,0
+KRA-CASE-01161,Excise Duty,39101853.63,Court of Appeal,SME,Input Tax Credit,406,30,Tax Consultant,8,78,0
+KRA-CASE-01162,Withholding Tax,43941028.58,High Court,Individual,Statute of Limitations,1332,2,Self-Represented,7,21,0
+KRA-CASE-01163,PAYE,74179388.8,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,622,85,Self-Represented,15,47,1
+KRA-CASE-01164,Withholding Tax,27554375.79,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,883,54,Self-Represented,9,58,0
+KRA-CASE-01165,VAT,56442697.96,Tax Appeals Tribunal,SME,Input Tax Credit,117,45,Tax Consultant,14,92,0
+KRA-CASE-01166,Excise Duty,27726558.71,Court of Appeal,SME,Double Taxation,744,90,Legal Counsel,2,22,1
+KRA-CASE-01167,Withholding Tax,15182701.31,High Court,SME,Input Tax Credit,1494,100,Self-Represented,9,50,0
+KRA-CASE-01168,VAT,91620194.35,High Court,SME,Input Tax Credit,1270,84,Self-Represented,8,16,1
+KRA-CASE-01169,Withholding Tax,32441457.39,Court of Appeal,SME,Valuation Dispute,168,5,Self-Represented,5,29,0
+KRA-CASE-01170,VAT,66542834.09,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1586,29,Tax Consultant,7,13,1
+KRA-CASE-01171,Income Tax,72829907.8,Tax Appeals Tribunal,Multinational,Incorrect Assessment,156,78,Legal Counsel,1,95,1
+KRA-CASE-01172,VAT,44180768.84,Tax Appeals Tribunal,Large Corporation,Procedural Error,386,41,Self-Represented,14,48,0
+KRA-CASE-01173,Income Tax,98887642.85,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1035,56,Legal Counsel,7,25,1
+KRA-CASE-01174,Withholding Tax,16250853.73,High Court,Large Corporation,Double Taxation,206,74,Self-Represented,3,26,0
+KRA-CASE-01175,VAT,81010384.28,High Court,SME,Valuation Dispute,1193,69,Tax Consultant,10,23,1
+KRA-CASE-01176,Withholding Tax,73011212.71,Court of Appeal,Large Corporation,Input Tax Credit,419,26,Legal Counsel,15,64,1
+KRA-CASE-01177,Customs Duty,35680695.0,High Court,Multinational,Incorrect Assessment,928,54,Legal Counsel,2,72,1
+KRA-CASE-01178,VAT,12762878.77,Tax Appeals Tribunal,Individual,Input Tax Credit,502,6,Legal Counsel,10,2,1
+KRA-CASE-01179,Income Tax,82141714.12,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1470,45,Self-Represented,5,36,1
+KRA-CASE-01180,VAT,53465659.82,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,847,79,Self-Represented,3,74,1
+KRA-CASE-01181,Excise Duty,93695842.24,Court of Appeal,Large Corporation,Procedural Error,722,53,Legal Counsel,10,97,0
+KRA-CASE-01182,VAT,13971898.38,Tax Appeals Tribunal,Large Corporation,Procedural Error,512,63,Self-Represented,1,44,1
+KRA-CASE-01183,VAT,94993282.89,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1159,61,Tax Consultant,8,92,1
+KRA-CASE-01184,VAT,10450918.58,Tax Appeals Tribunal,Individual,Exemption Claim,913,61,Legal Counsel,7,2,0
+KRA-CASE-01185,VAT,2684064.26,High Court,Individual,Valuation Dispute,1426,87,Legal Counsel,15,6,1
+KRA-CASE-01186,Excise Duty,76579867.47,High Court,SME,Valuation Dispute,1155,17,Self-Represented,3,78,1
+KRA-CASE-01187,Customs Duty,35211320.14,Tax Appeals Tribunal,Multinational,Double Taxation,505,11,Legal Counsel,7,52,1
+KRA-CASE-01188,Withholding Tax,75269277.91,High Court,SME,Procedural Error,1672,1,Tax Consultant,7,7,1
+KRA-CASE-01189,VAT,5712626.1,Tax Appeals Tribunal,SME,Exemption Claim,746,77,Legal Counsel,7,37,1
+KRA-CASE-01190,Income Tax,60632078.33,Tax Appeals Tribunal,Individual,Incorrect Assessment,186,32,Tax Consultant,6,63,0
+KRA-CASE-01191,Withholding Tax,73535101.85,Tax Appeals Tribunal,Multinational,Double Taxation,938,91,Legal Counsel,11,99,1
+KRA-CASE-01192,PAYE,29303707.24,High Court,SME,Transfer Pricing Dispute,683,89,Legal Counsel,3,6,1
+KRA-CASE-01193,Customs Duty,90047516.49,High Court,Large Corporation,Transfer Pricing Dispute,190,26,Tax Consultant,7,39,1
+KRA-CASE-01194,Withholding Tax,55318918.21,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,103,30,Legal Counsel,14,14,1
+KRA-CASE-01195,VAT,49915803.66,Tax Appeals Tribunal,SME,Valuation Dispute,645,10,Self-Represented,12,63,0
+KRA-CASE-01196,VAT,86284142.39,Tax Appeals Tribunal,Individual,Double Taxation,806,23,Legal Counsel,1,84,1
+KRA-CASE-01197,Customs Duty,3179044.64,High Court,Multinational,Exemption Claim,1726,33,Tax Consultant,6,96,1
+KRA-CASE-01198,VAT,34127391.28,High Court,SME,Valuation Dispute,1632,93,Tax Consultant,1,13,0
+KRA-CASE-01199,PAYE,38841650.75,High Court,Large Corporation,Input Tax Credit,898,73,Legal Counsel,8,20,1
+KRA-CASE-01200,Excise Duty,46759880.68,Court of Appeal,Individual,Procedural Error,604,87,Tax Consultant,2,31,1
+KRA-CASE-01201,PAYE,29617700.52,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,770,34,Legal Counsel,0,15,1
+KRA-CASE-01202,Customs Duty,56865685.5,Tax Appeals Tribunal,SME,Statute of Limitations,938,59,Self-Represented,0,59,0
+KRA-CASE-01203,VAT,96590255.01,Tax Appeals Tribunal,Large Corporation,Double Taxation,866,7,Legal Counsel,2,35,1
+KRA-CASE-01204,PAYE,55167214.68,Court of Appeal,SME,Transfer Pricing Dispute,1598,100,Legal Counsel,15,16,1
+KRA-CASE-01205,Income Tax,63052300.93,Tax Appeals Tribunal,Large Corporation,Procedural Error,506,14,Legal Counsel,5,87,1
+KRA-CASE-01206,PAYE,86063999.24,Tax Appeals Tribunal,Individual,Double Taxation,154,91,Tax Consultant,8,2,0
+KRA-CASE-01207,Withholding Tax,84500843.56,High Court,SME,Procedural Error,1259,30,Legal Counsel,2,64,1
+KRA-CASE-01208,Excise Duty,11362597.21,Tax Appeals Tribunal,Individual,Exemption Claim,1728,87,Legal Counsel,13,36,1
+KRA-CASE-01209,Income Tax,2518225.43,High Court,SME,Valuation Dispute,1365,47,Legal Counsel,9,79,1
+KRA-CASE-01210,VAT,16073266.28,Tax Appeals Tribunal,Multinational,Procedural Error,247,77,Legal Counsel,10,65,0
+KRA-CASE-01211,Withholding Tax,78098331.43,Tax Appeals Tribunal,SME,Exemption Claim,470,48,Tax Consultant,1,84,0
+KRA-CASE-01212,Withholding Tax,15049964.86,High Court,Large Corporation,Incorrect Assessment,489,72,Legal Counsel,13,68,1
+KRA-CASE-01213,Withholding Tax,12168175.19,High Court,Large Corporation,Input Tax Credit,1380,67,Legal Counsel,10,34,1
+KRA-CASE-01214,Income Tax,83609093.6,Tax Appeals Tribunal,Individual,Double Taxation,1666,98,Tax Consultant,7,58,0
+KRA-CASE-01215,Customs Duty,74831418.52,Tax Appeals Tribunal,Individual,Valuation Dispute,771,10,Legal Counsel,2,46,0
+KRA-CASE-01216,Withholding Tax,48441244.22,Tax Appeals Tribunal,Large Corporation,Double Taxation,1196,16,Tax Consultant,7,99,1
+KRA-CASE-01217,Excise Duty,67426807.45,High Court,Large Corporation,Transfer Pricing Dispute,729,40,Self-Represented,13,53,1
+KRA-CASE-01218,PAYE,98325612.67,Tax Appeals Tribunal,Large Corporation,Double Taxation,398,58,Self-Represented,3,53,1
+KRA-CASE-01219,Customs Duty,76562680.26,High Court,SME,Incorrect Assessment,288,4,Tax Consultant,0,88,1
+KRA-CASE-01220,Income Tax,98993851.71,Tax Appeals Tribunal,Multinational,Valuation Dispute,894,45,Self-Represented,7,91,0
+KRA-CASE-01221,Customs Duty,11947012.88,High Court,Multinational,Incorrect Assessment,1509,5,Self-Represented,11,57,0
+KRA-CASE-01222,Excise Duty,63101658.15,High Court,SME,Input Tax Credit,1463,17,Legal Counsel,2,19,1
+KRA-CASE-01223,VAT,59375651.01,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,686,56,Self-Represented,8,98,0
+KRA-CASE-01224,VAT,23264741.32,Tax Appeals Tribunal,Individual,Valuation Dispute,614,41,Legal Counsel,5,18,0
+KRA-CASE-01225,VAT,81408018.66,High Court,Multinational,Double Taxation,911,66,Legal Counsel,10,12,1
+KRA-CASE-01226,Customs Duty,28514856.12,Tax Appeals Tribunal,SME,Input Tax Credit,488,21,Legal Counsel,8,77,1
+KRA-CASE-01227,VAT,92455359.46,High Court,Individual,Double Taxation,1160,65,Tax Consultant,0,76,1
+KRA-CASE-01228,VAT,95987677.47,Tax Appeals Tribunal,Large Corporation,Procedural Error,1030,3,Legal Counsel,9,73,1
+KRA-CASE-01229,Excise Duty,73222337.38,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,254,91,Legal Counsel,3,56,0
+KRA-CASE-01230,Excise Duty,49350892.24,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1528,85,Self-Represented,11,10,1
+KRA-CASE-01231,Withholding Tax,79342359.5,High Court,SME,Exemption Claim,595,58,Legal Counsel,2,90,0
+KRA-CASE-01232,Withholding Tax,31515252.01,Court of Appeal,SME,Exemption Claim,419,71,Legal Counsel,1,81,1
+KRA-CASE-01233,Withholding Tax,846660.3,Tax Appeals Tribunal,SME,Double Taxation,1409,25,Legal Counsel,4,62,0
+KRA-CASE-01234,Income Tax,73369390.47,Tax Appeals Tribunal,Individual,Incorrect Assessment,1087,92,Legal Counsel,0,55,1
+KRA-CASE-01235,VAT,49094580.63,High Court,Large Corporation,Procedural Error,886,88,Legal Counsel,12,80,1
+KRA-CASE-01236,PAYE,23509842.9,Tax Appeals Tribunal,SME,Statute of Limitations,644,29,Tax Consultant,15,62,0
+KRA-CASE-01237,Withholding Tax,39251395.08,Tax Appeals Tribunal,SME,Incorrect Assessment,478,14,Tax Consultant,9,53,0
+KRA-CASE-01238,Excise Duty,32573434.77,High Court,Individual,Input Tax Credit,683,84,Self-Represented,12,90,0
+KRA-CASE-01239,Income Tax,77379494.04,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1260,52,Legal Counsel,0,37,0
+KRA-CASE-01240,Customs Duty,50773365.93,High Court,Large Corporation,Procedural Error,1181,98,Legal Counsel,10,52,1
+KRA-CASE-01241,Excise Duty,80912602.83,Tax Appeals Tribunal,SME,Procedural Error,579,62,Legal Counsel,10,81,1
+KRA-CASE-01242,VAT,30885639.42,Tax Appeals Tribunal,SME,Statute of Limitations,1127,26,Tax Consultant,3,78,1
+KRA-CASE-01243,PAYE,33001933.44,High Court,Individual,Procedural Error,1673,48,Self-Represented,10,45,1
+KRA-CASE-01244,PAYE,6393304.82,Tax Appeals Tribunal,Individual,Double Taxation,351,68,Legal Counsel,7,37,0
+KRA-CASE-01245,Income Tax,91069845.33,Tax Appeals Tribunal,Individual,Double Taxation,57,4,Tax Consultant,3,64,0
+KRA-CASE-01246,Excise Duty,79144778.99,Tax Appeals Tribunal,SME,Procedural Error,501,80,Tax Consultant,7,4,1
+KRA-CASE-01247,Customs Duty,75004043.44,High Court,SME,Valuation Dispute,298,94,Tax Consultant,2,9,1
+KRA-CASE-01248,VAT,50475740.82,High Court,Large Corporation,Procedural Error,60,95,Tax Consultant,4,12,1
+KRA-CASE-01249,Withholding Tax,58840169.39,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,1637,41,Legal Counsel,0,38,0
+KRA-CASE-01250,Customs Duty,45917618.6,Tax Appeals Tribunal,Multinational,Input Tax Credit,801,37,Legal Counsel,7,52,1
+KRA-CASE-01251,PAYE,27891862.13,Tax Appeals Tribunal,Large Corporation,Double Taxation,813,2,Tax Consultant,12,47,0
+KRA-CASE-01252,PAYE,71472144.43,Tax Appeals Tribunal,SME,Procedural Error,843,98,Legal Counsel,11,61,1
+KRA-CASE-01253,PAYE,10939397.74,Tax Appeals Tribunal,Individual,Incorrect Assessment,225,71,Self-Represented,15,75,0
+KRA-CASE-01254,Income Tax,8434683.33,Tax Appeals Tribunal,Large Corporation,Double Taxation,150,98,Legal Counsel,13,39,1
+KRA-CASE-01255,Withholding Tax,33819954.64,Tax Appeals Tribunal,SME,Valuation Dispute,1814,0,Legal Counsel,6,96,0
+KRA-CASE-01256,PAYE,79479844.29,Tax Appeals Tribunal,SME,Double Taxation,689,59,Legal Counsel,2,13,1
+KRA-CASE-01257,Excise Duty,69940593.61,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1094,95,Self-Represented,6,56,1
+KRA-CASE-01258,VAT,3954241.68,Tax Appeals Tribunal,Individual,Input Tax Credit,316,95,Tax Consultant,13,51,0
+KRA-CASE-01259,VAT,29710264.77,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1100,41,Legal Counsel,11,72,1
+KRA-CASE-01260,Withholding Tax,16636269.97,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1093,77,Legal Counsel,14,26,1
+KRA-CASE-01261,Customs Duty,92711605.39,High Court,Multinational,Statute of Limitations,366,67,Legal Counsel,15,1,1
+KRA-CASE-01262,Customs Duty,41659479.16,Tax Appeals Tribunal,Individual,Procedural Error,668,89,Self-Represented,3,68,0
+KRA-CASE-01263,Excise Duty,33136961.29,Tax Appeals Tribunal,SME,Statute of Limitations,166,44,Legal Counsel,7,44,1
+KRA-CASE-01264,Withholding Tax,1462242.44,Tax Appeals Tribunal,SME,Valuation Dispute,1226,93,Legal Counsel,12,32,1
+KRA-CASE-01265,PAYE,54124648.47,High Court,Individual,Statute of Limitations,240,93,Legal Counsel,5,33,1
+KRA-CASE-01266,PAYE,10277096.38,High Court,SME,Valuation Dispute,706,73,Tax Consultant,8,94,0
+KRA-CASE-01267,PAYE,66866266.51,Tax Appeals Tribunal,Individual,Double Taxation,473,11,Tax Consultant,4,18,0
+KRA-CASE-01268,Income Tax,47572626.84,Tax Appeals Tribunal,Individual,Procedural Error,310,65,Tax Consultant,13,85,1
+KRA-CASE-01269,Excise Duty,32742581.94,Tax Appeals Tribunal,Individual,Valuation Dispute,802,99,Legal Counsel,15,45,1
+KRA-CASE-01270,Customs Duty,83873010.11,Tax Appeals Tribunal,Individual,Double Taxation,370,81,Tax Consultant,4,55,1
+KRA-CASE-01271,PAYE,44192599.46,High Court,SME,Incorrect Assessment,1172,55,Legal Counsel,5,3,1
+KRA-CASE-01272,Customs Duty,85544462.7,High Court,SME,Valuation Dispute,467,78,Legal Counsel,6,48,1
+KRA-CASE-01273,Customs Duty,17941609.72,High Court,Individual,Input Tax Credit,769,67,Self-Represented,9,42,0
+KRA-CASE-01274,VAT,91108523.55,Court of Appeal,SME,Procedural Error,1272,34,Self-Represented,8,82,1
+KRA-CASE-01275,Excise Duty,39859485.51,Court of Appeal,Large Corporation,Transfer Pricing Dispute,1310,7,Tax Consultant,0,91,1
+KRA-CASE-01276,Excise Duty,99723296.16,High Court,SME,Input Tax Credit,1565,82,Tax Consultant,3,4,1
+KRA-CASE-01277,Customs Duty,2932255.16,High Court,Individual,Statute of Limitations,1813,16,Self-Represented,3,7,0
+KRA-CASE-01278,Excise Duty,63765941.66,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1776,24,Legal Counsel,0,42,0
+KRA-CASE-01279,Withholding Tax,84830591.09,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1087,1,Tax Consultant,12,53,1
+KRA-CASE-01280,Withholding Tax,66980635.42,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1522,34,Self-Represented,14,5,1
+KRA-CASE-01281,Customs Duty,60872476.08,High Court,SME,Procedural Error,667,35,Legal Counsel,3,43,1
+KRA-CASE-01282,Excise Duty,56838917.91,High Court,SME,Input Tax Credit,210,14,Tax Consultant,5,93,1
+KRA-CASE-01283,VAT,18606605.99,Tax Appeals Tribunal,Multinational,Statute of Limitations,1645,1,Legal Counsel,11,58,1
+KRA-CASE-01284,VAT,87725978.94,Court of Appeal,SME,Double Taxation,1560,96,Legal Counsel,9,6,1
+KRA-CASE-01285,Excise Duty,70606100.61,Tax Appeals Tribunal,Individual,Exemption Claim,877,28,Tax Consultant,8,25,0
+KRA-CASE-01286,Income Tax,97928856.99,Tax Appeals Tribunal,SME,Incorrect Assessment,1033,45,Legal Counsel,11,98,1
+KRA-CASE-01287,Withholding Tax,52328121.3,High Court,Large Corporation,Statute of Limitations,105,74,Legal Counsel,6,89,1
+KRA-CASE-01288,Excise Duty,34724806.99,High Court,Large Corporation,Double Taxation,730,89,Tax Consultant,8,11,1
+KRA-CASE-01289,PAYE,77352229.12,Tax Appeals Tribunal,SME,Procedural Error,266,66,Legal Counsel,5,60,1
+KRA-CASE-01290,Income Tax,46751324.87,Tax Appeals Tribunal,SME,Procedural Error,690,89,Self-Represented,11,1,1
+KRA-CASE-01291,Income Tax,42169705.89,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,413,45,Legal Counsel,14,69,1
+KRA-CASE-01292,Income Tax,75216915.45,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1526,51,Legal Counsel,7,32,1
+KRA-CASE-01293,Withholding Tax,37352817.09,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,112,29,Tax Consultant,3,53,0
+KRA-CASE-01294,Excise Duty,77418541.17,Court of Appeal,SME,Procedural Error,365,65,Self-Represented,9,76,1
+KRA-CASE-01295,Withholding Tax,94287490.88,Tax Appeals Tribunal,Multinational,Statute of Limitations,296,84,Legal Counsel,1,11,1
+KRA-CASE-01296,Customs Duty,79296701.0,Tax Appeals Tribunal,SME,Valuation Dispute,368,58,Self-Represented,4,25,0
+KRA-CASE-01297,Income Tax,30163169.25,Tax Appeals Tribunal,Individual,Double Taxation,924,11,Legal Counsel,4,87,0
+KRA-CASE-01298,PAYE,84574556.2,Tax Appeals Tribunal,SME,Exemption Claim,234,60,Legal Counsel,12,89,1
+KRA-CASE-01299,Income Tax,91287662.94,High Court,Large Corporation,Double Taxation,1592,12,Legal Counsel,10,97,1
+KRA-CASE-01300,Income Tax,40018361.74,Tax Appeals Tribunal,SME,Valuation Dispute,1252,50,Legal Counsel,11,62,1
+KRA-CASE-01301,Withholding Tax,74055890.35,Tax Appeals Tribunal,Individual,Statute of Limitations,1602,30,Legal Counsel,10,64,1
+KRA-CASE-01302,VAT,61076124.04,High Court,Multinational,Double Taxation,312,63,Self-Represented,6,38,0
+KRA-CASE-01303,Excise Duty,9330392.72,Tax Appeals Tribunal,Individual,Statute of Limitations,613,39,Legal Counsel,15,4,1
+KRA-CASE-01304,Customs Duty,95853348.91,Tax Appeals Tribunal,Individual,Incorrect Assessment,982,10,Legal Counsel,3,83,0
+KRA-CASE-01305,Excise Duty,80364848.17,Tax Appeals Tribunal,SME,Valuation Dispute,1435,58,Self-Represented,12,54,0
+KRA-CASE-01306,VAT,30330303.58,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1058,47,Tax Consultant,10,68,0
+KRA-CASE-01307,Customs Duty,11211630.3,Tax Appeals Tribunal,SME,Valuation Dispute,1812,86,Self-Represented,0,43,1
+KRA-CASE-01308,Withholding Tax,59035794.16,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,920,6,Legal Counsel,1,15,1
+KRA-CASE-01309,Excise Duty,46052059.03,Tax Appeals Tribunal,SME,Exemption Claim,546,54,Legal Counsel,9,98,1
+KRA-CASE-01310,VAT,54297712.37,Tax Appeals Tribunal,SME,Procedural Error,944,41,Legal Counsel,1,76,1
+KRA-CASE-01311,VAT,35756585.99,Tax Appeals Tribunal,Large Corporation,Double Taxation,388,10,Legal Counsel,4,93,0
+KRA-CASE-01312,Income Tax,63310356.3,Tax Appeals Tribunal,SME,Input Tax Credit,1441,79,Legal Counsel,14,5,1
+KRA-CASE-01313,VAT,32692518.28,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,812,65,Tax Consultant,2,43,1
+KRA-CASE-01314,Withholding Tax,74939236.57,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1507,83,Legal Counsel,2,55,1
+KRA-CASE-01315,VAT,79374797.24,Tax Appeals Tribunal,Multinational,Double Taxation,1451,6,Legal Counsel,15,27,1
+KRA-CASE-01316,Excise Duty,27514936.02,High Court,Individual,Procedural Error,1268,51,Tax Consultant,9,34,1
+KRA-CASE-01317,VAT,40747920.05,Tax Appeals Tribunal,SME,Statute of Limitations,592,34,Legal Counsel,10,12,1
+KRA-CASE-01318,Income Tax,22521235.9,High Court,Individual,Transfer Pricing Dispute,1521,91,Legal Counsel,14,75,1
+KRA-CASE-01319,Excise Duty,63495527.65,Tax Appeals Tribunal,SME,Procedural Error,732,43,Legal Counsel,14,19,1
+KRA-CASE-01320,Excise Duty,85442881.1,Tax Appeals Tribunal,SME,Statute of Limitations,1408,49,Legal Counsel,1,84,1
+KRA-CASE-01321,PAYE,96773974.68,High Court,SME,Exemption Claim,200,26,Legal Counsel,11,38,1
+KRA-CASE-01322,Customs Duty,75098209.07,Tax Appeals Tribunal,SME,Statute of Limitations,1309,74,Self-Represented,11,72,0
+KRA-CASE-01323,Excise Duty,41568529.84,High Court,Large Corporation,Transfer Pricing Dispute,1169,95,Legal Counsel,7,48,1
+KRA-CASE-01324,PAYE,13213154.06,High Court,Large Corporation,Incorrect Assessment,840,27,Legal Counsel,3,73,1
+KRA-CASE-01325,Customs Duty,17903312.73,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,1156,52,Legal Counsel,6,53,0
+KRA-CASE-01326,PAYE,27924027.95,High Court,Large Corporation,Exemption Claim,1058,68,Legal Counsel,7,51,1
+KRA-CASE-01327,Excise Duty,75694977.08,Tax Appeals Tribunal,Multinational,Statute of Limitations,1818,22,Legal Counsel,0,68,1
+KRA-CASE-01328,Customs Duty,76305343.68,High Court,Large Corporation,Incorrect Assessment,815,74,Legal Counsel,13,52,1
+KRA-CASE-01329,Income Tax,63659866.66,High Court,Individual,Incorrect Assessment,1257,73,Legal Counsel,0,41,1
+KRA-CASE-01330,PAYE,25031578.38,Tax Appeals Tribunal,SME,Incorrect Assessment,788,2,Legal Counsel,12,70,1
+KRA-CASE-01331,PAYE,86350655.33,High Court,Individual,Exemption Claim,1510,30,Self-Represented,6,41,1
+KRA-CASE-01332,Income Tax,29333542.47,High Court,Individual,Input Tax Credit,970,31,Legal Counsel,14,30,1
+KRA-CASE-01333,Income Tax,97281888.48,Tax Appeals Tribunal,Individual,Exemption Claim,1816,20,Legal Counsel,2,0,1
+KRA-CASE-01334,Withholding Tax,3280640.7,High Court,Multinational,Input Tax Credit,1795,49,Self-Represented,13,33,0
+KRA-CASE-01335,Withholding Tax,53757277.59,High Court,Large Corporation,Procedural Error,928,61,Tax Consultant,1,37,0
+KRA-CASE-01336,Excise Duty,82839358.52,High Court,Individual,Valuation Dispute,1497,65,Legal Counsel,14,54,1
+KRA-CASE-01337,VAT,10407119.98,High Court,Large Corporation,Incorrect Assessment,1508,21,Legal Counsel,10,18,1
+KRA-CASE-01338,Income Tax,79565532.27,Tax Appeals Tribunal,Individual,Incorrect Assessment,968,90,Legal Counsel,7,96,1
+KRA-CASE-01339,Customs Duty,34277168.07,High Court,SME,Input Tax Credit,1462,33,Legal Counsel,1,97,1
+KRA-CASE-01340,Income Tax,14844996.23,Tax Appeals Tribunal,Individual,Exemption Claim,1184,46,Legal Counsel,9,91,0
+KRA-CASE-01341,Income Tax,56785610.93,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,346,95,Tax Consultant,4,18,1
+KRA-CASE-01342,PAYE,29268671.27,Tax Appeals Tribunal,Large Corporation,Procedural Error,1772,27,Legal Counsel,4,74,1
+KRA-CASE-01343,VAT,25979146.19,High Court,Large Corporation,Valuation Dispute,1006,79,Tax Consultant,11,82,0
+KRA-CASE-01344,Income Tax,58734185.79,Tax Appeals Tribunal,SME,Valuation Dispute,1802,62,Legal Counsel,15,22,1
+KRA-CASE-01345,Excise Duty,89718503.97,Tax Appeals Tribunal,Multinational,Exemption Claim,490,39,Legal Counsel,4,35,0
+KRA-CASE-01346,PAYE,77812535.27,High Court,Large Corporation,Exemption Claim,1051,58,Legal Counsel,0,95,1
+KRA-CASE-01347,PAYE,89818560.55,High Court,SME,Procedural Error,846,80,Self-Represented,10,64,1
+KRA-CASE-01348,VAT,27183782.41,Court of Appeal,Large Corporation,Incorrect Assessment,1664,7,Legal Counsel,7,31,1
+KRA-CASE-01349,Customs Duty,79737122.9,Tax Appeals Tribunal,Multinational,Double Taxation,497,88,Legal Counsel,5,5,0
+KRA-CASE-01350,PAYE,26613045.74,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,301,66,Legal Counsel,6,29,1
+KRA-CASE-01351,Income Tax,58588455.23,Tax Appeals Tribunal,SME,Procedural Error,683,81,Self-Represented,15,14,0
+KRA-CASE-01352,Excise Duty,8384451.56,Tax Appeals Tribunal,SME,Double Taxation,1255,62,Legal Counsel,0,74,1
+KRA-CASE-01353,Excise Duty,86120853.35,Tax Appeals Tribunal,Multinational,Double Taxation,1236,81,Legal Counsel,14,0,1
+KRA-CASE-01354,Customs Duty,75468297.0,High Court,SME,Statute of Limitations,703,64,Legal Counsel,9,82,1
+KRA-CASE-01355,Customs Duty,26456780.42,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1311,56,Self-Represented,5,62,1
+KRA-CASE-01356,VAT,31954794.45,Court of Appeal,SME,Statute of Limitations,396,8,Tax Consultant,9,12,0
+KRA-CASE-01357,Excise Duty,34276050.55,High Court,Large Corporation,Double Taxation,1624,13,Tax Consultant,6,39,0
+KRA-CASE-01358,PAYE,30573112.68,High Court,SME,Transfer Pricing Dispute,1278,26,Legal Counsel,4,41,1
+KRA-CASE-01359,Income Tax,19230811.42,Tax Appeals Tribunal,Individual,Statute of Limitations,1279,84,Self-Represented,15,83,0
+KRA-CASE-01360,PAYE,78885425.82,High Court,SME,Transfer Pricing Dispute,996,38,Legal Counsel,9,42,1
+KRA-CASE-01361,Withholding Tax,35425660.47,High Court,SME,Valuation Dispute,1183,50,Tax Consultant,0,97,0
+KRA-CASE-01362,Excise Duty,5577977.16,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,965,98,Legal Counsel,6,26,1
+KRA-CASE-01363,Withholding Tax,71681436.17,Tax Appeals Tribunal,SME,Exemption Claim,905,48,Legal Counsel,6,27,1
+KRA-CASE-01364,PAYE,50319195.05,High Court,Individual,Double Taxation,358,41,Legal Counsel,15,5,1
+KRA-CASE-01365,Withholding Tax,39036798.38,Court of Appeal,Large Corporation,Double Taxation,603,77,Legal Counsel,1,12,1
+KRA-CASE-01366,VAT,63980885.19,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,257,60,Self-Represented,2,41,0
+KRA-CASE-01367,Withholding Tax,41407049.12,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,1205,25,Legal Counsel,14,31,1
+KRA-CASE-01368,Customs Duty,57294680.13,High Court,SME,Transfer Pricing Dispute,1442,2,Self-Represented,2,100,1
+KRA-CASE-01369,Withholding Tax,71154698.86,Tax Appeals Tribunal,Multinational,Input Tax Credit,1560,27,Self-Represented,14,29,1
+KRA-CASE-01370,Excise Duty,36252269.23,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,552,77,Legal Counsel,0,17,1
+KRA-CASE-01371,VAT,64241911.67,Tax Appeals Tribunal,Large Corporation,Procedural Error,1733,67,Self-Represented,11,2,0
+KRA-CASE-01372,PAYE,43748831.3,Tax Appeals Tribunal,SME,Exemption Claim,1648,68,Legal Counsel,10,81,1
+KRA-CASE-01373,VAT,73456659.11,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1119,20,Tax Consultant,2,73,0
+KRA-CASE-01374,Excise Duty,61022646.72,Court of Appeal,Large Corporation,Valuation Dispute,1704,35,Legal Counsel,4,83,1
+KRA-CASE-01375,Customs Duty,7348927.38,High Court,SME,Valuation Dispute,73,51,Legal Counsel,0,79,0
+KRA-CASE-01376,Excise Duty,1936221.43,Tax Appeals Tribunal,SME,Transfer Pricing Dispute,1782,28,Legal Counsel,10,68,0
+KRA-CASE-01377,Excise Duty,65378589.42,Tax Appeals Tribunal,Large Corporation,Exemption Claim,1494,73,Self-Represented,4,26,0
+KRA-CASE-01378,Customs Duty,18199592.74,Tax Appeals Tribunal,Large Corporation,Procedural Error,1626,16,Legal Counsel,2,41,1
+KRA-CASE-01379,Customs Duty,92850126.94,High Court,Individual,Statute of Limitations,898,34,Legal Counsel,6,98,1
+KRA-CASE-01380,Customs Duty,2778279.16,High Court,Multinational,Incorrect Assessment,1738,48,Self-Represented,6,48,1
+KRA-CASE-01381,VAT,44708898.09,Tax Appeals Tribunal,Individual,Valuation Dispute,1238,15,Self-Represented,5,64,0
+KRA-CASE-01382,PAYE,72465608.1,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1031,94,Legal Counsel,10,53,1
+KRA-CASE-01383,Income Tax,21072229.75,Tax Appeals Tribunal,SME,Input Tax Credit,552,65,Self-Represented,14,2,0
+KRA-CASE-01384,VAT,38033911.84,Tax Appeals Tribunal,Multinational,Incorrect Assessment,756,46,Tax Consultant,2,55,1
+KRA-CASE-01385,Withholding Tax,30104409.03,Court of Appeal,Individual,Valuation Dispute,1823,60,Self-Represented,8,93,0
+KRA-CASE-01386,Withholding Tax,89738252.99,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,1186,1,Self-Represented,4,17,0
+KRA-CASE-01387,Withholding Tax,47007779.8,Tax Appeals Tribunal,SME,Double Taxation,1804,94,Legal Counsel,11,79,1
+KRA-CASE-01388,Excise Duty,82333907.93,Tax Appeals Tribunal,Individual,Statute of Limitations,1549,85,Self-Represented,3,100,0
+KRA-CASE-01389,Income Tax,3046513.67,Tax Appeals Tribunal,SME,Exemption Claim,1753,33,Legal Counsel,0,100,1
+KRA-CASE-01390,VAT,33191625.62,High Court,Individual,Statute of Limitations,864,5,Legal Counsel,5,20,1
+KRA-CASE-01391,VAT,1543099.22,High Court,Individual,Incorrect Assessment,260,60,Legal Counsel,13,68,1
+KRA-CASE-01392,Excise Duty,13483819.31,High Court,Large Corporation,Transfer Pricing Dispute,1005,60,Tax Consultant,8,16,1
+KRA-CASE-01393,Customs Duty,65654608.51,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1008,63,Legal Counsel,6,16,1
+KRA-CASE-01394,Income Tax,51497666.37,High Court,Individual,Incorrect Assessment,1552,12,Legal Counsel,9,78,1
+KRA-CASE-01395,VAT,25015390.46,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,703,90,Tax Consultant,8,97,1
+KRA-CASE-01396,Income Tax,32828004.16,Tax Appeals Tribunal,Individual,Procedural Error,1561,49,Legal Counsel,6,23,1
+KRA-CASE-01397,VAT,14338298.88,Tax Appeals Tribunal,Large Corporation,Statute of Limitations,842,41,Self-Represented,15,61,0
+KRA-CASE-01398,Customs Duty,18815439.13,High Court,Multinational,Valuation Dispute,955,27,Legal Counsel,8,69,1
+KRA-CASE-01399,Excise Duty,11826021.9,Tax Appeals Tribunal,Large Corporation,Exemption Claim,720,23,Legal Counsel,15,98,0
+KRA-CASE-01400,PAYE,45658784.87,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,159,100,Legal Counsel,0,69,1
+KRA-CASE-01401,Income Tax,9503622.87,Court of Appeal,Large Corporation,Incorrect Assessment,1157,91,Legal Counsel,11,39,1
+KRA-CASE-01402,Excise Duty,43644602.55,Court of Appeal,Individual,Statute of Limitations,844,65,Self-Represented,7,99,1
+KRA-CASE-01403,VAT,19907778.2,High Court,SME,Statute of Limitations,1182,67,Legal Counsel,11,69,1
+KRA-CASE-01404,Income Tax,69384790.02,Court of Appeal,Individual,Statute of Limitations,235,87,Self-Represented,7,96,0
+KRA-CASE-01405,Withholding Tax,15247505.48,Court of Appeal,Large Corporation,Double Taxation,600,6,Tax Consultant,12,37,1
+KRA-CASE-01406,Excise Duty,90100614.14,Court of Appeal,Multinational,Input Tax Credit,689,17,Legal Counsel,9,0,1
+KRA-CASE-01407,VAT,25170357.64,Tax Appeals Tribunal,SME,Incorrect Assessment,151,96,Legal Counsel,4,61,1
+KRA-CASE-01408,Income Tax,76471063.4,High Court,Multinational,Double Taxation,831,100,Self-Represented,13,50,1
+KRA-CASE-01409,PAYE,19377461.21,High Court,Individual,Transfer Pricing Dispute,317,51,Self-Represented,4,26,1
+KRA-CASE-01410,Excise Duty,14283723.14,Tax Appeals Tribunal,SME,Incorrect Assessment,1096,39,Legal Counsel,15,29,0
+KRA-CASE-01411,Withholding Tax,43855285.07,High Court,SME,Input Tax Credit,344,9,Tax Consultant,10,34,1
+KRA-CASE-01412,VAT,38181095.98,High Court,Individual,Input Tax Credit,902,74,Self-Represented,15,97,0
+KRA-CASE-01413,Customs Duty,22502109.78,Tax Appeals Tribunal,Multinational,Exemption Claim,524,85,Legal Counsel,13,53,1
+KRA-CASE-01414,VAT,63824087.75,High Court,SME,Transfer Pricing Dispute,545,81,Legal Counsel,13,85,1
+KRA-CASE-01415,Customs Duty,98309506.77,Tax Appeals Tribunal,Individual,Input Tax Credit,527,74,Legal Counsel,13,85,1
+KRA-CASE-01416,Customs Duty,10441347.11,High Court,Large Corporation,Valuation Dispute,1272,66,Tax Consultant,12,5,1
+KRA-CASE-01417,PAYE,10824378.04,High Court,Large Corporation,Incorrect Assessment,1208,12,Self-Represented,7,46,1
+KRA-CASE-01418,PAYE,67277308.94,Court of Appeal,SME,Valuation Dispute,1501,95,Self-Represented,14,58,1
+KRA-CASE-01419,PAYE,86347956.09,Tax Appeals Tribunal,SME,Valuation Dispute,1400,3,Legal Counsel,5,3,1
+KRA-CASE-01420,Withholding Tax,94597678.32,Tax Appeals Tribunal,Multinational,Procedural Error,1523,58,Tax Consultant,8,45,1
+KRA-CASE-01421,Withholding Tax,34437769.97,Court of Appeal,Individual,Input Tax Credit,1635,6,Legal Counsel,8,98,1
+KRA-CASE-01422,Income Tax,20977632.78,High Court,SME,Exemption Claim,1546,51,Tax Consultant,5,63,1
+KRA-CASE-01423,VAT,33409638.51,High Court,Large Corporation,Double Taxation,678,39,Self-Represented,2,81,0
+KRA-CASE-01424,Excise Duty,31326788.28,Tax Appeals Tribunal,Individual,Valuation Dispute,444,33,Tax Consultant,15,44,0
+KRA-CASE-01425,Customs Duty,80599455.12,High Court,Large Corporation,Statute of Limitations,691,2,Self-Represented,9,64,0
+KRA-CASE-01426,Withholding Tax,64248658.63,Tax Appeals Tribunal,SME,Statute of Limitations,845,79,Legal Counsel,6,11,0
+KRA-CASE-01427,VAT,71180973.5,Court of Appeal,Large Corporation,Transfer Pricing Dispute,328,91,Legal Counsel,11,50,1
+KRA-CASE-01428,Income Tax,92129769.66,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,1286,72,Tax Consultant,10,28,0
+KRA-CASE-01429,Excise Duty,82622096.68,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,83,63,Legal Counsel,7,31,1
+KRA-CASE-01430,Income Tax,44063572.38,High Court,Individual,Transfer Pricing Dispute,529,2,Tax Consultant,15,56,0
+KRA-CASE-01431,Excise Duty,55654418.66,Court of Appeal,Individual,Statute of Limitations,1766,66,Legal Counsel,12,95,1
+KRA-CASE-01432,Customs Duty,70689255.55,Court of Appeal,Large Corporation,Transfer Pricing Dispute,913,47,Legal Counsel,7,40,1
+KRA-CASE-01433,PAYE,35739563.48,Court of Appeal,Individual,Double Taxation,1659,68,Legal Counsel,3,100,1
+KRA-CASE-01434,PAYE,70849974.09,Tax Appeals Tribunal,Individual,Double Taxation,1504,44,Legal Counsel,7,59,1
+KRA-CASE-01435,Customs Duty,57447202.37,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1240,55,Self-Represented,5,2,1
+KRA-CASE-01436,PAYE,44874403.79,High Court,Multinational,Input Tax Credit,1806,90,Self-Represented,11,8,1
+KRA-CASE-01437,Withholding Tax,27645233.51,Tax Appeals Tribunal,Multinational,Procedural Error,1491,76,Legal Counsel,4,50,1
+KRA-CASE-01438,Income Tax,66196992.71,Tax Appeals Tribunal,Large Corporation,Transfer Pricing Dispute,706,29,Legal Counsel,13,18,1
+KRA-CASE-01439,PAYE,98018846.57,Tax Appeals Tribunal,Multinational,Procedural Error,1488,96,Legal Counsel,3,99,1
+KRA-CASE-01440,VAT,61404353.47,Tax Appeals Tribunal,Large Corporation,Double Taxation,539,76,Tax Consultant,5,23,0
+KRA-CASE-01441,VAT,64958231.02,Tax Appeals Tribunal,Individual,Incorrect Assessment,222,51,Legal Counsel,12,52,0
+KRA-CASE-01442,Excise Duty,69656684.78,Tax Appeals Tribunal,SME,Incorrect Assessment,667,45,Self-Represented,13,32,0
+KRA-CASE-01443,Excise Duty,9118912.34,Tax Appeals Tribunal,Individual,Exemption Claim,1355,81,Self-Represented,14,96,0
+KRA-CASE-01444,VAT,52410534.01,Tax Appeals Tribunal,Large Corporation,Procedural Error,1428,47,Self-Represented,0,67,1
+KRA-CASE-01445,VAT,515869.55,Tax Appeals Tribunal,Individual,Exemption Claim,1789,8,Tax Consultant,6,81,0
+KRA-CASE-01446,PAYE,49845225.6,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1816,87,Tax Consultant,11,73,1
+KRA-CASE-01447,Income Tax,89149104.8,High Court,Multinational,Statute of Limitations,1069,19,Tax Consultant,14,3,1
+KRA-CASE-01448,PAYE,3925489.41,Tax Appeals Tribunal,Multinational,Incorrect Assessment,1683,39,Tax Consultant,3,44,0
+KRA-CASE-01449,Withholding Tax,18082655.14,Tax Appeals Tribunal,Multinational,Input Tax Credit,425,77,Self-Represented,10,58,1
+KRA-CASE-01450,Withholding Tax,54820644.37,Tax Appeals Tribunal,SME,Incorrect Assessment,1399,70,Self-Represented,7,46,0
+KRA-CASE-01451,Income Tax,23983163.03,High Court,Individual,Valuation Dispute,115,45,Self-Represented,15,84,0
+KRA-CASE-01452,Withholding Tax,75473422.24,Tax Appeals Tribunal,Large Corporation,Incorrect Assessment,1388,83,Legal Counsel,12,96,1
+KRA-CASE-01453,PAYE,64337690.73,Tax Appeals Tribunal,Individual,Double Taxation,629,80,Legal Counsel,13,48,0
+KRA-CASE-01454,VAT,49072011.05,Tax Appeals Tribunal,SME,Input Tax Credit,1278,49,Legal Counsel,9,98,1
+KRA-CASE-01455,Withholding Tax,69905220.29,Tax Appeals Tribunal,Individual,Incorrect Assessment,658,75,Legal Counsel,5,82,1
+KRA-CASE-01456,Customs Duty,73938742.44,Tax Appeals Tribunal,Individual,Transfer Pricing Dispute,818,24,Legal Counsel,1,87,0
+KRA-CASE-01457,Excise Duty,73867081.69,Tax Appeals Tribunal,Individual,Exemption Claim,1424,89,Self-Represented,6,12,0
+KRA-CASE-01458,Excise Duty,94998931.9,High Court,Large Corporation,Incorrect Assessment,1492,26,Legal Counsel,0,5,1
+KRA-CASE-01459,Excise Duty,20642682.42,High Court,Multinational,Procedural Error,522,84,Tax Consultant,10,22,1
+KRA-CASE-01460,Excise Duty,82665892.52,Tax Appeals Tribunal,Large Corporation,Procedural Error,349,18,Legal Counsel,8,54,1
+KRA-CASE-01461,Withholding Tax,57075446.32,High Court,Large Corporation,Double Taxation,1368,94,Tax Consultant,13,88,1
+KRA-CASE-01462,VAT,41617942.57,Tax Appeals Tribunal,SME,Double Taxation,1702,99,Legal Counsel,0,80,1
+KRA-CASE-01463,Withholding Tax,39577073.95,High Court,SME,Double Taxation,174,81,Self-Represented,5,62,1
+KRA-CASE-01464,VAT,18376688.22,Tax Appeals Tribunal,Multinational,Transfer Pricing Dispute,1424,91,Tax Consultant,12,36,1
+KRA-CASE-01465,PAYE,28679573.95,High Court,SME,Incorrect Assessment,838,25,Tax Consultant,15,25,0
+KRA-CASE-01466,Income Tax,51846644.53,Tax Appeals Tribunal,SME,Incorrect Assessment,498,4,Tax Consultant,5,10,1
+KRA-CASE-01467,Withholding Tax,80650590.91,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,1542,18,Legal Counsel,1,84,0
+KRA-CASE-01468,PAYE,76690678.61,Tax Appeals Tribunal,Individual,Exemption Claim,119,72,Self-Represented,4,43,0
+KRA-CASE-01469,Customs Duty,92187885.51,Tax Appeals Tribunal,Individual,Procedural Error,831,48,Self-Represented,9,64,0
+KRA-CASE-01470,VAT,22562297.99,High Court,SME,Input Tax Credit,81,56,Self-Represented,7,77,1
+KRA-CASE-01471,PAYE,28816263.42,Tax Appeals Tribunal,SME,Exemption Claim,146,14,Legal Counsel,13,66,1
+KRA-CASE-01472,PAYE,1795308.02,High Court,Large Corporation,Exemption Claim,788,4,Self-Represented,3,87,0
+KRA-CASE-01473,Income Tax,639865.69,Tax Appeals Tribunal,Individual,Valuation Dispute,1604,72,Self-Represented,7,97,0
+KRA-CASE-01474,Withholding Tax,3567762.31,Tax Appeals Tribunal,Individual,Input Tax Credit,1200,82,Legal Counsel,12,57,1
+KRA-CASE-01475,Withholding Tax,23805021.38,Tax Appeals Tribunal,SME,Input Tax Credit,1011,19,Legal Counsel,11,28,1
+KRA-CASE-01476,Income Tax,28722007.88,High Court,Multinational,Valuation Dispute,556,20,Legal Counsel,0,55,1
+KRA-CASE-01477,Customs Duty,14441178.23,Tax Appeals Tribunal,Large Corporation,Double Taxation,853,16,Tax Consultant,11,26,0
+KRA-CASE-01478,Excise Duty,42143008.47,Tax Appeals Tribunal,Large Corporation,Input Tax Credit,825,59,Legal Counsel,10,85,1
+KRA-CASE-01479,Excise Duty,13354812.12,Tax Appeals Tribunal,Individual,Double Taxation,1194,24,Tax Consultant,11,59,1
+KRA-CASE-01480,PAYE,86250746.51,High Court,SME,Transfer Pricing Dispute,467,50,Self-Represented,3,69,1
+KRA-CASE-01481,Withholding Tax,45259365.06,Court of Appeal,Multinational,Valuation Dispute,134,25,Legal Counsel,5,84,0
+KRA-CASE-01482,Excise Duty,93715341.53,Tax Appeals Tribunal,Multinational,Procedural Error,1451,26,Legal Counsel,5,34,1
+KRA-CASE-01483,Withholding Tax,68078985.15,High Court,Large Corporation,Double Taxation,338,52,Legal Counsel,7,94,1
+KRA-CASE-01484,Income Tax,76273895.96,Tax Appeals Tribunal,Large Corporation,Procedural Error,1414,12,Tax Consultant,2,2,1
+KRA-CASE-01485,VAT,92021170.29,High Court,SME,Incorrect Assessment,671,45,Legal Counsel,4,27,1
+KRA-CASE-01486,Customs Duty,84075817.43,Tax Appeals Tribunal,Multinational,Input Tax Credit,1002,43,Legal Counsel,9,38,1
+KRA-CASE-01487,VAT,80243476.16,Tax Appeals Tribunal,Multinational,Statute of Limitations,880,15,Legal Counsel,13,20,1
+KRA-CASE-01488,PAYE,55254504.71,Tax Appeals Tribunal,Multinational,Double Taxation,262,84,Tax Consultant,14,12,1
+KRA-CASE-01489,VAT,13603094.12,Tax Appeals Tribunal,SME,Statute of Limitations,1601,2,Legal Counsel,11,56,1
+KRA-CASE-01490,PAYE,57212429.34,Tax Appeals Tribunal,Individual,Input Tax Credit,1405,72,Legal Counsel,10,10,1
+KRA-CASE-01491,Customs Duty,6935554.68,Tax Appeals Tribunal,SME,Valuation Dispute,336,14,Tax Consultant,6,81,0
+KRA-CASE-01492,Customs Duty,29270328.83,High Court,Large Corporation,Exemption Claim,1264,63,Self-Represented,13,21,1
+KRA-CASE-01493,Customs Duty,85132719.95,Tax Appeals Tribunal,SME,Procedural Error,1032,40,Tax Consultant,1,83,1
+KRA-CASE-01494,Income Tax,70066462.76,Tax Appeals Tribunal,Multinational,Exemption Claim,112,34,Legal Counsel,14,84,1
+KRA-CASE-01495,VAT,33325240.47,Tax Appeals Tribunal,Multinational,Procedural Error,1534,73,Self-Represented,12,25,1
+KRA-CASE-01496,Excise Duty,38032692.48,Tax Appeals Tribunal,Large Corporation,Valuation Dispute,717,46,Tax Consultant,13,52,0
+KRA-CASE-01497,Withholding Tax,34245762.32,Court of Appeal,Large Corporation,Double Taxation,1031,36,Legal Counsel,14,85,1
+KRA-CASE-01498,VAT,80557243.53,Court of Appeal,Multinational,Incorrect Assessment,77,16,Tax Consultant,3,31,1
+KRA-CASE-01499,VAT,17751866.41,Tax Appeals Tribunal,SME,Double Taxation,1625,11,Tax Consultant,0,92,0
+KRA-CASE-01500,VAT,73663527.34,Tax Appeals Tribunal,Multinational,Incorrect Assessment,349,74,Legal Counsel,14,80,1

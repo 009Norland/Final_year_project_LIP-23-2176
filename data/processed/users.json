@@ -1,0 +1,31 @@
+[
+  {
+    "username": "admin",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "Admin"
+  },
+  {
+    "full_name": "Mark Masai",
+    "username": "Marky",
+    "password": "4c9a6c898aa7098dfdffb18d6e0e61637960fdea44feb81f65096cefa0e7d844",
+    "role": "Legal Officer"
+  },
+  {
+    "full_name": "John Mwangi",
+    "username": "Johny",
+    "password": "8638038fb0fd3b74c794ef596dae138f56a4d475542d456dc38ee36c4bae61b7",
+    "role": "Admin"
+  },
+  {
+    "full_name": "Fadhili Kamau",
+    "username": "Kamau.F",
+    "password": "9c573b2d418f92921bc5aa53e13a86f3e0d3908af7f5a6160b237efbc877d64d",
+    "role": "Legal Officer"
+  },
+  {
+    "full_name": "Clyde Ngunjiri",
+    "username": "Ngunjiri.C",
+    "password": "ee35dc726aa88498536fec57fd1002a5af10ae0ace2fee47af5c635298d88e1c",
+    "role": "Legal Officer"
+  }
+]
