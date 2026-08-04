@@ -12,12 +12,12 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
 from src.dashboard.theme import (inject_theme, stat_card, kpi_pill, bar_row,
-                                  status_badge, risk_badge, top_bar, page_header)
+                                status_badge, risk_badge, top_bar, page_header)
 from src.dashboard import case_store
 from src.dashboard.auth import login, sign_up, seed_admin, get_all_users, delete_user
 
 st.set_page_config(page_title="KRA Legal — Litigation Intelligence",
-                   page_icon="⚖️", layout="wide", initial_sidebar_state="expanded")
+                page_icon="⚖️", layout="wide", initial_sidebar_state="expanded")
 inject_theme()
 
 st.markdown("""
@@ -71,8 +71,8 @@ CASE_TYPES     = ["VAT","Income Tax","Customs Duty","Excise Duty","PAYE","Withho
 COURT_LEVELS   = ["Tax Appeals Tribunal","High Court","Court of Appeal"]
 TAXPAYER_CATS  = ["Individual","SME","Large Corporation","Multinational"]
 LEGAL_GROUNDS  = ["Incorrect Assessment","Procedural Error","Statute of Limitations",
-                  "Double Taxation","Transfer Pricing Dispute","Exemption Claim",
-                  "Valuation Dispute","Input Tax Credit"]
+                "Double Taxation","Transfer Pricing Dispute","Exemption Claim",
+                "Valuation Dispute","Input Tax Credit"]
 REPRESENTATION = ["Self-Represented","Legal Counsel","Tax Consultant"]
 STATUSES       = ["Open","Pending","Closed","Appealed"]
 
@@ -139,19 +139,19 @@ def show_signup():
     """, unsafe_allow_html=True)
 
     full_name = st.text_input("Official Full Name",
-                               placeholder="e.g. John Omondi Kariuki",
-                               key="signup_fullname")
+                            placeholder="e.g. John Omondi Kariuki",
+                            key="signup_fullname")
     username  = st.text_input("Username",
-                               placeholder="No spaces — e.g. JohnOmondi",
-                               key="signup_username")
+                            placeholder="No spaces — e.g. JohnOmondi",
+                            key="signup_username")
     password  = st.text_input("Password",
-                               placeholder="At least 6 characters",
-                               type="password",
-                               key="signup_password")
+                            placeholder="At least 6 characters",
+                            type="password",
+                            key="signup_password")
     confirm   = st.text_input("Confirm Password",
-                               placeholder="Repeat your password",
-                               type="password",
-                               key="signup_confirm")
+                            placeholder="Repeat your password",
+                            type="password",
+                            key="signup_confirm")
     role      = st.selectbox("Role", ["Legal Officer", "Admin"], key="signup_role")
 
     if st.button("Create Account", use_container_width=True):
@@ -355,11 +355,11 @@ if page == "Dashboard":
             grp = df.groupby("case_type")["disputed_amount"].sum().reset_index().sort_values(
                 "disputed_amount", ascending=True)
             fig = px.bar(grp, x="disputed_amount", y="case_type", orientation="h",
-                         color_discrete_sequence=["#C0392B"])
+                        color_discrete_sequence=["#C0392B"])
             fig.update_layout(height=300, margin=dict(l=10, r=10, t=10, b=10),
-                              xaxis_title="Disputed Amount (KES)", yaxis_title="",
-                              plot_bgcolor="white", paper_bgcolor="white",
-                              font=dict(family="Inter"))
+                            xaxis_title="Disputed Amount (KES)", yaxis_title="",
+                            plot_bgcolor="white", paper_bgcolor="white",
+                            font=dict(family="Inter"))
             st.plotly_chart(fig, use_container_width=True)
             st.markdown("</div>", unsafe_allow_html=True)
 
@@ -378,19 +378,19 @@ elif page == "Upload Case":
             c1, c2 = st.columns(2)
             with c1:
                 taxpayer_name   = st.text_input("Taxpayer / Company Name",
-                                                 placeholder="e.g. Kipchoge Tea Exporters Ltd")
+                                                placeholder="e.g. Kipchoge Tea Exporters Ltd")
                 pin             = st.text_input("Taxpayer PIN",
-                                                 placeholder="e.g. A012345678B")
+                                                placeholder="e.g. A012345678B")
                 plaintiff       = st.text_input("Plaintiff",
-                                                 placeholder="Who is suing")
+                                                placeholder="Who is suing")
                 defendant       = st.text_input("Defendant",
-                                                 placeholder="Who is being sued")
+                                                placeholder="Who is being sued")
                 case_type       = st.selectbox("Case Type", CASE_TYPES)
                 disputed_amount = st.number_input("Disputed Amount (KES)",
-                                                   min_value=0.0,
-                                                   value=2_000_000.0,
-                                                   step=50_000.0,
-                                                   format="%.2f")
+                                                min_value=0.0,
+                                                value=2_000_000.0,
+                                                step=50_000.0,
+                                                format="%.2f")
 
             with c2:
                 court_level    = st.selectbox("Court Level", COURT_LEVELS)
@@ -408,46 +408,61 @@ elif page == "Upload Case":
                     assigned_to = username
 
             submitted = st.form_submit_button("Submit Case and Run Forecast",
-                                               use_container_width=True)
+                                            use_container_width=True)
 
         if submitted:
             if not taxpayer_name or not pin:
-                st.error("Please provide both Taxpayer Name and PIN.")
+                st.error("Please provide Taxpayer Name and PIN.")
+            elif not plaintiff or not defendant:
+                st.error("Please provide both Plaintiff and Defendant.")
             else:
-                case_data = {
-                    "taxpayer_name":  taxpayer_name,
-                    "pin":            pin,
-                    "plaintiff":      plaintiff,
-                    "defendant":      defendant,
-                    "case_type":      case_type,
-                    "disputed_amount": disputed_amount,
-                    "court_level":    court_level,
-                    "legal_grounds":  legal_grounds,
-                    "representation": representation,
-                    "taxpayer_category": taxpayer_cat,
-                    "status":         status,
-                    "assigned_to":    assigned_to if assigned_to != "Unassigned" else "",
-                    "created_by":     full_name,
-                    # Default values for ML model fields not shown on form
-                    "case_duration_days":      365,
-                    "prior_compliance_score":  50,
-                    "num_prior_disputes":       0,
-                    "taxpayer_risk_score":     20,
-                }
-                pred = run_prediction(case_data)
-                case_data.update({
-                    "prediction":       pred["prediction"],
-                    "win_probability":  pred["win_probability"],
-                    "risk_level":       pred["risk_level"],
-                })
-                new_id = case_store.add_case(case_data)
-                st.session_state["selected_case_id"] = new_id
-                st.success(f"Case {new_id} registered for {taxpayer_name}.")
-                st.info(
-                    f"{pred['risk_level'].upper()} RISK | {pred['prediction']} | "
-                    f"KRA Win Probability: {pred['win_probability']:.0f}%\n\n"
-                    f"{pred['recommendation']}"
-                )
+                try:
+                    case_data = {
+                        "taxpayer_name":          taxpayer_name,
+                        "pin":                    pin,
+                        "plaintiff":              plaintiff,
+                        "defendant":              defendant,
+                        "case_type":              case_type,
+                        "disputed_amount":        disputed_amount,
+                        "court_level":            court_level,
+                        "legal_grounds":          legal_grounds,
+                        "representation":         representation,
+                        "taxpayer_category":      taxpayer_cat,
+                        "status":                 status,
+                        "assigned_to":            assigned_to if assigned_to != "Unassigned" else "",
+                        "created_by":             full_name,
+                        "case_duration_days":     365,
+                        "prior_compliance_score": 50,
+                        "num_prior_disputes":     0,
+                        "taxpayer_risk_score":    20,
+                    }
+
+                    pred = run_prediction(case_data)
+                    case_data.update({
+                        "prediction":      pred["prediction"],
+                        "win_probability": pred["win_probability"],
+                        "risk_level":      pred["risk_level"],
+                    })
+
+                    new_id = case_store.add_case(case_data)
+
+                    if new_id:
+                        st.success(f"Case {new_id} successfully registered for {taxpayer_name}.")
+                        st.info(
+                            f"{pred['risk_level'].upper()} RISK | "
+                            f"{pred['prediction']} | "
+                            f"KRA Win Probability: {pred['win_probability']:.0f}%\n\n"
+                            f"{pred['recommendation']}"
+                        )
+                        st.session_state["selected_case_id"] = new_id
+                        st.balloons()
+                    else:
+                        st.error("Case was not saved. Please try again.")
+
+                except Exception as e:
+                    import traceback
+                    st.error(f"Failed to save case: {e}")
+                    st.code(traceback.format_exc())
         st.markdown("</div>", unsafe_allow_html=True)
 
     with tab2:
@@ -457,14 +472,14 @@ elif page == "Upload Case":
         st.markdown('<div class="panel-subtitle">Auto-classify incoming documents and extract '
                     'key fields.</div>', unsafe_allow_html=True)
         doc_text = st.text_area("Paste document text here", height=180,
-                                 placeholder="Paste a demand notice, court summons, "
-                                             "tribunal ruling, etc.")
+                                placeholder="Paste a demand notice, court summons, "
+                                            "tribunal ruling, etc.")
         uploaded = st.file_uploader("Or upload a .txt file", type=["txt"])
         if uploaded:
             doc_text = uploaded.read().decode("utf-8")
             st.text_area("Preview",
-                         doc_text[:400] + ("..." if len(doc_text) > 400 else ""),
-                         height=100)
+                        doc_text[:400] + ("..." if len(doc_text) > 400 else ""),
+                        height=100)
         if st.button("Classify Document", use_container_width=True):
             if not doc_text:
                 st.error("Please paste or upload a document first.")
@@ -474,7 +489,7 @@ elif page == "Upload Case":
                     r   = classify_document(doc_text)
                     ent = r.get("entities", {})
                     st.success(f"Document Type: {r['doc_type']}  |  "
-                               f"Confidence: {r['confidence']}%")
+                            f"Confidence: {r['confidence']}%")
                     e1, e2, e3 = st.columns(3)
                     e1.write(f"PIN: {ent.get('pin', 'Not found')}")
                     e2.write(f"Case No: {ent.get('case_number', 'Not found')}")
@@ -483,12 +498,12 @@ elif page == "Upload Case":
                         st.write(f"Dates: {', '.join(ent['dates'][:2])}")
                     st.info(f"Summary: {r.get('summary', '')}")
                     scores_df = pd.DataFrame(list(r["all_scores"].items()),
-                                             columns=["Type", "Score%"]).sort_values("Score%")
+                                            columns=["Type", "Score%"]).sort_values("Score%")
                     fig = px.bar(scores_df, x="Score%", y="Type", orientation="h",
-                                 color="Score%", color_continuous_scale=["#F5D6D1", "#C0392B"],
-                                 title="Confidence by Document Type")
+                                color="Score%", color_continuous_scale=["#F5D6D1", "#C0392B"],
+                                title="Confidence by Document Type")
                     fig.update_layout(height=280, margin=dict(l=0, r=10, t=30, b=0),
-                                      font=dict(family="Inter"))
+                                    font=dict(family="Inter"))
                     st.plotly_chart(fig, use_container_width=True)
                 except FileNotFoundError:
                     st.error("Document model not trained yet.")
@@ -501,14 +516,12 @@ elif page == "View Cases":
     top_bar("RECORDS", "VIEW CASES")
     cases = get_cases_for_user()
 
-    # ── If a case is selected, show its details ───────────────────────────
     sel_id = st.session_state.get("selected_case_id")
 
     if sel_id and cases:
         case = case_store.get_case(sel_id)
         if case:
-            # Back button
-            if st.button("← Back to Case List"):
+            if st.button("Back to Case List"):
                 st.session_state["selected_case_id"] = None
                 st.rerun()
 
@@ -527,18 +540,22 @@ elif page == "View Cases":
 
             wp = case.get("win_probability", 0)
             c1, c2, c3, c4 = st.columns(4)
-            with c1: stat_card("DISPUTED AMOUNT",
-                                f"KES {case.get('disputed_amount', 0):,.0f}",
-                                case.get("case_type", "-"))
-            with c2: stat_card("KRA WIN PROBABILITY", f"{wp:.0f}%",
-                                case.get("prediction", "-"),
-                                "red" if wp < 50 else ("orange" if wp < 70 else "green"))
-            with c3: stat_card("CASE DURATION",
-                                f"{case.get('case_duration_days', '-')} days",
-                                case.get("court_level", "-"))
-            with c4: stat_card("STATUS",
-                                case.get("status", "Open"),
-                                case.get("legal_grounds", "-"))
+            with c1:
+                stat_card("DISPUTED AMOUNT",
+                          f"KES {case.get('disputed_amount', 0):,.0f}",
+                          case.get("case_type", "-"))
+            with c2:
+                stat_card("KRA WIN PROBABILITY", f"{wp:.0f}%",
+                          case.get("prediction", "-"),
+                          "red" if wp < 50 else ("orange" if wp < 70 else "green"))
+            with c3:
+                stat_card("CASE DURATION",
+                          f"{case.get('case_duration_days', '-')} days",
+                          case.get("court_level", "-"))
+            with c4:
+                stat_card("STATUS",
+                          case.get("status", "Open"),
+                          case.get("legal_grounds", "-"))
 
             st.write("")
             col_l, col_r = st.columns([2, 1])
@@ -570,11 +587,18 @@ elif page == "View Cases":
                 st.markdown('<div class="panel-card"><div class="panel-title">'
                             'Update Case Status</div>', unsafe_allow_html=True)
                 new_status = st.selectbox("New Status", STATUSES,
-                                           index=STATUSES.index(case.get("status", "Open")))
+                                          index=STATUSES.index(case.get("status", "Open")))
                 if st.button("Save Status", use_container_width=True):
-                    case_store.update_case(case["case_id"], {"status": new_status})
-                    st.success(f"Status updated to {new_status}.")
-                    st.rerun()
+                    try:
+                        result = case_store.update_case(case["case_id"], {"status": new_status})
+                        if result:
+                            st.success(f"Status successfully updated to {new_status}.")
+                            st.balloons()
+                            st.rerun()
+                        else:
+                            st.error("Could not update status. Case not found in the system.")
+                    except Exception as e:
+                        st.error(f"Something went wrong while saving: {e}")
                 st.markdown("</div>", unsafe_allow_html=True)
 
             with col_r:
@@ -586,8 +610,8 @@ elif page == "View Cases":
                     gauge={"axis": {"range": [0, 100]},
                            "bar": {"color": "#1E8449" if wp >= 50 else "#C0392B"},
                            "steps": [{"range": [0,  50], "color": "#FCEBE9"},
-                                      {"range": [50, 70], "color": "#FDF3DC"},
-                                      {"range": [70,100], "color": "#EAF6EF"}]}))
+                                     {"range": [50, 70], "color": "#FDF3DC"},
+                                     {"range": [70,100], "color": "#EAF6EF"}]}))
                 fig.update_layout(height=260, margin=dict(t=40, b=10, l=10, r=10),
                                   font=dict(family="Inter"))
                 st.plotly_chart(fig, use_container_width=True)
@@ -605,7 +629,7 @@ elif page == "View Cases":
 
             st.stop()
 
-    # ── Case list (shown when no case is selected) ─────────────────────────
+    # ── Case list ──────────────────────────────────────────────────────────
     page_header("CASE RECORDS", "View", "Cases", "Cases visible to your account.")
     st.write("")
 
@@ -614,12 +638,15 @@ elif page == "View Cases":
     else:
         df = pd.DataFrame(cases)
         f1, f2, f3 = st.columns(3)
-        with f1: sf = st.multiselect("Status", STATUSES, default=STATUSES)
-        with f2: rf = st.multiselect("Risk", ["High","Medium","Low"],
-                                      default=["High","Medium","Low"])
-        with f3: tf = st.multiselect("Case Type",
-                                      sorted(df["case_type"].dropna().unique().tolist()),
-                                      default=sorted(df["case_type"].dropna().unique().tolist()))
+        with f1:
+            sf = st.multiselect("Status", STATUSES, default=STATUSES)
+        with f2:
+            rf = st.multiselect("Risk", ["High","Medium","Low"],
+                                default=["High","Medium","Low"])
+        with f3:
+            tf = st.multiselect("Case Type",
+                                sorted(df["case_type"].dropna().unique().tolist()),
+                                default=sorted(df["case_type"].dropna().unique().tolist()))
 
         filtered = df[
             df["status"].isin(sf) &
@@ -628,7 +655,7 @@ elif page == "View Cases":
         ]
 
         st.markdown(f'<div class="panel-card"><div class="panel-title">'
-                    f'{len(filtered)} Case(s) — Click a case to view details</div>',
+                    f'{len(filtered)} Case(s) — Click Open to view details</div>',
                     unsafe_allow_html=True)
         h1, h2, h3, h4, h5 = st.columns([3, 2, 2, 2, 1])
         h1.markdown("**Taxpayer**")

@@ -23,19 +23,32 @@ def _load_local():
 
 
 def _save_local(records):
-    with open(LOCAL_STORE, "w", encoding="utf-8") as f:
-        json.dump(records, f, indent=2, default=str)
+    try:
+        with open(LOCAL_STORE, "w", encoding="utf-8") as f:
+            json.dump(records, f, indent=2, default=str)
+        print(f"Saved {len(records)} records to {LOCAL_STORE}")
+    except Exception as e:
+        print(f"ERROR writing to file: {e}")
+        raise
 
 
 def add_case(case: dict) -> str:
-    case = case.copy()
-    case.setdefault("case_id", f"A{uuid.uuid4().hex[:8].upper()}")
-    case.setdefault("created_at", datetime.now(timezone.utc).isoformat())
-    case.setdefault("status", "Open")
-    records = _load_local()
-    records.append(case)
-    _save_local(records)
-    return case["case_id"]
+    import traceback
+    try:
+        case = case.copy()
+        case.setdefault("case_id", f"A{uuid.uuid4().hex[:8].upper()}")
+        case.setdefault("created_at", datetime.now(timezone.utc).isoformat())
+        case.setdefault("status", "Open")
+        records = _load_local()
+        records.append(case)
+        _save_local(records)
+        print(f"Case saved successfully: {case['case_id']}")
+        print(f"Total cases now: {len(records)}")
+        return case["case_id"]
+    except Exception as e:
+        print(f"ERROR saving case: {e}")
+        print(traceback.format_exc())
+        raise
 
 
 def get_all_cases():
