@@ -11,7 +11,8 @@ import plotly.express as px
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.dashboard.theme import inject_theme, stat_card, kpi_pill, bar_row, status_badge, risk_badge
+from src.dashboard.theme import (inject_theme, stat_card, kpi_pill, bar_row,
+                                  status_badge, risk_badge, top_bar, page_header)
 from src.dashboard import case_store
 from src.dashboard.auth import login, sign_up, seed_admin, get_all_users, delete_user
 
@@ -23,16 +24,16 @@ st.markdown("""
 <style>
 .auth-box {
     background: #FFFFFF;
-    border: 1px solid #E9ECEF;
-    border-radius: 16px;
+    border: 1px solid #E3E1DC;
+    border-radius: 0;
     padding: 40px 40px 32px 40px;
     max-width: 440px;
     margin: 60px auto 0 auto;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
 }
 .auth-logo-icon {
     background: #C0392B;
-    border-radius: 12px;
+    border-radius: 6px;
     width: 52px;
     height: 52px;
     display: inline-flex;
@@ -43,20 +44,24 @@ st.markdown("""
 }
 .auth-title {
     text-align: center;
-    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
     font-weight: 800;
-    color: #154360;
+    color: #0A0A0A;
     margin-bottom: 4px;
 }
 .auth-subtitle {
     text-align: center;
-    color: #8A93A0;
-    font-size: 0.88rem;
+    color: #9A9A93;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
     margin-bottom: 24px;
 }
 .auth-divider {
     border: none;
-    border-top: 1px solid #EEF1F4;
+    border-top: 1px solid #E3E1DC;
     margin: 20px 0;
 }
 </style>
@@ -81,8 +86,6 @@ if "show_signup" not in st.session_state:
 if "selected_case_id" not in st.session_state:
     st.session_state["selected_case_id"] = None
 seed_admin()
-import case_store  
-
 case_store.seed_demo_cases()
 
 # AUTH PAGES
@@ -112,7 +115,7 @@ def show_login():
                 st.error("Invalid username or password.")
 
     st.markdown("<hr class='auth-divider'>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align:center;color:#8A93A0;font-size:0.85rem;'>"
+    st.markdown("<div style='text-align:center;color:#9A9A93;font-size:0.85rem;'>"
                 "Don't have an account?</div>", unsafe_allow_html=True)
 
     if st.button("Create Account", use_container_width=True):
@@ -185,7 +188,7 @@ if not st.session_state["logged_in"]:
     else:
         show_login()
     st.stop()
-    
+
 # MAIN APP
 user      = st.session_state.get("user", {})
 username  = user.get("username", "")
@@ -201,14 +204,14 @@ def get_cases_for_user():
     return [c for c in all_c if c.get("assigned_to") in (username, None, "")]
 
 
-# Sidebar 
+# Sidebar
 with st.sidebar:
     st.markdown("""
         <div class="sidebar-brand">
             <div class="sidebar-brand-icon">⚖️</div>
             <div>
                 <div class="sidebar-brand-title">KRA <span>LEGAL</span></div>
-                <div class="sidebar-brand-sub">Litigation Intelligence</div>
+                <div class="sidebar-brand-sub">Intelligence Platform</div>
             </div>
         </div>""", unsafe_allow_html=True)
 
@@ -221,15 +224,22 @@ with st.sidebar:
             </div>
         </div>""", unsafe_allow_html=True)
 
-    st.markdown('<div class="sidebar-section-label" style="margin-top:16px;">WORKSPACES</div>',
+    st.markdown('<div class="sidebar-section-label" style="margin-top:16px;">NAVIGATION</div>',
                 unsafe_allow_html=True)
 
     visible_cases = get_cases_for_user()
-    nav_options   = ["Dashboard", "Upload Case", "View Cases"]
+    nav_options  = ["Dashboard", "Upload Case", "View Cases"]
+    nav_captions = ["Overview", "Register a new dispute", "Case records"]
     if is_admin:
         nav_options.append("Admin Panel")
+        nav_captions.append("User management")
 
-    page = st.radio("nav", nav_options, label_visibility="collapsed")
+    try:
+        page = st.radio("nav", nav_options, captions=nav_captions, label_visibility="collapsed")
+    except TypeError:
+        # older Streamlit versions without the `captions` kwarg
+        page = st.radio("nav", nav_options, label_visibility="collapsed")
+
     st.markdown(f"<div style='color:#666;font-size:0.72rem;margin-top:4px;'>"
                 f"Cases visible: {len(visible_cases)}</div>", unsafe_allow_html=True)
 
@@ -252,7 +262,7 @@ with st.sidebar:
         st.rerun()
 
 
-# Helpers 
+# Helpers
 def metrics(cases):
     df = pd.DataFrame(cases) if cases else pd.DataFrame()
     n  = len(df)
@@ -295,14 +305,14 @@ def run_prediction(case_data):
 
 # PAGE: DASHBOARD
 if page == "Dashboard":
+    top_bar("OVERVIEW", "DASHBOARD")
     cases = get_cases_for_user()
     m = metrics(cases)
 
     col_title, col_k1, col_k2 = st.columns([3, 1, 1])
     with col_title:
-        st.markdown('<div class="page-title">Litigation Dashboard</div>', unsafe_allow_html=True)
-        st.markdown('<div class="page-subtitle">Real-time financial liabilities, KRA success '
-                    'forecasts, and risk levels.</div>', unsafe_allow_html=True)
+        page_header("OVERVIEW — LITIGATION", "Legal Intelligence", "Dashboard",
+                    "Real-time overview of active tax disputes, ML predictions, and risk levels.")
     with col_k1: kpi_pill("Portfolio Sum:", f"Ksh {m['portfolio']:,.0f}")
     with col_k2: kpi_pill("KRA Win:", f"{m['win_rate']:.0f}%")
 
@@ -321,19 +331,19 @@ if page == "Dashboard":
         st.markdown('<div class="panel-card"><div class="panel-title">Cases by Risk Level</div>'
                     '<div class="panel-subtitle">Distribution by risk exposure rating.</div>',
                     unsafe_allow_html=True)
-        bar_row("High Risk",   m["high_risk"],   m["high_risk"] / total * 100,   "#E74C3C")
-        bar_row("Medium Risk", m["medium_risk"], m["medium_risk"] / total * 100, "#E67E22")
-        bar_row("Low Risk",    m["low_risk"],    m["low_risk"] / total * 100,    "#27AE60")
+        bar_row("High Risk",   m["high_risk"],   m["high_risk"] / total * 100,   "#C0392B")
+        bar_row("Medium Risk", m["medium_risk"], m["medium_risk"] / total * 100, "#B9770E")
+        bar_row("Low Risk",    m["low_risk"],    m["low_risk"] / total * 100,    "#1E8449")
         st.markdown("</div>", unsafe_allow_html=True)
 
     with col_r:
         st.markdown('<div class="panel-card"><div class="panel-title">Cases by Status</div>'
                     '<div class="panel-subtitle">Distribution by legal proceedings status.</div>',
                     unsafe_allow_html=True)
-        bar_row("Open",     m["open"],     m["open"] / total * 100,     "#2E86C1")
-        bar_row("Pending",  m["pending"],  m["pending"] / total * 100,  "#E67E22")
-        bar_row("Closed",   m["closed"],   m["closed"] / total * 100,   "#27AE60")
-        bar_row("Appealed", m["appealed"], m["appealed"] / total * 100, "#8E44AD")
+        bar_row("Open",     m["open"],     m["open"] / total * 100,     "#0A0A0A")
+        bar_row("Pending",  m["pending"],  m["pending"] / total * 100,  "#B9770E")
+        bar_row("Closed",   m["closed"],   m["closed"] / total * 100,   "#1E8449")
+        bar_row("Appealed", m["appealed"], m["appealed"] / total * 100, "#7D3C98")
         st.markdown("</div>", unsafe_allow_html=True)
 
     if cases:
@@ -348,15 +358,16 @@ if page == "Dashboard":
                          color_discrete_sequence=["#C0392B"])
             fig.update_layout(height=300, margin=dict(l=10, r=10, t=10, b=10),
                               xaxis_title="Disputed Amount (KES)", yaxis_title="",
-                              plot_bgcolor="white", paper_bgcolor="white")
+                              plot_bgcolor="white", paper_bgcolor="white",
+                              font=dict(family="Inter"))
             st.plotly_chart(fig, use_container_width=True)
             st.markdown("</div>", unsafe_allow_html=True)
 
 # PAGE: UPLOAD CASE
 elif page == "Upload Case":
-    st.markdown('<div class="page-title">Upload New Case</div>', unsafe_allow_html=True)
-    st.markdown('<div class="page-subtitle">Register a new tax dispute and get an instant '
-                'outcome forecast.</div>', unsafe_allow_html=True)
+    top_bar("MODULE 01", "UPLOAD CASE")
+    page_header("REGISTER — NEW DISPUTE", "Upload New", "Case",
+                "Register a new tax dispute and get an instant outcome forecast.")
     st.write("")
 
     tab1, tab2 = st.tabs(["Manual Entry", "Upload Document"])
@@ -474,9 +485,10 @@ elif page == "Upload Case":
                     scores_df = pd.DataFrame(list(r["all_scores"].items()),
                                              columns=["Type", "Score%"]).sort_values("Score%")
                     fig = px.bar(scores_df, x="Score%", y="Type", orientation="h",
-                                 color="Score%", color_continuous_scale="Blues",
+                                 color="Score%", color_continuous_scale=["#F5D6D1", "#C0392B"],
                                  title="Confidence by Document Type")
-                    fig.update_layout(height=280, margin=dict(l=0, r=10, t=30, b=0))
+                    fig.update_layout(height=280, margin=dict(l=0, r=10, t=30, b=0),
+                                      font=dict(family="Inter"))
                     st.plotly_chart(fig, use_container_width=True)
                 except FileNotFoundError:
                     st.error("Document model not trained yet.")
@@ -486,119 +498,120 @@ elif page == "Upload Case":
 
 # PAGE: VIEW CASES
 elif page == "View Cases":
-    st.markdown('<div class="page-title">View Cases</div>', unsafe_allow_html=True)
-    st.markdown('<div class="page-subtitle">Cases visible to your account.</div>',
-                unsafe_allow_html=True)
-    st.write("")
+    top_bar("RECORDS", "VIEW CASES")
     cases = get_cases_for_user()
+
+    # ── If a case is selected, show its details ───────────────────────────
+    sel_id = st.session_state.get("selected_case_id")
+
+    if sel_id and cases:
+        case = case_store.get_case(sel_id)
+        if case:
+            # Back button
+            if st.button("← Back to Case List"):
+                st.session_state["selected_case_id"] = None
+                st.rerun()
+
+            st.write("")
+            st.markdown(f'<div class="page-eyebrow">CASE FILE</div>'
+                        f'<div class="page-title">{case.get("taxpayer_name", "Case Details")}</div>',
+                        unsafe_allow_html=True)
+            st.markdown(f'<div class="page-subtitle">'
+                        f'Case ID: {case.get("case_id")} &nbsp;·&nbsp; '
+                        f'PIN: {case.get("pin", "-")} &nbsp;·&nbsp; '
+                        f'Plaintiff: {case.get("plaintiff", "-")} &nbsp;·&nbsp; '
+                        f'Defendant: {case.get("defendant", "-")} &nbsp;·&nbsp; '
+                        f'Assigned to: {case.get("assigned_to", "Unassigned")}</div>',
+                        unsafe_allow_html=True)
+            st.write("")
+
+            wp = case.get("win_probability", 0)
+            c1, c2, c3, c4 = st.columns(4)
+            with c1: stat_card("DISPUTED AMOUNT",
+                                f"KES {case.get('disputed_amount', 0):,.0f}",
+                                case.get("case_type", "-"))
+            with c2: stat_card("KRA WIN PROBABILITY", f"{wp:.0f}%",
+                                case.get("prediction", "-"),
+                                "red" if wp < 50 else ("orange" if wp < 70 else "green"))
+            with c3: stat_card("CASE DURATION",
+                                f"{case.get('case_duration_days', '-')} days",
+                                case.get("court_level", "-"))
+            with c4: stat_card("STATUS",
+                                case.get("status", "Open"),
+                                case.get("legal_grounds", "-"))
+
+            st.write("")
+            col_l, col_r = st.columns([2, 1])
+
+            with col_l:
+                st.markdown('<div class="panel-card"><div class="panel-title">'
+                            'Case Profile</div>', unsafe_allow_html=True)
+                for k, v in {
+                    "Plaintiff":              case.get("plaintiff", "-"),
+                    "Defendant":              case.get("defendant", "-"),
+                    "Taxpayer Category":      case.get("taxpayer_category", "-"),
+                    "Representation":         case.get("representation", "-"),
+                    "Legal Grounds":          case.get("legal_grounds", "-"),
+                    "Court Level":            case.get("court_level", "-"),
+                    "Prior Compliance Score": case.get("prior_compliance_score", "-"),
+                    "Prior Disputes":         case.get("num_prior_disputes", "-"),
+                    "Taxpayer Risk Score":    case.get("taxpayer_risk_score", "-"),
+                    "Assigned To":            case.get("assigned_to", "Unassigned"),
+                    "Created By":             case.get("created_by", "-"),
+                }.items():
+                    st.markdown(
+                        f"<div style='display:flex;justify-content:space-between;"
+                        f"padding:6px 0;border-bottom:1px solid #F0EEE9;'>"
+                        f"<span style='color:#9A9A93;font-size:0.85rem;'>{k}</span>"
+                        f"<span style='font-weight:700;color:#0A0A0A;font-size:0.85rem;'>"
+                        f"{v}</span></div>", unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
+
+                st.markdown('<div class="panel-card"><div class="panel-title">'
+                            'Update Case Status</div>', unsafe_allow_html=True)
+                new_status = st.selectbox("New Status", STATUSES,
+                                           index=STATUSES.index(case.get("status", "Open")))
+                if st.button("Save Status", use_container_width=True):
+                    case_store.update_case(case["case_id"], {"status": new_status})
+                    st.success(f"Status updated to {new_status}.")
+                    st.rerun()
+                st.markdown("</div>", unsafe_allow_html=True)
+
+            with col_r:
+                st.markdown('<div class="panel-card"><div class="panel-title">'
+                            'Outcome Forecast</div>', unsafe_allow_html=True)
+                fig = go.Figure(go.Indicator(
+                    mode="gauge+number", value=wp,
+                    title={"text": "KRA Win Probability"},
+                    gauge={"axis": {"range": [0, 100]},
+                           "bar": {"color": "#1E8449" if wp >= 50 else "#C0392B"},
+                           "steps": [{"range": [0,  50], "color": "#FCEBE9"},
+                                      {"range": [50, 70], "color": "#FDF3DC"},
+                                      {"range": [70,100], "color": "#EAF6EF"}]}))
+                fig.update_layout(height=260, margin=dict(t=40, b=10, l=10, r=10),
+                                  font=dict(family="Inter"))
+                st.plotly_chart(fig, use_container_width=True)
+                st.markdown(risk_badge(case.get("risk_level", "Low")),
+                            unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
+
+                if is_admin:
+                    st.write("")
+                    if st.button("Delete This Case", use_container_width=True):
+                        case_store.delete_case(case["case_id"])
+                        st.session_state["selected_case_id"] = None
+                        st.success("Case deleted.")
+                        st.rerun()
+
+            st.stop()
+
+    # ── Case list (shown when no case is selected) ─────────────────────────
+    page_header("CASE RECORDS", "View", "Cases", "Cases visible to your account.")
+    st.write("")
 
     if not cases:
         st.info("No cases assigned to you yet. Ask an Admin to assign cases to your account.")
     else:
-        # ── If a case is selected, show its details ───────────────────────────
-        sel_id = st.session_state.get("selected_case_id")
-
-        if sel_id:
-            case = case_store.get_case(sel_id)
-            if case:
-                # Back button
-                if st.button("← Back to Case List"):
-                    st.session_state["selected_case_id"] = None
-                    st.rerun()
-
-                st.write("")
-                st.markdown(f'<div class="page-title">'
-                            f'{case.get("taxpayer_name", "Case Details")}</div>',
-                            unsafe_allow_html=True)
-                st.markdown(f'<div class="page-subtitle">'
-                            f'Case ID: {case.get("case_id")} &nbsp;·&nbsp; '
-                            f'PIN: {case.get("pin", "-")} &nbsp;·&nbsp; '
-                            f'Plaintiff: {case.get("plaintiff", "-")} &nbsp;·&nbsp; '
-                            f'Defendant: {case.get("defendant", "-")} &nbsp;·&nbsp; '
-                            f'Assigned to: {case.get("assigned_to", "Unassigned")}</div>',
-                            unsafe_allow_html=True)
-                st.write("")
-
-                wp = case.get("win_probability", 0)
-                c1, c2, c3, c4 = st.columns(4)
-                with c1: stat_card("DISPUTED AMOUNT",
-                                    f"KES {case.get('disputed_amount', 0):,.0f}",
-                                    case.get("case_type", "-"))
-                with c2: stat_card("KRA WIN PROBABILITY", f"{wp:.0f}%",
-                                    case.get("prediction", "-"),
-                                    "red" if wp < 50 else ("orange" if wp < 70 else "green"))
-                with c3: stat_card("CASE DURATION",
-                                    f"{case.get('case_duration_days', '-')} days",
-                                    case.get("court_level", "-"))
-                with c4: stat_card("STATUS",
-                                    case.get("status", "Open"),
-                                    case.get("legal_grounds", "-"))
-
-                st.write("")
-                col_l, col_r = st.columns([2, 1])
-
-                with col_l:
-                    st.markdown('<div class="panel-card"><div class="panel-title">'
-                                'Case Profile</div>', unsafe_allow_html=True)
-                    for k, v in {
-                        "Plaintiff":              case.get("plaintiff", "-"),
-                        "Defendant":              case.get("defendant", "-"),
-                        "Taxpayer Category":      case.get("taxpayer_category", "-"),
-                        "Representation":         case.get("representation", "-"),
-                        "Legal Grounds":          case.get("legal_grounds", "-"),
-                        "Court Level":            case.get("court_level", "-"),
-                        "Prior Compliance Score": case.get("prior_compliance_score", "-"),
-                        "Prior Disputes":         case.get("num_prior_disputes", "-"),
-                        "Taxpayer Risk Score":    case.get("taxpayer_risk_score", "-"),
-                        "Assigned To":            case.get("assigned_to", "Unassigned"),
-                        "Created By":             case.get("created_by", "-"),
-                    }.items():
-                        st.markdown(
-                            f"<div style='display:flex;justify-content:space-between;"
-                            f"padding:6px 0;border-bottom:1px solid #F0F0F0;'>"
-                            f"<span style='color:#8A93A0;font-size:0.85rem;'>{k}</span>"
-                            f"<span style='font-weight:700;color:#222;font-size:0.85rem;'>"
-                            f"{v}</span></div>", unsafe_allow_html=True)
-                    st.markdown("</div>", unsafe_allow_html=True)
-
-                    st.markdown('<div class="panel-card"><div class="panel-title">'
-                                'Update Case Status</div>', unsafe_allow_html=True)
-                    new_status = st.selectbox("New Status", STATUSES,
-                                               index=STATUSES.index(case.get("status", "Open")))
-                    if st.button("Save Status", use_container_width=True):
-                        case_store.update_case(case["case_id"], {"status": new_status})
-                        st.success(f"Status updated to {new_status}.")
-                        st.rerun()
-                    st.markdown("</div>", unsafe_allow_html=True)
-
-                with col_r:
-                    st.markdown('<div class="panel-card"><div class="panel-title">'
-                                'Outcome Forecast</div>', unsafe_allow_html=True)
-                    fig = go.Figure(go.Indicator(
-                        mode="gauge+number", value=wp,
-                        title={"text": "KRA Win Probability"},
-                        gauge={"axis": {"range": [0, 100]},
-                               "bar": {"color": "#27AE60" if wp >= 50 else "#E74C3C"},
-                               "steps": [{"range": [0,  50], "color": "#FADBD8"},
-                                          {"range": [50, 70], "color": "#FDEBD0"},
-                                          {"range": [70,100], "color": "#D5F5E3"}]}))
-                    fig.update_layout(height=260, margin=dict(t=40, b=10, l=10, r=10))
-                    st.plotly_chart(fig, use_container_width=True)
-                    st.markdown(risk_badge(case.get("risk_level", "Low")),
-                                unsafe_allow_html=True)
-                    st.markdown("</div>", unsafe_allow_html=True)
-
-                    if is_admin:
-                        st.write("")
-                        if st.button("Delete This Case", use_container_width=True):
-                            case_store.delete_case(case["case_id"])
-                            st.session_state["selected_case_id"] = None
-                            st.success("Case deleted.")
-                            st.rerun()
-
-                st.stop()
-
-        # ── Case list (shown when no case is selected)
         df = pd.DataFrame(cases)
         f1, f2, f3 = st.columns(3)
         with f1: sf = st.multiselect("Status", STATUSES, default=STATUSES)
@@ -623,7 +636,7 @@ elif page == "View Cases":
         h3.markdown("**Status**")
         h4.markdown("**Risk**")
         h5.markdown("")
-        st.markdown("<hr style='margin:4px 0 8px 0;border-color:#DDD;'>",
+        st.markdown("<hr style='margin:4px 0 8px 0;border-color:#E3E1DC;'>",
                     unsafe_allow_html=True)
 
         for _, row in filtered.iterrows():
@@ -637,15 +650,15 @@ elif page == "View Cases":
             if c5.button("Open", key=f"open_{row.get('case_id')}"):
                 st.session_state["selected_case_id"] = row.get("case_id")
                 st.rerun()
-            st.markdown("<hr style='margin:6px 0;border-color:#EEE;'>",
+            st.markdown("<hr style='margin:6px 0;border-color:#F0EEE9;'>",
                         unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
 
 # PAGE: ADMIN PANEL
 elif page == "Admin Panel":
-    st.markdown('<div class="page-title">Admin Panel</div>', unsafe_allow_html=True)
-    st.markdown('<div class="page-subtitle">Manage user accounts and system access.</div>',
-                unsafe_allow_html=True)
+    top_bar("SYSTEM", "ADMIN PANEL")
+    page_header("SYSTEM — USERS", "Admin", "Panel",
+                "Manage user accounts and system access.")
     st.write("")
 
     st.markdown('<div class="panel-card"><div class="panel-title">Registered Users</div>',
@@ -657,7 +670,7 @@ elif page == "Admin Panel":
         h2.markdown("**Username**")
         h3.markdown("**Role**")
         h4.markdown("**Action**")
-        st.markdown("<hr style='margin:4px 0 8px 0;border-color:#DDD;'>",
+        st.markdown("<hr style='margin:4px 0 8px 0;border-color:#E3E1DC;'>",
                     unsafe_allow_html=True)
         for u in users:
             c1, c2, c3, c4 = st.columns([3, 3, 2, 2])

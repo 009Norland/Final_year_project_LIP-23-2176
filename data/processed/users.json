@@ -27,5 +27,11 @@
     "username": "Ngunjiri.C",
     "password": "ee35dc726aa88498536fec57fd1002a5af10ae0ace2fee47af5c635298d88e1c",
     "role": "Legal Officer"
+  },
+  {
+    "full_name": "Mwongera Frida",
+    "username": "mwongera.f",
+    "password": "44c0ccc1642dc0ee5ad6b8848482bce803e77496b5569a90ca88c0a8cccf40e0",
+    "role": "Admin"
   }
 ]
