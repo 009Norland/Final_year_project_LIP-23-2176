@@ -95,6 +95,74 @@ CUSTOM_CSS = """
     .stButton > button:hover { background-color:var(--red-dark); color:white; }
     .stFormSubmitButton > button { background-color:var(--red); color:white; font-weight:700; border-radius:2px; width:100%; }
     .stFormSubmitButton > button:hover { background-color:var(--red-dark); }
+
+    /* ── Mobile fixes ─────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+
+        /* Make the hamburger menu button always visible and prominent */
+        button[kind="header"] {
+            display: block !important;
+            position: fixed !important;
+            top: 10px !important;
+            left: 10px !important;
+            z-index: 9999 !important;
+            background: #C0392B !important;
+            border-radius: 8px !important;
+            padding: 8px !important;
+        }
+
+        /* Keep sidebar toggle button always on screen */
+        section[data-testid="collapsedControl"] {
+            display: block !important;
+            position: fixed !important;
+            top: 10px !important;
+            left: 10px !important;
+            z-index: 9999 !important;
+            background: #C0392B !important;
+            border-radius: 8px !important;
+        }
+
+        /* Make sidebar wider on mobile so it is easier to tap */
+        section[data-testid="stSidebar"] {
+            width: 85vw !important;
+            min-width: 85vw !important;
+        }
+
+        /* Add padding to main content so it does not hide behind the menu button */
+        .main .block-container {
+            padding-top: 60px !important;
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+        }
+
+        /* Make stat cards stack on mobile */
+        div[data-testid="column"] {
+            min-width: 45% !important;
+        }
+
+        /* Make buttons easier to tap on mobile */
+        .stButton > button {
+            min-height: 48px !important;
+            font-size: 1rem !important;
+        }
+
+        /* Make form inputs easier to use on mobile */
+        .stTextInput input,
+        .stSelectbox select {
+            min-height: 48px !important;
+            font-size: 1rem !important;
+        }
+
+        /* Page title smaller on mobile */
+        .page-title {
+            font-size: 1.3rem !important;
+        }
+
+        /* KPI pills stack on mobile */
+        .kpi-pill {
+            margin-bottom: 8px !important;
+        }
+    }
 </style>
 """
 
