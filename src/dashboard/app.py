@@ -16,6 +16,10 @@ from src.dashboard.theme import (inject_theme, stat_card, kpi_pill, bar_row,
 from src.dashboard import case_store
 from src.dashboard.auth import login, sign_up, seed_admin, get_all_users, delete_user
 
+from config.settings import DATA_DIR
+st.write("DATA_DIR resolves to:", DATA_DIR)
+st.write("Users file path:", DATA_DIR / "processed" / "users.json")
+
 st.set_page_config(page_title="KRA Legal — Litigation Intelligence",
                 page_icon="⚖️", layout="wide", initial_sidebar_state="expanded")
 inject_theme()
@@ -228,9 +232,11 @@ with st.sidebar:
                 unsafe_allow_html=True)
 
     visible_cases = get_cases_for_user()
-    nav_options  = ["Dashboard", "Upload Case", "View Cases"]
-    nav_captions = ["Overview", "Register a new dispute", "Case records"]
+    nav_options  = ["Dashboard", "View Cases"]
+    nav_captions = ["Overview", "Case records"]
     if is_admin:
+        nav_options.insert(1, "Upload Case")
+        nav_captions.insert(1, "Register a new dispute")
         nav_options.append("Admin Panel")
         nav_captions.append("User management")
 
@@ -365,6 +371,9 @@ if page == "Dashboard":
 
 # PAGE: UPLOAD CASE
 elif page == "Upload Case":
+    if not is_admin:
+        st.error("Only administrators can upload and assign new cases.")
+        st.stop()
     top_bar("MODULE 01", "UPLOAD CASE")
     page_header("REGISTER — NEW DISPUTE", "Upload New", "Case",
                 "Register a new tax dispute and get an instant outcome forecast.")
